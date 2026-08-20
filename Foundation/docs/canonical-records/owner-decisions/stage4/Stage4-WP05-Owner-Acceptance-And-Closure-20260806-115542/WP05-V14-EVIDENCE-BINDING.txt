@@ -1,0 +1,24 @@
+﻿FALCON FOUNDATION STAGE 4 WP-05
+V14 EVIDENCE BINDING
+
+Repository:
+C:\Falcon\Falcon1
+
+Branch:
+stage3/baseline-integrity-remediation
+
+HEAD:
+888fb661e9e32f253ea891c5d793d9852caf200d
+
+Evidence ZIP:
+C:\Falcon\Stage4\Reports\Stage4-WP05-Canonical-Reconciliation-Classification-V14-20260806-113104.zip
+
+Evidence ZIP SHA-256:
+297AB97FE96F00DB96C5775C5BA5646172E824C5B74BFD520286230D8AF5B78F
+
+The evidence identity above is accepted as the technical verification basis
+for the Stage 4 WP-05 Owner acceptance and closure decision.
+
+Time is audit metadata only.
+Time does not expire Owner authority, context, work, continuation rights,
+acceptance, closure, or evidence validity.

@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><AssemblyName>Falcon.FSATS.Trading.Host</AssemblyName><RootNamespace>Falcon.FSATS.Trading.Host</RootNamespace><IsPackable>false</IsPackable></PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Falcon.FSATS.Trading.Contracts\Falcon.FSATS.Trading.Contracts.csproj" />
+    <ProjectReference Include="..\Falcon.FSATS.Trading.Domain\Falcon.FSATS.Trading.Domain.csproj" />
+    <ProjectReference Include="..\Falcon.FSATS.Trading.Application\Falcon.FSATS.Trading.Application.csproj" />
+    <ProjectReference Include="..\Falcon.FSATS.Trading.Infrastructure\Falcon.FSATS.Trading.Infrastructure.csproj" />
+    <ProjectReference Include="..\Falcon.FSATS.Trading.Awareness\Falcon.FSATS.Trading.Awareness.csproj" />
+  </ItemGroup>
+</Project>

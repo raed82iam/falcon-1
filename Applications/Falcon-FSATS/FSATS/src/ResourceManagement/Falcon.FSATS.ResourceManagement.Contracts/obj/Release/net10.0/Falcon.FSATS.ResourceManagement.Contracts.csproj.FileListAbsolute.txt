@@ -1,0 +1,11 @@
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\ResourceManagement\Falcon.FSATS.ResourceManagement.Contracts\bin\Release\net10.0\Falcon.FSATS.ResourceManagement.Contracts.deps.json
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\ResourceManagement\Falcon.FSATS.ResourceManagement.Contracts\bin\Release\net10.0\Falcon.FSATS.ResourceManagement.Contracts.dll
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\ResourceManagement\Falcon.FSATS.ResourceManagement.Contracts\bin\Release\net10.0\Falcon.FSATS.ResourceManagement.Contracts.pdb
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\ResourceManagement\Falcon.FSATS.ResourceManagement.Contracts\obj\Release\net10.0\Falcon.FSATS.ResourceManagement.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\ResourceManagement\Falcon.FSATS.ResourceManagement.Contracts\obj\Release\net10.0\Falcon.FSATS.ResourceManagement.Contracts.AssemblyInfoInputs.cache
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\ResourceManagement\Falcon.FSATS.ResourceManagement.Contracts\obj\Release\net10.0\Falcon.FSATS.ResourceManagement.Contracts.AssemblyInfo.cs
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\ResourceManagement\Falcon.FSATS.ResourceManagement.Contracts\obj\Release\net10.0\Falcon.FSATS.ResourceManagement.Contracts.csproj.CoreCompileInputs.cache
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\ResourceManagement\Falcon.FSATS.ResourceManagement.Contracts\obj\Release\net10.0\Falcon.FSATS.ResourceManagement.Contracts.dll
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\ResourceManagement\Falcon.FSATS.ResourceManagement.Contracts\obj\Release\net10.0\refint\Falcon.FSATS.ResourceManagement.Contracts.dll
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\ResourceManagement\Falcon.FSATS.ResourceManagement.Contracts\obj\Release\net10.0\Falcon.FSATS.ResourceManagement.Contracts.pdb
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\ResourceManagement\Falcon.FSATS.ResourceManagement.Contracts\obj\Release\net10.0\ref\Falcon.FSATS.ResourceManagement.Contracts.dll

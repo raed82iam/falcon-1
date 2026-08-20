@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>Falcon.FSATS.Part1.FoundationBindings.Verifier</AssemblyName>
+    <RootNamespace>Falcon.FSATS.Part1.FoundationBindings.Verifier</RootNamespace>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/Falcon.FSATS.FoundationBindings/Falcon.FSATS.FoundationBindings.csproj" />
+  </ItemGroup>
+</Project>

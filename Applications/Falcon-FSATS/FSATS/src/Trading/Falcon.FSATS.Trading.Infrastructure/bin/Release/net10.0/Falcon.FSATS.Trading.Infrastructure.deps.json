@@ -1,0 +1,71 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Falcon.FSATS.Trading.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Falcon.FSATS.Trading.Application": "1.0.0",
+          "Falcon.FSATS.Trading.Contracts": "1.0.0",
+          "Falcon.FSATS.Trading.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Falcon.FSATS.Trading.Infrastructure.dll": {}
+        }
+      },
+      "Falcon.FSATS.Trading.Application/1.0.0": {
+        "dependencies": {
+          "Falcon.FSATS.Trading.Contracts": "1.0.0",
+          "Falcon.FSATS.Trading.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Falcon.FSATS.Trading.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Falcon.FSATS.Trading.Contracts/1.0.0": {
+        "runtime": {
+          "Falcon.FSATS.Trading.Contracts.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Falcon.FSATS.Trading.Domain/1.0.0": {
+        "runtime": {
+          "Falcon.FSATS.Trading.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Falcon.FSATS.Trading.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Falcon.FSATS.Trading.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Falcon.FSATS.Trading.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Falcon.FSATS.Trading.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

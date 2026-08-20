@@ -1,0 +1,42 @@
+FALCON FOUNDATION — STAGE 6 PLANNING AND DESIGN OWNER AUTHORIZATION
+
+Date: 2026-08-08
+Owner decision time: 18:22 Asia/Riyadh
+Branch: foundation-development
+
+Exact Project Owner direction:
+"ابدأ في Stage 6"
+
+Governed interpretation:
+STAGE6_PLANNING_AND_DESIGN_AUTHORITY = GRANTED
+STAGE6_IMPLEMENTATION_AUTHORITY = NOT_GRANTED
+STAGE7_THROUGH_STAGE9_IMPLEMENTATION = UNAUTHORIZED
+
+Reason for bounded interpretation:
+Stage 5 is accepted and closed. The current canonical Foundation records do not contain an accepted Stage 6 Work Package map that may be implemented without first completing Stage 6 scope discovery, design, FCR reconciliation, Work Package decomposition and Owner acceptance of the Stage 6 design. No Work Package identity or scope may be invented by implementation convenience.
+
+Authorized Stage 6 work now:
+- inspect current canonical Vision, Constitution, specifications, ADRs, Stage 5 closure evidence and open FCRs;
+- define Stage 6 purpose and exact Foundation-neutral boundary;
+- identify applicable current-effective and proposed specification obligations without activating proposed specifications by accident;
+- classify open FCRs relative to Stage 6;
+- define a proposed Stage 6 Work Package map with dependency order, acceptance gates and verification strategy;
+- perform architecture and Red-Team review of the proposed Stage 6 design;
+- prepare Stage 6 Owner design-review evidence.
+
+Not authorized by this record:
+- Stage 6 production implementation;
+- any Stage 6 Work Package implementation before separate Owner authorization;
+- activation of proposed specifications merely because they are reviewed;
+- Stage 7 through Stage 9 implementation;
+- deployment, runtime activation or baseline activation;
+- external connectivity, broker or market-data access, credential/egress use or trading activity;
+- Application-specific or Trading-specific Foundation business logic;
+- transfer of Application business semantics or business decision authority into Foundation;
+- modification of application-development, reference/fsats-v1.3-scratch or main.
+
+Foundation/Application boundary:
+Foundation remains Application-neutral and valid with zero Applications. Stage 6 planning may translate legitimate Application needs into generic Foundation capability requirements, but it must reject any attempt to move Application business semantics, Trading judgment, Risk judgment, strategy/market/broker/provider decisions or Application-owned business-state authority into Foundation.
+
+Owner gate:
+A proposed Stage 6 design and Work Package map must be presented for explicit Owner acceptance before any Stage 6 implementation authority may be created.

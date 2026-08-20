@@ -1,0 +1,11 @@
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\FSAPMA\Falcon.FSATS.FSAPMA.Contracts\bin\Release\net10.0\Falcon.FSATS.FSAPMA.Contracts.deps.json
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\FSAPMA\Falcon.FSATS.FSAPMA.Contracts\bin\Release\net10.0\Falcon.FSATS.FSAPMA.Contracts.dll
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\FSAPMA\Falcon.FSATS.FSAPMA.Contracts\bin\Release\net10.0\Falcon.FSATS.FSAPMA.Contracts.pdb
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\FSAPMA\Falcon.FSATS.FSAPMA.Contracts\obj\Release\net10.0\Falcon.FSATS.FSAPMA.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\FSAPMA\Falcon.FSATS.FSAPMA.Contracts\obj\Release\net10.0\Falcon.FSATS.FSAPMA.Contracts.AssemblyInfoInputs.cache
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\FSAPMA\Falcon.FSATS.FSAPMA.Contracts\obj\Release\net10.0\Falcon.FSATS.FSAPMA.Contracts.AssemblyInfo.cs
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\FSAPMA\Falcon.FSATS.FSAPMA.Contracts\obj\Release\net10.0\Falcon.FSATS.FSAPMA.Contracts.csproj.CoreCompileInputs.cache
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\FSAPMA\Falcon.FSATS.FSAPMA.Contracts\obj\Release\net10.0\Falcon.FSATS.FSAPMA.Contracts.dll
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\FSAPMA\Falcon.FSATS.FSAPMA.Contracts\obj\Release\net10.0\refint\Falcon.FSATS.FSAPMA.Contracts.dll
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\FSAPMA\Falcon.FSATS.FSAPMA.Contracts\obj\Release\net10.0\Falcon.FSATS.FSAPMA.Contracts.pdb
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\FSAPMA\Falcon.FSATS.FSAPMA.Contracts\obj\Release\net10.0\ref\Falcon.FSATS.FSAPMA.Contracts.dll

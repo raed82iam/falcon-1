@@ -1,0 +1,1 @@
+<Project Sdk="Microsoft.NET.Sdk"><PropertyGroup><AssemblyName>Falcon.FSATS.TradingGuardian.Domain</AssemblyName><RootNamespace>Falcon.FSATS.TradingGuardian.Domain</RootNamespace><IsPackable>false</IsPackable></PropertyGroup></Project>

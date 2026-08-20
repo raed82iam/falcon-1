@@ -1,0 +1,84 @@
+﻿ M .gitignore
+ M Directory.Build.props
+ M Falcon.Foundation.ControlledProjectFoundation.slnx
+ M README.md
+ M docs/04_SPECIFICATION_TREE.md
+ M docs/05_LEGACY_MIGRATION_MAP.md
+ M docs/06_FALCON_SELF_AWARE_SYSTEM_CONCEPT_AR.md
+ M docs/adrs/ADR-000_INDEX.md
+ M docs/adrs/ADR-I015_FALCON_OS_APPLICATION_AND_AWARENESS_ALIGNMENT.md
+ M docs/contracts/CON-000_CONTRACT_REGISTRY.md
+ M docs/contracts/CON-002_AUTHORITY_DECISION.md
+ M docs/contracts/CON-006_HEALTH_AND_FITNESS.md
+ M docs/contracts/CON-023_APPLICATION_CONTRACT_AND_MANIFEST.md
+ M docs/foundation/FDN-001_STATE_AUTHORITY_AND_PERSISTENCE_CATALOG.md
+ M docs/foundation/FDN-002_FIL_INTERACTION_AND_SCHEMA_CATALOG.md
+ M docs/glossary/GLO-001_FALCON_FOUNDATION_AND_APPLICATION_TERMINOLOGY.md
+ M docs/governance/GOV-000_AUTHORITY_REGISTRY.md
+ M docs/releases/FRS-001_READINESS_REPORT.md
+ M docs/roadmap/ROADMAP-001_FOUNDATION_GOVERNANCE_AND_SECURITY_BACKLOG.md
+ M docs/specifications/SPEC-000_REGISTRY.md
+ M docs/specifications/applications/APP-001_APPLICATION_BOUNDARY_AND_LIFECYCLE.md
+ M docs/specifications/core/AWR-001_SELF_AWARENESS_SYSTEM.md
+ M docs/specifications/core/EVO-001_SELF_MAINTENANCE_AND_EVOLUTION.md
+ M docs/specifications/core/README.md
+ M docs/specifications/foundation/SYS-003_FOUNDATION_SERVICE_OWNERSHIP_AND_CATALOG.md
+ M docs/specifications/foundation/SYS-004_APPLICATION_DEPENDENCY_GOVERNANCE.md
+ M docs/specifications/foundation/SYS-006_MULTI_LEVEL_RESOURCE_GOVERNANCE.md
+ M docs/specifications/self-awareness/AWR-006_MAIN_SELF_AWARENESS.md
+ M docs/specifications/self-awareness/AWR-007_LOCAL_SELF_AWARENESS.md
+ M docs/specifications/self-awareness/AWR-008_COMPONENT_SELF_AWARENESS.md
+ M docs/stage-3-proposal/03_STAGE_3_IMPLEMENTATION_WORK_PACKAGE_PLAN.md
+ M docs/stage-3-proposal/README.md
+ M docs/traceability/TRC-001_FOUNDATION_REQUIREMENT_TO_VERIFICATION_TRACEABILITY_MATRIX.md
+ M docs/verification/VPL-005_HEALTH_EVIDENCE_LOSS.md
+ M src/Foundation.Admission/AdmissionControl.cs
+ M src/Foundation.Admission/ApplicationManifest.cs
+ M src/Foundation.ContractRegistry/ContractRegistry.cs
+ M src/Foundation.Contracts/Contracts.cs
+ M src/Foundation.Enabling/FoundationContracts.cs
+ M src/Foundation.Enabling/IdentityTimeAndRandomness.cs
+ M src/Foundation.Enabling/SecurityProviders.cs
+ M src/Foundation.Enabling/VerificationPipeline.cs
+ M src/Foundation.Infrastructure/BootstrapLifecycleControl.cs
+ M src/Foundation.Infrastructure/Foundation.Infrastructure.csproj
+ M src/Foundation.ServiceCatalog/ServiceCatalog.cs
+ M tests/Falcon.Foundation.Architecture.Tests/Program.cs
+ M tests/Falcon.Foundation.Security.Tests/Program.cs
+ M verification/Falcon.Stage0C.RemediationVerifier/Program.cs
+ M verification/Falcon.Stage2.WP01.Verifier/Program.cs
+ M verification/Falcon.Stage2.WP02.Verifier/Program.cs
+ M verification/Falcon.Stage2.WP03.Verifier/Program.cs
+ M verification/Falcon.Stage2.WP04.Verifier/Program.cs
+ M verification/Falcon.Stage3.WP01.Verifier/Program.cs
+ M verification/Falcon.Stage3.WP02.Verifier/Program.cs
+ M verification/Falcon.Stage3.WP03.Verifier/Program.cs
+ M verification/Falcon.Stage3.WP05.Verifier/Program.cs
+?? .editorconfig
+?? .gitattributes
+?? docs/baseline-integrity/
+?? docs/governance/GOV-099_STAGE_3_BASELINE_INTEGRITY_REMEDIATION_EXECUTION_AUTHORITY.md
+?? docs/governance/GOV-100_STAGE_3_DOCUMENTARY_RECONCILIATION_AUTHORITY.md
+?? docs/governance/GOV-101_STAGE_3_FINAL_OWNER_ACCEPTANCE_AND_CLOSURE.md
+?? docs/governance/GOV-102_STAGE_4_PLANNING_AUTHORIZATION.md
+?? docs/governance/GOV-103_STAGE_4_WP01_IMPLEMENTATION_AUTHORIZATION.md
+?? docs/governance/GOV-104_STAGE_4_WP01_FINAL_OWNER_ACCEPTANCE_AND_CLOSURE.md
+?? docs/governance/GOV-105_STAGE_4_WP02_IMPLEMENTATION_AUTHORIZATION.md
+?? docs/governance/GOV-106_STAGE_4_WP02_FINAL_OWNER_ACCEPTANCE_AND_CLOSURE.md
+?? docs/reviews/STAGE_3_BASELINE_INTEGRITY_INDEPENDENT_REVIEW_001.md
+?? docs/reviews/STAGE_3_BASELINE_INTEGRITY_REMEDIATION_PLAN_001.md
+?? docs/reviews/STAGE_3_FULL_BASELINE_STATIC_AUDIT_001.md
+?? docs/reviews/STAGE_3_WP06_FINAL_OWNER_ACCEPTANCE_REPORT.md
+?? docs/reviews/STAGE_4_INDEPENDENT_PLANNING_REVIEW.md
+?? docs/reviews/STAGE_4_WP01_RENEWED_INDEPENDENT_IMPLEMENTATION_REVIEW.md
+?? docs/reviews/STAGE_4_WP02_RENEWED_INDEPENDENT_IMPLEMENTATION_REVIEW.md
+?? docs/stage-3-proposal/12_STAGE_3_WP06_FINAL_ACCEPTANCE_AND_CLOSURE.md
+?? docs/stage-3-proposal/13_STAGE_3_CURRENT_STATE_RECONCILIATION.md
+?? docs/stage-3-proposal/14_STAGE_3_FINAL_OWNER_ACCEPTANCE_AND_CLOSURE.md
+?? docs/stage-4-proposal/
+?? global.json
+?? src/Foundation.Authority/
+?? verification/Falcon.BaselineIntegrity.Verifier/
+?? verification/Falcon.Stage3.WP06.Verifier/
+?? verification/Falcon.Stage4.WP01.Verifier/
+?? verification/Falcon.Stage4.WP02.Verifier/

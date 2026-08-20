@@ -1,0 +1,28 @@
+# FSATS V1.4 Part 0 / P0-D — Post-Closure Operational Status
+
+**Status:** `CURRENT_OPERATIONAL_STATUS`  
+**Controlling closure record:** `73_P0D_FINAL_OWNER_ACCEPTANCE_AND_CLOSURE_RECORD.md`
+
+```text
+P0A = OWNER_ACCEPTED_AND_CLOSED
+P0B = OWNER_ACCEPTED_AND_CLOSED
+P0C = OWNER_ACCEPTED_AND_CLOSED
+P0D = OWNER_ACCEPTED_AND_CLOSED
+
+P0E = NOT_STARTED
+P0F = NOT_STARTED
+P0G = NOT_STARTED
+P0H = NOT_STARTED
+P0I = NOT_STARTED
+P0J = NOT_STARTED
+P0K = NOT_STARTED
+P0L = NOT_STARTED
+
+PART1 = FROZEN_PENDING_PART0_REMEDIATION
+PART2_THROUGH_PART10 = NOT_AUTHORIZED
+RUNTIME / PAPER / TINY_LIVE / LIVE = NOT_GRANTED
+DEPLOYMENT / PRODUCTION_ADOPTION = NOT_GRANTED
+FOUNDATION_MODIFICATION_FROM_APPLICATION_WORKSTREAM = NOT_AUTHORIZED
+```
+
+FCR states remain governed independently by repository issue #1 and their actual Foundation dispositions. P0-D closure does not close any FCR and does not convert accepted Foundation technical capability into deployment/runtime authority.

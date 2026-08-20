@@ -1,0 +1,142 @@
+Repository HEAD: 095d800e86823b248468ff9f4fa12e6e44647a35
+Status entries: 134
+Modified tracked entries: 63
+Deleted tracked entries: 5
+Untracked entries: 66
+
+git status --short
+==================
+ M Directory.Build.props
+ M README.md
+ M docs/03_DOCUMENT_AUTHORITY.md
+ M docs/04_SPECIFICATION_TREE.md
+ M docs/05_LEGACY_MIGRATION_MAP.md
+ M docs/06_FALCON_SELF_AWARE_SYSTEM_CONCEPT_AR.md
+ M docs/adrs/ADR-000_INDEX.md
+ M docs/archive/document-authority-v1.2/governance/GOV-001_FALCON_DOCUMENT_AUTHORITY_v1.1.md
+ M docs/archive/pre-crypto-v1.0/specifications/core/SEC-001_SECURITY.md
+ M docs/archive/pre-crypto-v1.0/specifications/core/SYS-005_SERVICE_BUS.md
+ M docs/archive/pre-crypto-v1.0/specifications/core/SYS-009_FIL.md
+ M docs/contracts/CON-000_CONTRACT_REGISTRY.md
+ M docs/contracts/CON-002_AUTHORITY_DECISION.md
+ M docs/contracts/CON-006_HEALTH_AND_FITNESS.md
+ M docs/evidence/stage-0b/STG-0B-OBS-001_VERIFICATION_RESULTS.json
+ M docs/evidence/stage-0c-remediation/REM-OBS-003.json
+ M docs/evidence/stage-0c-remediation/REM-OBS-004.json
+ M docs/evidence/stage-0c-remediation/REM-OBS-FAIL-001.json
+ M docs/evidence/stage-0c-remediation/REM-OBS-FAIL-002.json
+ M docs/evidence/stage-0c-remediation/REM-TRACE-003.json
+ M docs/evidence/stage-0c-remediation/REM-TRACE-004.json
+ M docs/evidence/stage-0c-remediation/REM-TRACE-FAIL-001.json
+ M docs/evidence/stage-0c-remediation/REM-TRACE-FAIL-002.json
+ M docs/evidence/stage-0c/STG-0C-OBS-003_ACTIVATION_VERIFICATION.json
+ M docs/evidence/stage-0c/STG-0C-OBS-004_ACTIVATION_VERIFICATION_REPEAT.json
+ M docs/evidence/stage-0c/STG-0C-OBS-BASELINE-001.json
+ M docs/evidence/stage-0c/STG-0C-OBS-BASELINE-002.json
+ M docs/evidence/stage-0c/STG-0C-OBS-FAIL-001_ACTIVATION_VERIFICATION.json
+ M docs/evidence/stage-0c/STG-0C-OBS-FAIL-002_ACTIVATION_VERIFICATION_REPEAT.json
+ M docs/foundation/FDN-001_STATE_AUTHORITY_AND_PERSISTENCE_CATALOG.md
+ M docs/foundation/FDN-002_FIL_INTERACTION_AND_SCHEMA_CATALOG.md
+ M docs/releases/FRS-001_READINESS_REPORT.md
+ M docs/roadmap/ROADMAP-001_FOUNDATION_GOVERNANCE_AND_SECURITY_BACKLOG.md
+ M docs/specifications/SPEC-000_REGISTRY.md
+ M docs/specifications/core/AUT-002_GUARDIAN.md
+ M docs/specifications/core/AWR-001_SELF_AWARENESS_SYSTEM.md
+ M docs/specifications/core/EVO-001_SELF_MAINTENANCE_AND_EVOLUTION.md
+ M docs/specifications/core/OPS-003_RECOVERY.md
+ M docs/specifications/core/OPS-004_LOGGING.md
+ M docs/specifications/core/README.md
+ M docs/specifications/core/SEC-001_SECURITY.md
+ M docs/specifications/core/SYS-001_KERNEL.md
+ M docs/specifications/core/SYS-002_LIFECYCLE.md
+ M docs/specifications/core/SYS-005_SERVICE_BUS.md
+ M docs/specifications/core/SYS-007_CONFIGURATION.md
+ M docs/specifications/core/SYS-008_HEALTH_MONITORING.md
+ M docs/specifications/core/SYS-009_FIL.md
+ M docs/specifications/core/SYS-010_EVENT_SYSTEM.md
+ M docs/specifications/core/SYS-011_PERSISTENCE.md
+ M docs/specifications/decision/DEC-006_DECISION_LEDGER.md
+ M docs/specifications/plugins/PLG-001_CAPABILITY_PASSPORT_AND_ADMISSION.md
+ M docs/specifications/protection/RSK-005_CAPITAL_SAFETY_PLANE.md
+ M docs/standards/STD-000_REGISTRY.md
+ M docs/standards/STD-001_DOCUMENT_CONTROL.md
+ M docs/standards/STD-002_SPECIFICATION_STANDARD.md
+ M docs/standards/STD-003_ADR_STANDARD.md
+ M docs/standards/STD-010_PROGRESSIVE_AUTONOMY.md
+ M docs/standards/STD-011_SELF_EVOLUTION_EVIDENCE.md
+ M docs/standards/STD-012_CAPABILITY_PASSPORT.md
+ M docs/traceability/TRC-001_FOUNDATION_REQUIREMENT_TO_VERIFICATION_TRACEABILITY_MATRIX.md
+ M docs/verification/VPL-005_HEALTH_EVIDENCE_LOSS.md
+ D src/Falcon.Foundation.Enabling/Falcon.Foundation.Enabling.csproj
+ D src/Falcon.Foundation.Enabling/FoundationContracts.cs
+ D src/Falcon.Foundation.Enabling/IdentityTimeAndRandomness.cs
+ D src/Falcon.Foundation.Enabling/SecurityProviders.cs
+ D src/Falcon.Foundation.Enabling/VerificationPipeline.cs
+ M verification/Falcon.Stage0C.RemediationVerifier/Falcon.Stage0C.RemediationVerifier.csproj
+ M verification/Falcon.Stage0C.RemediationVerifier/Program.cs
+?? Falcon.Foundation.ControlledProjectFoundation.slnx
+?? docs/activation/
+?? docs/adrs/ADR-I015_FALCON_OS_APPLICATION_AND_AWARENESS_ALIGNMENT.md
+?? docs/amendments/candidates/
+?? docs/archive/pre-cda-amd008-001/
+?? docs/contracts/CON-023_APPLICATION_CONTRACT_AND_MANIFEST.md
+?? docs/glossary/
+?? docs/governance/FIAI-STAGE1-001_ACCEPTANCE_RECORD.md
+?? docs/governance/FIAI-STAGE1-001_ACTIVATION_AND_EFFECTIVENESS_RECORD.md
+?? docs/governance/FIAI-STAGE1-001_AUTHORITY_INSTRUMENT.md
+?? docs/governance/FIAI-STAGE1-001_EXECUTION_SCOPE_AUTHORIZATION.md
+?? docs/governance/FIAI-STAGE1-001_ISSUANCE_RECORD.md
+?? docs/governance/FIAI-STAGE1-001_LIFECYCLE_CORRECTION_RECORD.md
+?? docs/governance/GOV-060_FOUNDATION_GUARDIAN_ARCHITECTURE_APPROVAL.md
+?? docs/governance/GOV-061_SELF_AWARENESS_ARCHITECTURE_APPROVAL.md
+?? docs/governance/GOV-062_GUARDIAN_SEPARATION_ARCHITECTURE_APPROVAL.md
+?? docs/governance/GOV-063_FALCON_FOUNDATION_FINAL_ALIGNMENT_APPROVAL.md
+?? docs/governance/GOV-064_STAGE_1_CONDITIONAL_AUTHORITY_AND_PRE_EXECUTION_VALIDATION.md
+?? docs/governance/GOV-065_STAGE_1_BASELINE_IDENTITY_CORRECTION_AND_FIAI_LIFECYCLE_NORMALIZATION.md
+?? docs/governance/GOV-066_FALCON_REPOSITORY_RELOCATION_TO_C_ROOT.md
+?? docs/governance/GOV-067_STAGE_1_BOUNDARY_ISOLATED_NUGET_PROFILE_REMEDIATION_APPROVAL.md
+?? docs/governance/GOV-068_STAGE_1_EXECUTION_START_AND_FIRST_WORK_PACKAGE_AUTHORIZATION.md
+?? docs/governance/GOV-069_STAGE_1_WP01_EVIDENCE_REMEDIATION_AUTHORIZATION.md
+?? docs/governance/GOV-070_STAGE_1_WP01_CONTROLLED_ROLLBACK_AND_REPLAY_AUTHORIZATION.md
+?? docs/governance/GOV-071_STAGE_1_WP02_EXECUTION_AUTHORIZATION.md
+?? docs/governance/GOV-072_STAGE_1_WP02_EVIDENCE_RECOVERY_OR_CONTROLLED_REPLAY_AUTHORIZATION.md
+?? docs/governance/GOV-073_STAGE_1_WP02_REPLAY_EVIDENCE_INFRASTRUCTURE_QUALIFICATION.md
+?? docs/governance/GOV-074_STAGE_1_WP02_CONTROLLED_REPLAY_002_AUTHORIZATION.md
+?? docs/governance/GOV-075_STAGE_1_WP02_REPLAY_002_EVIDENCE_BYPASS_DIAGNOSIS_AND_NO_BYPASS_HARNESS_QUALIFICATION.md
+?? docs/governance/GOV-076_STAGE_1_WP02_MANUAL_OWNER_EXECUTION_PACKAGE_PREPARATION.md
+?? docs/governance/GOV-077_STAGE_1_WP02_MANUAL_OWNER_CONTROLLED_REPLAY_AUTHORIZATION.md
+?? docs/governance/GOV-078_STAGE_1_WP03_EXECUTION_READINESS_AND_AUTHORIZATION_PREPARATION.md
+?? docs/governance/GOV-079_STAGE_1_WP04_DEPENDENCY_LOCK_PROVENANCE_LICENSE_VULNERABILITY_SBOM_CONTROLS_EXECUTION_AUTHORIZATION.md
+?? docs/governance/GOV-090_STAGE_3_PLANNING_AND_READINESS_AUTHORITY.md
+?? docs/governance/GOV-091_STAGE_3_BASELINE_RECONCILIATION_AND_CONTROLLED_REVALIDATION_AUTHORITY.md
+?? docs/governance/GOV-092_CDA-AMD008-001_COORDINATED_DOCUMENTARY_ACTIVATION_DECISION.md
+?? docs/governance/GOV-093_GOV_092_ACTIVATION_WINDOW_AMENDMENT_AND_IMMEDIATE_EXECUTION_AUTHORITY.md
+?? docs/governance/GOV-094_CDA-AMD008-001_CANONICAL_ACTIVATION_REMEDIATION_AND_COMPLETION_AUTHORITY.md
+?? docs/reviews/
+?? docs/specifications/applications/
+?? docs/specifications/foundation/SYS-003_FOUNDATION_SERVICE_OWNERSHIP_AND_CATALOG.md
+?? docs/specifications/foundation/SYS-004_APPLICATION_DEPENDENCY_GOVERNANCE.md
+?? docs/specifications/foundation/SYS-006_MULTI_LEVEL_RESOURCE_GOVERNANCE.md
+?? docs/specifications/self-awareness/
+?? docs/stage-0a-readiness/
+?? docs/stage-1-preexecution-tool-admission-review/
+?? docs/stage-1-proposal-authority-review/
+?? docs/stage-1-proposal/
+?? docs/stage-3-proposal/
+?? src/Foundation.Admission/
+?? src/Foundation.ContractRegistry/
+?? src/Foundation.Contracts/
+?? src/Foundation.Core/
+?? src/Foundation.DependencyGovernance/
+?? src/Foundation.Enabling/
+?? src/Foundation.Infrastructure/
+?? src/Foundation.ServiceCatalog/
+?? tests/
+?? verification/Falcon.Stage2.WP01.Verifier/
+?? verification/Falcon.Stage2.WP02.Verifier/
+?? verification/Falcon.Stage2.WP03.Verifier/
+?? verification/Falcon.Stage2.WP04.Verifier/
+?? verification/Falcon.Stage3.WP01.Verifier/
+?? verification/Falcon.Stage3.WP02.Verifier/
+?? verification/Falcon.Stage3.WP03.Verifier/
+?? verification/Falcon.Stage3.WP04.Verifier/

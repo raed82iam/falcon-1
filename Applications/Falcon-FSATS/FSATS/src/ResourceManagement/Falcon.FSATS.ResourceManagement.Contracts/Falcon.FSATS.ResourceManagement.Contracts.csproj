@@ -1,0 +1,1 @@
+<Project Sdk="Microsoft.NET.Sdk"><PropertyGroup><AssemblyName>Falcon.FSATS.ResourceManagement.Contracts</AssemblyName><RootNamespace>Falcon.FSATS.ResourceManagement.Contracts</RootNamespace><PackageId>Falcon.FSATS.ResourceManagement.Contracts</PackageId><IsPackable>true</IsPackable></PropertyGroup></Project>

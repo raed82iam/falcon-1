@@ -1,0 +1,55 @@
+﻿FALCON FOUNDATION STAGE 4 WP-01
+IMPLEMENTATION AUTHORIZATION
+
+Owner: Raed Ammoura
+Authorization timestamp: 2026-08-05T20:51:54+03:00
+Status: APPROVED_AND_EFFECTIVE
+
+Repository:
+C:\Falcon\Falcon1
+
+Branch:
+stage3/baseline-integrity-remediation
+
+HEAD:
+888fb661e9e32f253ea891c5d793d9852caf200d
+
+Tree:
+b2f9e5fc1439e4382bfb7484fd714e6d483bf2a9
+
+Stage 4 planning authorization ZIP SHA-256:
+B3C37561A83E4A6A605F9CF6A8E761C96934B221A132C83E423A0C2C2DC253EB
+
+Stage 4 planning amendment ZIP SHA-256:
+CD25161B264F6237A73DD01DAF2690DFDCDFC9606DC6C1464CED882EB2C3973F
+
+Independent planning review:
+PASS
+
+Authorized Work Package:
+WP-01 â€” Default-Deny Authority Engine
+
+Exact implementation allowlist SHA-256:
+97CCC82755891EDDD20FB8938B4731945E3533C8B287135F0B7A029C4911E24D
+
+AUTHORIZED:
+1. Implement the bounded Foundation.Authority project.
+2. Implement deterministic default-deny CON-002 evaluation.
+3. Implement the WP-01 verifier.
+4. Update exact solution, architecture-test, and security-test paths named in the allowlist.
+5. Produce build, regression, deterministic replay, and evidence packages.
+
+NOT AUTHORIZED:
+1. WP-02 through WP-06.
+2. Lifecycle integration or modification.
+3. State, persistence, Evidence Journal, accepted facts, concurrency, uncertain-write, or restart work.
+4. Foundation.Contracts or Contract Registry changes.
+5. External packages or network dependencies.
+6. FIL or Service Bus production implementation.
+7. Application, trading, broker, market-data, Self-Awareness, or Guardian work.
+8. Commit, tag, merge, rebase, push, deployment, or runtime activation.
+9. Any path outside the exact allowlist.
+
+FINAL:
+FALCON_FOUNDATION_STAGE4_WP01_IMPLEMENTATION_AUTHORIZED
+STAGE4_WP02_THROUGH_WP06_UNAUTHORIZED

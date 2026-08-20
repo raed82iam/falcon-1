@@ -1,0 +1,7 @@
+﻿src/Foundation.Core/LifecycleControl.cs
+src/Foundation.Authority/**
+applications/**
+trading/**
+verification/Falcon.Stage4.WP06.Verifier/**
+deployment/**
+secrets/**

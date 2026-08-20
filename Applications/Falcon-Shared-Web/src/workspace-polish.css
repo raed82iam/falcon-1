@@ -1,0 +1,44 @@
+/* Final workspace presentation layer. Keeps governed behavior unchanged. */
+:root{--workspace-max:1560px;--surface:#0c1626;--surface-raised:#101c2f;--surface-soft:#091321;--stroke:#203451;--stroke-strong:#315078}
+
+.workspace{grid-template-columns:232px minmax(0,1fr);background:radial-gradient(circle at 82% -10%,rgba(61,89,190,.14),transparent 30%),#050b14}
+.workspace-main{width:100%;overflow-x:hidden}
+.sidebar{padding:18px 14px;background:linear-gradient(180deg,#07101c,#050b13);box-shadow:12px 0 40px rgba(0,0,0,.12)}
+.side-brand{height:60px;padding:0 10px;gap:12px;border-bottom:1px solid rgba(51,75,111,.45)}
+.side-brand .falcon-brand-logo{width:40px;height:40px}.side-brand b{font-size:16px;letter-spacing:.04em}
+.sidebar nav{gap:7px;margin-top:18px}.sidebar nav button{min-height:45px;padding:11px 13px;border:1px solid transparent}
+.sidebar nav button.active{background:linear-gradient(100deg,rgba(71,101,196,.26),rgba(17,29,49,.9));border-color:rgba(84,115,207,.28);box-shadow:inset 3px 0 0 #7183ff}
+.workspace-top{height:68px;padding:0 24px;border-bottom-color:rgba(47,70,106,.7)}
+.app-switcher{display:grid;gap:4px}.app-switcher b{font-size:14px}.demo-badge{max-width:calc(var(--workspace-max) - 44px);margin:14px auto 0;padding:9px 14px}
+.workspace-main>main{width:min(100%,var(--workspace-max));margin-inline:auto;padding-bottom:40px}
+
+.dashboard-head,.owner-head,.page-head{padding:22px 22px 14px;gap:20px}.dashboard-head h1,.owner-head h1{font-size:clamp(24px,2vw,34px);letter-spacing:-.025em}.dashboard-head p,.owner-head p{font-size:13px;line-height:1.7}
+.dashboard-grid{grid-template-columns:repeat(12,minmax(0,1fr));gap:14px;padding:8px 26px 34px}.dashboard-grid .widget{border-radius:16px;padding:18px;border-color:var(--stroke);background:linear-gradient(145deg,rgba(16,29,49,.98),rgba(8,17,30,.98));box-shadow:0 14px 36px rgba(0,0,0,.18)}
+.dashboard-grid [data-widget="portfolio"],.dashboard-grid [data-widget="daily"],.dashboard-grid [data-widget="performance"]{grid-column:span 4;min-height:130px}
+.dashboard-grid [data-widget="market"]{grid-column:span 8;min-height:390px}.dashboard-grid [data-widget="market"] .chart{height:235px}.dashboard-grid [data-widget="market"] .chart svg{height:205px}
+.dashboard-grid [data-widget="summary"],.dashboard-grid [data-widget="catalog"]{grid-column:span 4}.dashboard-grid [data-widget="catalog"]{max-height:390px}
+.dashboard-grid [data-widget="positions"],.dashboard-grid [data-widget="trades"]{grid-column:span 6}.dashboard-grid [data-widget="alerts"]{grid-column:span 12}
+.market-insights{display:grid;grid-template-columns:1.1fr .9fr;gap:12px;margin:14px 0}.allocation-card,.top-assets{border:1px solid var(--stroke);border-radius:13px;background:#091423;padding:14px}.allocation-card{display:grid;grid-template-columns:112px 1fr;align-items:center;gap:16px}.allocation-ring{width:104px;height:104px;border-radius:50%;display:grid;place-items:center;align-content:center;background:radial-gradient(circle at center,#091423 51%,transparent 52%),conic-gradient(#4b78ff 0 45%,#8a56ff 45% 75%,#f5a33b 75%);box-shadow:inset 0 0 0 1px rgba(255,255,255,.04)}.allocation-ring span{font-size:13px;font-weight:700}.allocation-ring small{font-size:9px;color:var(--muted)}.allocation-card ul{list-style:none;margin:12px 0 0;padding:0;display:grid;gap:7px}.allocation-card li{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:7px;font-size:10px;color:#aebbd0}.allocation-card i{width:8px;height:8px;border-radius:50%}.alloc-a{background:#4b78ff}.alloc-b{background:#8a56ff}.alloc-c{background:#f5a33b}.top-assets>b{display:block;margin-bottom:8px}.top-assets>div{display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid rgba(43,64,94,.55)}.top-assets>div:last-child{border-bottom:0}.top-assets>div>span{display:grid;gap:2px}.top-assets small{color:var(--muted);font-size:9px}.top-assets em{font-style:normal;font-size:10px}
+
+/* A minimized incident is a compact launcher, never a viewport-sized red frame. */
+.incident-minimized-edge{inset:auto 22px 22px auto;width:auto;min-width:190px;height:54px;padding:0 58px 0 18px;border:1px solid rgba(255,91,119,.55);border-radius:15px;background:linear-gradient(135deg,#32131d,#121a2a);box-shadow:0 18px 48px rgba(0,0,0,.42),0 0 24px rgba(255,53,88,.1);display:flex;align-items:center;color:#fff}
+[dir="rtl"] .incident-minimized-edge{inset:auto auto 22px 22px;padding:0 18px 0 58px}
+.incident-minimized-edge b{position:static;font-size:12px;line-height:1.35;white-space:nowrap}.incident-minimized-edge span{inset:auto 10px auto auto;top:9px;width:36px;height:36px}
+[dir="rtl"] .incident-minimized-edge span{inset:auto auto auto 10px}
+.incident-backdrop{padding:28px;background:rgba(2,7,15,.76);backdrop-filter:blur(12px)}
+.customer-incident-modal{width:min(1120px,calc(100vw - 56px));height:min(720px,calc(100vh - 56px));border-radius:22px}
+.incident-modal-grid{grid-template-columns:minmax(0,1.45fr) minmax(280px,.55fr)}
+.incident-composer{grid-template-columns:auto auto minmax(180px,1fr) auto}.incident-composer [data-incident-screenshot]{display:none}
+
+/* Owner command center: calm operational hierarchy instead of a dense game HUD. */
+.owner-head{margin:10px 22px 14px;padding:20px 22px;border:1px solid var(--stroke);border-radius:16px;background:linear-gradient(120deg,rgba(20,36,62,.96),rgba(9,19,34,.96));box-shadow:0 18px 48px rgba(0,0,0,.16)}
+.owner-head .status-chip{padding:8px 12px;border-color:#38577e;background:#12223a}
+.owner-metrics{grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;padding:0 22px 14px}.owner-metrics article{min-height:112px;padding:16px;border-radius:14px;border-color:var(--stroke);background:linear-gradient(145deg,var(--surface-raised),var(--surface-soft));box-shadow:0 12px 30px rgba(0,0,0,.14)}
+.owner-metrics span{font-size:11px}.owner-metrics strong{font-size:28px;margin-top:16px}
+.owner-grid{grid-template-columns:minmax(0,1.15fr) minmax(300px,.85fr) minmax(300px,.8fr);gap:12px;padding:0 22px 30px}.owner-grid>.widget{border-radius:14px;padding:16px;border-color:var(--stroke)}
+.system-map{grid-row:span 2}.system-core{height:auto;min-height:330px;max-width:none;margin:0;padding:120px 24px 24px;border:1px solid rgba(63,89,134,.5);border-radius:15px;background:radial-gradient(circle at center,rgba(86,107,246,.19),transparent 42%),#091423;font-size:28px;font-weight:700}
+.nodes{inset:18px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-content:start;gap:10px}.nodes span{padding:12px;border-radius:11px;background:#101d30}.owner-chat{grid-row:span 2}.controls{grid-column:2}.incident{padding:10px 0}.incident p{margin:0;line-height:1.45}
+
+@media(max-width:1280px){.workspace{grid-template-columns:220px minmax(0,1fr)}.owner-metrics{grid-template-columns:repeat(3,minmax(0,1fr))}.owner-grid{grid-template-columns:1fr 1fr}.owner-chat{grid-column:span 2}.controls{grid-column:auto}.dashboard-grid [data-widget="market"]{grid-column:span 12}.dashboard-grid [data-widget="summary"],.dashboard-grid [data-widget="catalog"]{grid-column:span 6}}
+@media(max-width:900px){.dashboard-grid [data-widget="portfolio"],.dashboard-grid [data-widget="daily"],.dashboard-grid [data-widget="performance"]{grid-column:span 12}.dashboard-grid [data-widget="positions"],.dashboard-grid [data-widget="trades"]{grid-column:span 12}.market-insights{grid-template-columns:1fr}.owner-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.owner-grid{grid-template-columns:1fr}.owner-chat{grid-column:auto}.incident-modal-grid{grid-template-columns:1fr}.incident-context-pane{display:none}}
+@media(max-width:760px){.workspace{grid-template-columns:1fr}.workspace-main>main{padding-bottom:80px}.dashboard-head,.owner-head,.page-head{margin:0;padding:22px 16px}.dashboard-grid,.owner-grid,.owner-metrics{padding-inline:14px}.dashboard-grid{grid-template-columns:1fr}.dashboard-grid [data-widget]{grid-column:1!important}.owner-metrics{grid-template-columns:1fr}.nodes{grid-template-columns:1fr 1fr}.incident-minimized-edge{right:12px;bottom:12px;left:auto}.customer-incident-modal{width:100vw;height:100vh;border-radius:0}.incident-backdrop{padding:0}}

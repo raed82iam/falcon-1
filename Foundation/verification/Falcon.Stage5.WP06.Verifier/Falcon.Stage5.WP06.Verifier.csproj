@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Foundation.Contracts\Foundation.Contracts.csproj" />
+    <ProjectReference Include="..\..\src\Foundation.SchemaRegistry\Foundation.SchemaRegistry.csproj" />
+    <ProjectReference Include="..\..\src\Foundation.ApplicationManifest\Foundation.ApplicationManifest.csproj" />
+    <ProjectReference Include="..\..\src\Foundation.Authority\Foundation.Authority.csproj" />
+    <ProjectReference Include="..\..\src\Foundation.MessageAdmission\Foundation.MessageAdmission.csproj" />
+    <ProjectReference Include="..\..\src\Foundation.MessageRouting\Foundation.MessageRouting.csproj" />
+    <ProjectReference Include="..\..\src\Foundation.MessageDelivery\Foundation.MessageDelivery.csproj" />
+  </ItemGroup>
+</Project>

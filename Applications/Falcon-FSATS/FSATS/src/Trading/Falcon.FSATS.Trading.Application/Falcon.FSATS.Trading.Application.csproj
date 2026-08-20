@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><AssemblyName>Falcon.FSATS.Trading.Application</AssemblyName><RootNamespace>Falcon.FSATS.Trading.Application</RootNamespace><IsPackable>false</IsPackable></PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Falcon.FSATS.Trading.Contracts\Falcon.FSATS.Trading.Contracts.csproj" />
+    <ProjectReference Include="..\Falcon.FSATS.Trading.Domain\Falcon.FSATS.Trading.Domain.csproj" />
+  </ItemGroup>
+</Project>

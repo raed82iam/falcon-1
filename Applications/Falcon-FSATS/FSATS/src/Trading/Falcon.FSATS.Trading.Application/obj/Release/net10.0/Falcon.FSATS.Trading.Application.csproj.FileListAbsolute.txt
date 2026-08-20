@@ -1,0 +1,17 @@
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\Trading\Falcon.FSATS.Trading.Application\bin\Release\net10.0\Falcon.FSATS.Trading.Application.deps.json
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\Trading\Falcon.FSATS.Trading.Application\bin\Release\net10.0\Falcon.FSATS.Trading.Application.dll
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\Trading\Falcon.FSATS.Trading.Application\bin\Release\net10.0\Falcon.FSATS.Trading.Application.pdb
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\Trading\Falcon.FSATS.Trading.Application\bin\Release\net10.0\Falcon.FSATS.Trading.Contracts.dll
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\Trading\Falcon.FSATS.Trading.Application\bin\Release\net10.0\Falcon.FSATS.Trading.Domain.dll
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\Trading\Falcon.FSATS.Trading.Application\bin\Release\net10.0\Falcon.FSATS.Trading.Contracts.pdb
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\Trading\Falcon.FSATS.Trading.Application\bin\Release\net10.0\Falcon.FSATS.Trading.Domain.pdb
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\Trading\Falcon.FSATS.Trading.Application\obj\Release\net10.0\Falcon.FSATS.Trading.Application.csproj.AssemblyReference.cache
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\Trading\Falcon.FSATS.Trading.Application\obj\Release\net10.0\Falcon.FSATS.Trading.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\Trading\Falcon.FSATS.Trading.Application\obj\Release\net10.0\Falcon.FSATS.Trading.Application.AssemblyInfoInputs.cache
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\Trading\Falcon.FSATS.Trading.Application\obj\Release\net10.0\Falcon.FSATS.Trading.Application.AssemblyInfo.cs
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\Trading\Falcon.FSATS.Trading.Application\obj\Release\net10.0\Falcon.FSATS.Trading.Application.csproj.CoreCompileInputs.cache
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\Trading\Falcon.FSATS.Trading.Application\obj\Release\net10.0\Falcon.F.D49D0BAD.Up2Date
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\Trading\Falcon.FSATS.Trading.Application\obj\Release\net10.0\Falcon.FSATS.Trading.Application.dll
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\Trading\Falcon.FSATS.Trading.Application\obj\Release\net10.0\refint\Falcon.FSATS.Trading.Application.dll
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\Trading\Falcon.FSATS.Trading.Application\obj\Release\net10.0\Falcon.FSATS.Trading.Application.pdb
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\Trading\Falcon.FSATS.Trading.Application\obj\Release\net10.0\ref\Falcon.FSATS.Trading.Application.dll

@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>Falcon.Stage2.WP02.Verifier</AssemblyName>
+    <RootNamespace>Falcon.Stage2.WP02.Verifier</RootNamespace>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Foundation.Contracts\Foundation.Contracts.csproj" />
+  </ItemGroup>
+</Project>

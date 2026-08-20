@@ -1,0 +1,33 @@
+{
+  "environmentId": "FALCON-FOUNDATION-WINDOWS-LOCAL-1",
+  "deploymentProfileId": "FALCON-LOCAL-WINDOWS-FOUNDATION-1",
+  "version": "1.0",
+  "status": "ACTIVATION_CANDIDATE",
+  "platform": "windows",
+  "purpose": "FOUNDATION_VERIFICATION_ONLY",
+  "networkDefault": "DENIED",
+  "cloud": "DENIED",
+  "financial": "DENIED",
+  "clockPolicy": {
+    "profile": "FALCON-TIME-WINDOWS-LOCAL-BUILD-1",
+    "singleSourcePermission": "PERMITTED_FOR_LOCAL_FOUNDATION_BUILD_ONLY",
+    "maximumUncertaintyMicroseconds": 50000,
+    "maximumVerificationAgeMinutes": 240,
+    "productionEligible": false
+  },
+  "providerProfiles": [
+    "FALCON-RANDOM-WINDOWS-CSPRNG-1",
+    "FALCON-TIME-WINDOWS-LOCAL-BUILD-1",
+    "FALCON-ID-UUID7-1",
+    "FALCON-CRYPTO-BCL-1",
+    "FALCON-SECRET-EPHEMERAL-1",
+    "FALCON-CERT-LOCAL-TRUST-1"
+  ],
+  "nonAuthorities": [
+    "NO_OPERATIONAL_FALCON",
+    "NO_STAGE_1",
+    "NO_PRODUCTION",
+    "NO_CLOUD",
+    "NO_FINANCIAL_AUTHORITY"
+  ]
+}

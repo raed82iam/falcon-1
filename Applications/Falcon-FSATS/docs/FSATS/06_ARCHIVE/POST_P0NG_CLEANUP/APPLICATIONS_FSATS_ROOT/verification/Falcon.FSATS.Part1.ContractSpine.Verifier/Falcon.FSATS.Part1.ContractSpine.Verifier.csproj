@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>Falcon.FSATS.Part1.ContractSpine.Verifier</AssemblyName>
+    <RootNamespace>Falcon.FSATS.Part1.ContractSpine.Verifier</RootNamespace>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/Falcon.FSATS.Primitives/Falcon.FSATS.Primitives.csproj" />
+    <ProjectReference Include="../../src/Falcon.FSATS.ContractSpine/Falcon.FSATS.ContractSpine.csproj" />
+    <ProjectReference Include="../../src/Falcon.Trading.Guardian/Falcon.Trading.Guardian.csproj" />
+    <ProjectReference Include="../../src/Falcon.Trading.FSAPMA/Falcon.Trading.FSAPMA.csproj" />
+    <ProjectReference Include="../../src/Falcon.Trading.Application/Falcon.Trading.Application.csproj" />
+  </ItemGroup>
+</Project>

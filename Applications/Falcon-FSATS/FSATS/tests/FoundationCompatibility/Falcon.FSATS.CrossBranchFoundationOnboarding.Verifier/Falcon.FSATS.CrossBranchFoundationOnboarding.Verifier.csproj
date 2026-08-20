@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>Falcon.FSATS.CrossBranchFoundationOnboarding.Verifier</AssemblyName>
+    <RootNamespace>Falcon.FSATS.CrossBranchFoundationOnboarding.Verifier</RootNamespace>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\Trading\Falcon.FSATS.Trading.Application\Falcon.FSATS.Trading.Application.csproj" />
+    <ProjectReference Include="..\..\..\src\FSAPMA\Falcon.FSATS.FSAPMA.Application\Falcon.FSATS.FSAPMA.Application.csproj" />
+    <ProjectReference Include="..\..\..\src\TradingGuardian\Falcon.FSATS.TradingGuardian.Application\Falcon.FSATS.TradingGuardian.Application.csproj" />
+    <ProjectReference Include="..\..\..\src\FSTSimA\Falcon.FSATS.FSTSimA.Application\Falcon.FSATS.FSTSimA.Application.csproj" />
+    <ProjectReference Include="..\..\..\src\ResourceManagement\Falcon.FSATS.ResourceManagement.Application\Falcon.FSATS.ResourceManagement.Application.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,34 @@
+FALCON FOUNDATION OWNER AUTHORIZATION RECORD
+
+Decision: AUTHORIZE_STAGE6_WP02_IMPLEMENTATION
+Owner instruction: ابدأ
+Owner decision instant: 2026-08-08 23:37 +03:00
+Branch: foundation-development
+
+Authorized Work Package:
+Stage 6 WP-02 — Foundation Resource Truth and Protection Reserves
+
+Authorized scope:
+- singular Foundation-owned total-resource truth model;
+- allocatable-capacity truth derived from total capacity minus protected Foundation floors and recovery reserves;
+- Foundation survival/protection floors;
+- Foundation recovery reserves;
+- deterministic immutable snapshot/evidence identity;
+- fail-closed rejection of unavailable, malformed, duplicate, contradictory, unit-mismatched, negative, or overcommitted resource truth;
+- Application-neutral implementation using accepted Stage 6 WP-01 primitives.
+
+Explicit non-authorities:
+- no Application allocation/quota/ceiling implementation (WP-03);
+- no cross-Application priority enforcement (WP-04);
+- no pressure/preemption engine (WP-05);
+- no resource request/decision runtime boundary (WP-06);
+- no reclamation/redistribution/restoration engine (WP-07);
+- no Application load-shedding interface (WP-08);
+- no Stage 6 integration/closure authority (WP-09/WP-10);
+- no deployment, runtime activation, external connectivity, credentials, Trading business semantics, or Application-specific Foundation behavior.
+
+Predecessor:
+Stage 6 WP-01 — ACCEPTED_AND_CLOSED.
+
+Governance:
+This authorization is prospective and bounded to WP-02 only. WP-03 through WP-10 remain NOT AUTHORIZED unless separately authorized by the Owner.

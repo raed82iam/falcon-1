@@ -1,0 +1,179 @@
+﻿FALCON FOUNDATION
+STAGE 4 WP-06 OWNER ACCEPTANCE AND CLOSURE
+
+Decision Status:
+OWNER_ACCEPTED
+ACCEPTED_AND_CLOSED
+
+Work Package:
+Stage 4 WP-06
+
+Accepted Implementation:
+Integrated Unauthorized Action Verification,
+Invalid Lifecycle Transition Verification,
+Restart Reconciliation Integration,
+Independent Store Binding,
+Fail-Closed Continuation,
+VPL-002 and VPL-003 Scenario Coverage,
+and Mutation Coverage
+
+Accepted Repository:
+C:\Falcon\Falcon1
+
+Accepted Branch:
+stage3/baseline-integrity-remediation
+
+Accepted HEAD:
+888fb661e9e32f253ea891c5d793d9852caf200d
+
+Accepted Technical Evidence ZIP:
+C:\Falcon\Stage4\Reports\Stage4-WP06-V3B21-Explicit-Divergence-And-AcceptedFact-Mutation-20260806-214125.zip
+
+Accepted Technical Evidence ZIP SHA-256:
+CFC62D1852B38C63341968F9779ED9EC0AB5A0140F2C106DC95EDAC34EAC3052
+
+Accepted Independent Completeness Re-Audit ZIP:
+C:\Falcon\Stage4\Reports\Stage4-WP06-Independent-Completeness-Reaudit-20260806-215040.zip
+
+Accepted Independent Completeness Re-Audit ZIP SHA-256:
+FF846AFDE5B6437AA28F0F30882AE5D972A5AA4B405F98C06BCD844B9E498B54
+
+OWNER DECISION
+
+The Owner accepts the completed implementation, verification, remediation,
+scenario coverage, mutation coverage, and independent completeness re-audit
+of Falcon Foundation Stage 4 WP-06.
+
+The Owner confirms that the accepted WP-06 implementation satisfies the
+authorized scope and that the technical blockers identified during the
+earlier independent completeness audit have been resolved.
+
+The accepted implementation includes:
+
+1. Integrated VPL-002 unauthorized-action verification.
+2. Permitted-action verification.
+3. Prohibited-action default-deny verification.
+4. Expired-delegation rejection.
+5. Revoked-delegation rejection.
+6. Retry and replay behavior verification.
+7. FIL verification-only boundary preservation.
+8. Authoritative State preservation after denied action.
+9. Attributable denial Evidence.
+10. Integrated VPL-003 invalid-lifecycle-transition verification.
+11. Valid and invalid target transition coverage.
+12. Stale prior-State rejection.
+13. Identical duplicate handling.
+14. Competing-request conflict handling.
+15. Unauthorized-requester rejection.
+16. Prevention of false success events.
+17. RestartReconciler integration into the real restart continuation path.
+18. Exact runtime and reconciler State-store binding.
+19. Exact runtime and reconciler Evidence-store binding.
+20. Exact runtime and reconciler Accepted-Fact-store binding.
+21. Explicit RESTART_STORE_BINDING_MISMATCH fail-closed behavior.
+22. Direct restored-service bypass prevention.
+23. Explicit RESTART_RECONCILIATION_REQUIRED behavior.
+24. Reconciliation before continuation.
+25. Fail-closed handling of divergent restart state.
+26. Fail-closed handling of corrupted restart state.
+27. Fail-closed handling of ambiguous restart state.
+28. Accepted Fact identity and Evidence binding.
+29. Independent anchor binding.
+30. Durable ReconciliationState binding.
+31. Continuation-decision binding.
+32. Lifecycle-event mutation coverage.
+33. Authority-result mutation coverage.
+34. Requester-identity mutation coverage.
+35. Prior-State and target-State mutation coverage.
+36. Transition-identity mutation coverage.
+37. Commit mutation coverage.
+38. Evidence mutation coverage.
+39. Accepted Fact mutation coverage.
+40. Anchor mutation coverage.
+41. Reconciliation-result mutation coverage.
+42. Continuation-decision mutation coverage.
+43. Deterministic verifier reruns.
+44. Preservation of WP-01 through WP-05 behavior and boundaries.
+45. Preservation of the single lifecycle controller.
+46. Preservation of the single authoritative State owner.
+47. Preservation of the single Evidence owner.
+48. Preservation of the principle that time is audit metadata only.
+
+FINAL OWNER CLASSIFICATION
+
+WP-01 = ACCEPTED_AND_CLOSED
+WP-02 = ACCEPTED_AND_CLOSED
+WP-03 = ACCEPTED_AND_CLOSED
+WP-04 = ACCEPTED_AND_CLOSED
+WP-05 = ACCEPTED_AND_CLOSED
+WP-06 = ACCEPTED_AND_CLOSED
+
+WP-06 technical blockers:
+NONE
+
+WP-06 further implementation:
+NOT AUTHORIZED under this decision
+
+Stage 4 WP-01 through WP-06:
+ACCEPTED_AND_CLOSED
+
+Stage 5:
+UNAUTHORIZED
+
+Git commit, tag, merge, push, or baseline activation:
+UNAUTHORIZED
+
+Deployment:
+UNAUTHORIZED
+
+Runtime activation:
+UNAUTHORIZED
+
+This decision closes Stage 4 WP-06 only.
+
+This decision does not authorize:
+
+- Stage 5 planning or implementation;
+- any new work package;
+- Git mutation;
+- commit, tag, merge, push, or branch change;
+- deployment;
+- runtime activation;
+- production activation;
+- baseline activation;
+- modification of accepted WP-01 through WP-06 scope.
+
+Any such action requires separate explicit Owner authorization.
+
+TIME PRINCIPLE
+
+The timestamp of this decision is audit metadata only.
+
+Time does not expire or invalidate:
+
+- Owner authority;
+- Owner acceptance;
+- Owner closure;
+- work already completed;
+- context;
+- continuation rights;
+- evidence validity;
+- technical decisions;
+- architectural decisions;
+- accepted Stage 4 status.
+
+FINAL DECISION
+
+STAGE4_WP06_OWNER_ACCEPTANCE = GRANTED
+STAGE4_WP06_CLOSURE = GRANTED
+STAGE4_WP06_STATUS = ACCEPTED_AND_CLOSED
+
+STAGE4_WP01_THROUGH_WP06_STATUS = ACCEPTED_AND_CLOSED
+
+No further WP-06 technical work is authorized or required under this decision.
+
+Issued by:
+Falcon Owner
+
+Decision Record Created:
+2026-08-06 22:03:01 +03:00

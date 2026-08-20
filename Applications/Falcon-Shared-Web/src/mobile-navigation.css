@@ -1,0 +1,19 @@
+.mobile-menu,.public-mobile-menu{position:relative}
+.mobile-menu summary,.public-mobile-menu summary{list-style:none;cursor:pointer;padding:10px 12px;border-radius:8px;color:var(--text);user-select:none}
+.mobile-menu summary::-webkit-details-marker,.public-mobile-menu summary::-webkit-details-marker{display:none}
+.mobile-menu[open] summary,.public-mobile-menu[open] summary{background:#111d31}
+.mobile-menu nav,.public-mobile-menu nav{position:absolute;top:calc(100% + 8px);inset-inline-start:0;z-index:40;min-width:240px;max-height:70vh;overflow:auto;padding:8px;border:1px solid var(--line);border-radius:12px;background:#0b1321;box-shadow:0 18px 50px rgba(0,0,0,.4)}
+.public-mobile-menu nav{inset-inline-start:0;inset-inline-end:auto}
+.mobile-menu nav button,.public-mobile-menu nav button,.public-mobile-menu nav span{width:100%;display:flex;align-items:center;gap:10px;border:0;border-radius:8px;background:transparent;color:#9ba8be;padding:11px;text-align:start}
+.mobile-menu nav button,.public-mobile-menu nav button{cursor:pointer}
+.mobile-menu nav button:hover,.mobile-menu nav button:focus-visible,.mobile-menu nav button[aria-current="page"],.public-mobile-menu nav button:hover,.public-mobile-menu nav button:focus-visible,.public-mobile-menu nav button.active-public{background:linear-gradient(90deg,#3824a5aa,#172143);color:#fff;outline:none}
+.public-mobile-menu{display:none;margin-inline:auto}
+@media(max-width:760px){
+  .public-mobile-menu{display:block}
+  .topbar{height:auto;min-height:74px;flex-wrap:wrap;gap:10px;padding-block:10px;position:sticky}
+  .topbar>.brand{order:1;margin-left:auto;margin-right:0}
+  .topbar>.public-mobile-menu{order:2;position:absolute;left:4vw;right:auto;top:10px;margin:0}
+  .topbar>.public-mobile-menu nav{inset:auto;top:calc(100% + 8px);left:0;right:auto;width:min(240px,calc(100vw - 8vw));min-width:0;max-width:calc(100vw - 8vw)}
+  .topbar>.top-actions{order:3;width:100%;justify-content:space-between}
+}
+@media(min-width:761px){.mobile-menu,.public-mobile-menu{display:none!important}}

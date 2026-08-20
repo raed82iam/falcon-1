@@ -1,0 +1,12 @@
+﻿src/Foundation.Authority/Foundation.Authority.csproj
+src/Foundation.Authority/AuthorityEngine.cs
+verification/Falcon.Stage4.WP01.Verifier/Falcon.Stage4.WP01.Verifier.csproj
+verification/Falcon.Stage4.WP01.Verifier/Program.cs
+Falcon.Foundation.ControlledProjectFoundation.slnx
+tests/Falcon.Foundation.Architecture.Tests/Program.cs
+tests/Falcon.Foundation.Security.Tests/Program.cs
+docs/stage-4-proposal/10_STAGE_4_WP01_IMPLEMENTATION_AUTHORITY.md
+docs/reviews/STAGE_4_INDEPENDENT_PLANNING_REVIEW.md
+docs/governance/GOV-103_STAGE_4_WP01_IMPLEMENTATION_AUTHORIZATION.md
+docs/governance/GOV-000_AUTHORITY_REGISTRY.md
+docs/stage-4-proposal/README.md

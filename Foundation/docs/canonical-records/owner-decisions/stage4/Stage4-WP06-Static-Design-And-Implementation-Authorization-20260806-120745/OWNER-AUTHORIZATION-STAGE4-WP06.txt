@@ -1,0 +1,91 @@
+﻿FALCON FOUNDATION
+STAGE 4 WP-06 OWNER AUTHORIZATION
+
+Decision:
+IMPLEMENTATION_AUTHORIZED
+
+Authorized Work Package:
+Stage 4 WP-06
+
+Authorization Basis:
+
+- WP-01 = ACCEPTED_AND_CLOSED
+- WP-02 = ACCEPTED_AND_CLOSED
+- WP-03 = ACCEPTED_AND_CLOSED
+- WP-04 = ACCEPTED_AND_CLOSED
+- WP-05 = ACCEPTED_AND_CLOSED
+
+Accepted WP-05 Closure ZIP:
+C:\Falcon\Stage4\Owner-Decisions\Stage4-WP05-Owner-Acceptance-And-Closure-20260806-115542.zip
+
+Accepted WP-05 Closure ZIP SHA-256:
+5B515A7E9467AC56052967ED0FA088A9B2EE472C759A7B74040923CC7742B4F7
+
+Authorized Repository:
+C:\Falcon\Falcon1
+
+Authorized Branch:
+stage3/baseline-integrity-remediation
+
+Authorized HEAD:
+888fb661e9e32f253ea891c5d793d9852caf200d
+
+OWNER AUTHORIZATION
+
+The Owner authorizes the bounded implementation and verification of Stage 4
+WP-06 according to the attached Static Design, Implementation Allowlist, and
+Acceptance Criteria.
+
+The authorization is limited to:
+
+- VPL-002 Unauthorized Action integrated verification;
+- VPL-003 Invalid Lifecycle Transition integrated verification;
+- wiring RestartReconciler into the real lifecycle restart path before
+  continuation;
+- independent comparison of authoritative State and Evidence;
+- fail-closed restart behavior;
+- creation of the Stage 4 WP-06 verifier;
+- required architecture and security regression coverage.
+
+This authorization does not accept or close WP-06.
+
+This authorization does not authorize:
+
+- modifications outside the allowlist;
+- redesign of WP-01 through WP-05;
+- a second controller or authoritative owner;
+- application business state;
+- financial or trading execution;
+- Git mutation;
+- deployment;
+- runtime activation;
+- Stage 5;
+- final Stage 4 closure.
+
+TIME PRINCIPLE
+
+The timestamp is audit metadata only.
+
+Time does not expire or invalidate:
+
+- Owner authority;
+- this authorization;
+- context;
+- work;
+- continuation rights;
+- accepted WP-01 through WP-05 decisions;
+- evidence validity;
+- technical or architectural decisions.
+
+FINAL AUTHORIZATION
+
+STAGE4_WP06_STATIC_DESIGN = APPROVED
+STAGE4_WP06_IMPLEMENTATION = AUTHORIZED
+STAGE4_WP06_ACCEPTANCE = NOT_GRANTED
+STAGE4_WP06_CLOSURE = NOT_GRANTED
+
+Issued by:
+Falcon Owner
+
+Decision Record Created:
+2026-08-06 12:07:45 +03:00

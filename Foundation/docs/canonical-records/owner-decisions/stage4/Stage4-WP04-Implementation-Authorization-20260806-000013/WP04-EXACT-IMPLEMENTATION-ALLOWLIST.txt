@@ -1,0 +1,16 @@
+﻿src/Foundation.Evidence/Foundation.Evidence.csproj
+src/Foundation.Evidence/EvidenceModels.cs
+src/Foundation.Evidence/IntegrityLinkedEvidenceJournal.cs
+src/Foundation.Evidence/FileEvidenceJournalProvider.cs
+src/Foundation.Evidence/AcceptedFactPublisher.cs
+src/Foundation.Infrastructure/Foundation.Infrastructure.csproj
+src/Foundation.Infrastructure/BootstrapLifecycleControl.cs
+verification/Falcon.Stage4.WP04.Verifier/Falcon.Stage4.WP04.Verifier.csproj
+verification/Falcon.Stage4.WP04.Verifier/Program.cs
+tests/Falcon.Foundation.Architecture.Tests/Program.cs
+tests/Falcon.Foundation.Security.Tests/Program.cs
+Falcon.Foundation.ControlledProjectFoundation.slnx
+docs/governance/GOV-108_STAGE_4_WP04_IMPLEMENTATION_AUTHORIZATION.md
+docs/stage-4-proposal/15_STAGE_4_WP04_IMPLEMENTATION_AUTHORITY.md
+docs/governance/GOV-000_AUTHORITY_REGISTRY.md
+docs/stage-4-proposal/README.md

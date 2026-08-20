@@ -1,0 +1,163 @@
+{
+  "manifestIdentity": "SHARED_WEB_APPLICATION_ADMISSION_MANIFEST_V1",
+  "manifestVersion": "1.0",
+  "subjectKind": "APPLICATION",
+  "application": {
+    "identity": "FALCON_SHARED_WEB",
+    "version": "0.1.0",
+    "owner": "Falcon Shared Web Application Workstream",
+    "purpose": "Falcon-wide public, customer, owner and support presentation surfaces without owning Foundation, FSATS operational truth, deployment, connectivity, trading or business authority."
+  },
+  "package": {
+    "identity": "falcon-shared-web",
+    "version": "0.1.0",
+    "integrity": {
+      "mode": "EXACT_ADMISSION_CANDIDATE_CONTENT_IDENTITY",
+      "requirement": "Admission evidence must bind the exact candidate content identity and provenance; this declaration never substitutes a mutable or stale runtime digest."
+    }
+  },
+  "provenance": {
+    "identity": "raed82iam/Falcon:web-development:applications/shared/web",
+    "authorityEffect": "NONE",
+    "exactCandidateEvidenceRequired": true
+  },
+  "foundationRequirements": {
+    "contracts": ["CON-023"],
+    "specifications": ["FDN-006@1.0", "FDN-007@1.0"],
+    "services": [
+      "governed application admission",
+      "governed runtime registration when separately authorized",
+      "governed lifecycle and resource interfaces when separately bound"
+    ]
+  },
+  "dependencies": [
+    {
+      "identity": "Falcon Foundation generic Application contract",
+      "compatibleVersions": ["FDN-006@1.0", "FDN-007@1.0"],
+      "required": true
+    }
+  ],
+  "providedCapabilities": [
+    "PUBLIC_PRESENTATION",
+    "CUSTOMER_PRESENTATION",
+    "OWNER_PRESENTATION",
+    "CUSTOMER_SUPPORT_PRESENTATION",
+    "WEB_PROVIDER_PRESENTATION"
+  ],
+  "intendedConsumers": ["PUBLIC_USER", "AUTHENTICATED_CUSTOMER", "AUTHORIZED_OWNER"],
+  "permissionsRequested": [
+    "PRESENT_GOVERNED_DATA",
+    "SUBMIT_GOVERNED_REQUESTS",
+    "USE_SEPARATELY_AUTHORIZED_WEB_PRESENTATION_ROUTES"
+  ],
+  "authoritiesRequested": [],
+  "authorityInvariants": [
+    "PRESENTATION != AUTHORITY",
+    "REQUEST_SENT != ACTION_ACCEPTED != ACTION_COMPLETED",
+    "ROUTE_EXISTS != CONNECTION_AUTHORIZED",
+    "ROUTE_POLICY_BOUND != CONNECTION_EXECUTED",
+    "WEB_PROVIDER_ROUTE != FSAPMA_PROVIDER_ROUTE",
+    "WEB_PRESENTATION_DATA != FSATS_OPERATIONAL_DATA",
+    "WEB_RAW_DISPLAY_DATA -/-> FSATS_ANALYSIS_INPUT",
+    "CREDENTIAL_REFERENCE_ID != SECRET_BYTES",
+    "SHARED_QUOTA_POOL != SHARED_AUTHORITY",
+    "REGISTERED != ACTIVATED",
+    "REGISTERED != DEPLOYMENT_AUTHORITY",
+    "REGISTERED != PRODUCTION_AUTHORITY",
+    "REGISTERED != BUSINESS_AUTHORITY"
+  ],
+  "securityAndIsolation": {
+    "failClosed": true,
+    "ordinaryWebStateMayContainSecretBytes": false,
+    "presentationCreatesTruthAuthority": false,
+    "presentationCreatesExecutionAuthority": false,
+    "crossApplicationAuthorityByHosting": false
+  },
+  "resources": {
+    "minimums": "DECLARED_BY_EXACT_RUNTIME_BINDING_IF_HOSTED",
+    "ceilings": "DECLARED_BY_EXACT_RUNTIME_BINDING_IF_HOSTED",
+    "degradedBehavior": "Fail closed for unavailable authoritative dependencies; public/static presentation may remain available only where it does not imply stronger authority."
+  },
+  "persistence": {
+    "tenantScopedProductionPersistenceRequiredForProduction": true,
+    "currentProductionBindingClaimed": false
+  },
+  "communication": {
+    "governedTransportRequired": true,
+    "transportCreatesAuthority": false
+  },
+  "configuration": {
+    "authoritativeRuntimeConfigurationRequiredWhenApplicable": true,
+    "missingOrMismatchedConfiguration": "DENY"
+  },
+  "evidence": {
+    "exactCandidateIdentityRequired": true,
+    "attributableProvenanceRequired": true,
+    "currentNonrevokedAuthorityEvidenceRequiredWhenApplicable": true,
+    "unknownStaleMismatchedRevokedMissingOrUnverifiable": "DENY"
+  },
+  "lifecycle": {
+    "install": "VALIDATE_DECLARATIONS_AND_PACKAGE_ONLY",
+    "validate": "FAIL_CLOSED_ON_ANY_APPLICABLE_MISMATCH",
+    "register": "SEPARATE_TECHNICAL_GATE_ONLY",
+    "admit": "SEPARATE_FOUNDATION_DECISION_ONLY",
+    "activate": "SEPARATE_EXPLICIT_AUTHORITY_REQUIRED",
+    "update": "NO_SILENT_UPGRADE_REVALIDATE_ADMISSION_CRITICAL_CHANGE",
+    "suspend": "PRESERVE_EVIDENCE_AND_AUTHORITY_SEPARATION",
+    "recover": "REQUIRE_CURRENT_CORRECTIVE_AND_AUTHORITY_EVIDENCE",
+    "replace": "REVALIDATE_EXACT_REPLACEMENT_IDENTITY_AND_VERSION",
+    "remove": "REMOVE_WITHOUT_IMPLYING_OTHER_APPLICATION_OR_FOUNDATION_AUTHORITY"
+  },
+  "healthAndContainment": {
+    "healthInterface": "WEB_OWNED_HEALTH_EVIDENCE_WITHOUT_FOUNDATION_TRUTH_OWNERSHIP",
+    "failureContainment": "WEB_FAILURE_MUST_NOT_REQUIRE_FOUNDATION_FAILURE_OR_TRANSFER_WEB_AUTHORITY"
+  },
+  "awareness": {
+    "msa": {
+      "identity": "SHARED_WEB_MSA",
+      "count": 1,
+      "createsAuthority": false
+    },
+    "majorBranches": [
+      {
+        "identity": "CUSTOMER_SUPPORT",
+        "responsibleLsa": "SHARED_WEB_CUSTOMER_SUPPORT_LSA"
+      }
+    ],
+    "csaPolicy": "NONE_DECLARED_UNLESS_AN_ELIGIBLE_INTELLIGENT_COMPONENT_IS_SEPARATELY_GOVERNED",
+    "selfDevelopment": {
+      "autonomous": false,
+      "ownerDirectRequestRequiredForWebDevelopment": true,
+      "originMustRemainWeb": true,
+      "escalationMustPreserveGovernedAwarenessBoundaries": true
+    }
+  },
+  "providerExternalAccess": {
+    "boundary": "WEB_PRESENTATION_ONLY",
+    "credentialReferenceMayContainSecretBytes": false,
+    "routeBindingCreatesConnectivityExecution": false,
+    "providerConnectivityCreatesBusinessAuthority": false
+  },
+  "guardianProtection": {
+    "webDoesNotOwnFoundationOrTradingGuardianAuthority": true,
+    "applicableProtectionSignalsMustUseGovernedInterfaces": true
+  },
+  "rollbackCorrectiveAction": {
+    "plan": "Revert the exact Web candidate or apply a Web-owned corrective change, then repeat admission-critical validation before stronger state is claimed.",
+    "mayRestoreRevokedAuthority": false
+  },
+  "foundationNeutrality": {
+    "foundationNameAllowlistRequired": false,
+    "foundationSpecialCaseRequired": false,
+    "foundationChangeRequiredForWebFit": false,
+    "webMustAdaptToSealedFoundation": true
+  },
+  "declarationSemantics": {
+    "declarationIsAuthorization": false,
+    "admissionIsActivation": false,
+    "registrationIsActivation": false,
+    "manifestCreatesDeploymentAuthority": false,
+    "manifestCreatesProductionAuthority": false,
+    "manifestCreatesBusinessAuthority": false
+  }
+}

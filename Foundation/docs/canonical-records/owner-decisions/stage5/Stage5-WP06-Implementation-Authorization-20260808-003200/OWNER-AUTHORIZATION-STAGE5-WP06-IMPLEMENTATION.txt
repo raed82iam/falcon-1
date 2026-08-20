@@ -1,0 +1,102 @@
+FALCON FOUNDATION — OWNER AUTHORIZATION
+STAGE 5 WP-06 IMPLEMENTATION
+
+Decision date: 2026-08-08
+Owner: رائد عموره
+Repository: raed82iam/Falcon
+Authorized branch: foundation-development
+
+OWNER DIRECTION
+
+The Project Owner explicitly directed the Foundation workstream to proceed to Stage 5 WP-06 after formal acceptance and closure of Stage 5 WP-05.
+
+DECISION
+
+STAGE5_WP06_IMPLEMENTATION = AUTHORIZED
+
+AUTHORIZATION BASIS
+
+This prospective authorization is bounded by:
+
+1. the accepted Stage 5 design;
+2. SYS-005 Service Bus v1.1;
+3. accepted and closed Stage 5 WP-01 through WP-05 predecessor behavior;
+4. docs/stage-5-wp06/00_PRE_IMPLEMENTATION_SCOPE_REVIEW.md;
+5. Falcon Vision, Constitution, accepted ADRs and current governance registry;
+6. the Foundation workstream boundary.
+
+AUTHORIZED SCOPE
+
+WP-06 may implement only the bounded Application-neutral Service Bus delivery-semantics and flow-control layer following an accepted WP-05 route-selection decision, including:
+
+- explicit transport delivery guarantees/modes without overstating business completion;
+- immutable delivery-attempt identity and lineage;
+- truthful dispatch/acknowledgement/delivery/terminal outcome distinction;
+- bounded retry decisions respecting expiry, idempotency expectations and governed destination/route health;
+- explicit dead-letter/terminal containment for undeliverable messages with reason and evidence;
+- explicit scoped ordering guarantees and ordering keys where ordering is claimed;
+- bounded flow-control/backpressure/congestion decisions preserving cross-route and cross-producer isolation;
+- governed technical priority handling that prohibits producer self-elevation;
+- deterministic protective/revocation communication behavior under congestion/degradation where governed policy permits;
+- deterministic immutable delivery/retry/dead-letter/flow-control evidence and decision identities;
+- dedicated verifier, architecture/security integration, CI integration and documentation needed to validate this exact WP-06 scope.
+
+PREDECESSOR RULE
+
+WP-06 SHALL consume accepted predecessor decisions and SHALL NOT bypass, duplicate, weaken, or recreate:
+
+- WP-03 Manifest declaration/validation;
+- WP-04 FIL message-admission authority;
+- WP-05 route declaration, route authority, route eligibility, deterministic route selection, or route/endpoint isolation ownership.
+
+EXPLICIT NON-AUTHORITIES
+
+This authorization does NOT authorize:
+
+- WP-07 event publication/subscription truth, event ownership, replay truth, or event-journal implementation;
+- WP-08 cryptographic message/channel protection, encryption, signatures, key management, or protection-profile implementation;
+- WP-09 Application package installation, attachment, activation, upgrade, replacement, draining, detachment, or removal lifecycle;
+- WP-10 integrated Stage 5 closure;
+- Application-specific or trading-specific Foundation branches;
+- interpretation of business/financial payload meaning;
+- claims of business success/completion from transport status;
+- external connectivity, broker access, market-data access, trading or financial activity;
+- deployment, runtime activation, or baseline activation;
+- merge to another branch or tag creation;
+- Stage 6 through Stage 9 implementation.
+
+FCR RULE
+
+FCRs remain request/problem inputs and do not create implementation authority. WP-06 may satisfy only generic Foundation facets that fit the exact authorized scope. Application-specific behavior is prohibited. Deferred WP-07+ facets remain deferred.
+
+BRANCH BOUNDARY
+
+Writes are authorized only on:
+
+foundation-development
+
+The Foundation workstream SHALL NOT write to:
+
+- application-development
+- reference/fsats-v1.3-scratch
+- main
+- applications/**
+- reference/**
+
+CLOSURE RULE
+
+Technical completion, verifier PASS, CI PASS, or successful local validation SHALL NOT constitute Owner acceptance or closure.
+
+Stage 5 WP-06 requires separate final evidence reconciliation, independent architecture/security/red-team/completeness review, FCR reconciliation, and an explicit Owner acceptance-and-closure decision.
+
+CURRENT CONTROLLED STATE
+
+STAGE5_WP01_THROUGH_WP05 = ACCEPTED_AND_CLOSED
+STAGE5_WP06_IMPLEMENTATION = AUTHORIZED_AND_IN_PROGRESS
+STAGE5_WP07_THROUGH_WP10 = UNAUTHORIZED
+DEPLOYMENT = UNAUTHORIZED
+RUNTIME_ACTIVATION = UNAUTHORIZED
+BASELINE_ACTIVATION = UNAUTHORIZED
+STAGE6_THROUGH_STAGE9_IMPLEMENTATION = UNAUTHORIZED
+
+END OF OWNER AUTHORIZATION

@@ -1,0 +1,167 @@
+﻿FALCON FOUNDATION
+STAGE 5 PLANNING AND DESIGN AUTHORIZATION
+
+Decision Status:
+OWNER_AUTHORIZED
+
+Authorized Stage:
+Stage 5
+
+Authorized Activity:
+Planning, architecture definition, work-package decomposition,
+verification planning, threat modeling, red-team review,
+compatibility analysis, and proposal preparation only.
+
+Stage 5 Working Title:
+FIL, Service Bus, Event System, and Multi-Application Plug-and-Play Communication
+
+Repository:
+C:\Falcon\Falcon1
+
+Branch:
+stage3/baseline-integrity-remediation
+
+HEAD:
+888fb661e9e32f253ea891c5d793d9852caf200d
+
+Stage 4 Closure Decision:
+C:\Falcon\Stage4\Owner-Decisions\Stage4-WP06-Owner-Acceptance-And-Closure-20260806-220300\OWNER-ACCEPTANCE-AND-CLOSURE-STAGE4-WP06.txt
+
+Stage 4 Closure Decision SHA-256:
+994849DBBCDF0F3D68DD0C6A311717411BC3C5A19849E2512C40CFC2A6D9ED71
+
+OWNER AUTHORIZATION
+
+The Owner authorizes the planning and static design of Falcon Foundation
+Stage 5.
+
+The authorized planning scope shall define an application-neutral,
+multi-Application, Plug-and-Play communication foundation that serves
+FSATS and future Falcon Applications equally.
+
+The planning shall preserve the accepted Stage 0 through Stage 4
+architecture, authority, lifecycle, State, Evidence, reconciliation,
+dependency-governance, registration, and admission boundaries.
+
+MANDATORY STAGE 5 DESIGN PRINCIPLES
+
+1. Falcon Foundation remains domain-independent.
+2. Falcon Foundation supports multiple independent Applications.
+3. Every Application is Plug-and-Play through governed contracts.
+4. No Application is special-cased inside Foundation.
+5. FSATS is a reference consumer, not the owner of Foundation semantics.
+6. Application-specific payloads remain opaque to Foundation.
+7. Cross-boundary communication uses FIL and admitted Service Bus routes.
+8. No hidden cross-Application side channels are permitted.
+9. Applications shall be attachable, upgradeable, recoverable,
+   replaceable, and safely detachable without Foundation redesign.
+10. Components and providers shall be modular, replaceable, versioned,
+    independently testable, and easy to improve without breaking
+    unrelated parts.
+11. Installation, discovery, registration, or technical capability
+    shall not grant authority.
+12. Communication admission and execution shall fail closed on material
+    ambiguity, incompatibility, integrity failure, or missing authority.
+13. Foundation Health, Foundation Self-Awareness, and Application MSA
+    remain separate responsibilities.
+14. Foundation Health may know Application technical health only.
+15. FSA owns awareness and fitness of Foundation only.
+16. Application MSA owns business/domain awareness of its Application.
+17. Stage 5 shall not implement FSA, Application MSA, Guardian,
+    recovery governance, or later-stage capabilities outside the
+    communication scope.
+18. Time remains audit metadata only and shall not expire Owner
+    authority, accepted work, evidence, context, or continuation rights.
+
+MANDATORY STAGE 5 PLANNING SUBJECTS
+
+The Stage 5 proposal shall define, at minimum:
+
+- Canonical messaging primitives.
+- FIL message classes: Command, Query, Response, Event, and Notice.
+- Canonical message envelope.
+- Message, correlation, causation, producer, recipient, and schema identity.
+- Typed outcomes including UNKNOWN.
+- Provenance and authority references.
+- Schema registry and compatibility rules.
+- Application Communication Manifest.
+- Capability discovery.
+- Publication and subscription authorization.
+- Service Bus admission and dynamic routing.
+- Per-Application namespaces and isolation.
+- Retry, timeout, duplicate, replay, expiry, ordering, and flow control.
+- Undeliverable-message handling.
+- Event journal and truthful event publication.
+- Prevention of false-success events.
+- Dynamic route attachment.
+- Route draining and safe detachment.
+- Upgrade and replacement compatibility.
+- Cryptographic integrity, confidentiality, recipient binding,
+  key-context validation, and anti-downgrade behavior.
+- Multi-Application compatibility fixtures.
+- Zero-Application Foundation validity.
+- At least two independent reference Applications.
+- VPL-004 integrated verification.
+- Architecture, security, mutation, deterministic rerun,
+  and independent-review requirements.
+- Explicit boundaries for Stage 6 through Stage 9.
+
+REFERENCE INPUTS
+
+The Stage 5 planning may use the approved FSATS V1.3 code-ready
+architecture as a downstream consumer-requirements source and
+compatibility fixture only.
+
+The Stage 5 planning shall not:
+
+- copy trading business logic into Foundation;
+- grant FSATS privileged Foundation status;
+- activate FSATS;
+- authorize Paper, Tiny Live, or Live operation;
+- modify the approved FSATS baseline;
+- authorize Stage 5 implementation.
+
+NOT AUTHORIZED BY THIS DECISION
+
+This decision does not authorize:
+
+- Stage 5 source-code implementation;
+- repository modification;
+- Git commit, tag, merge, push, or branch change;
+- deployment;
+- runtime activation;
+- production activation;
+- baseline activation;
+- Stage 6, Stage 7, Stage 8, or Stage 9 implementation;
+- modification of accepted Stage 0 through Stage 4 behavior;
+- modification of accepted FSATS V1.3 business architecture.
+
+REQUIRED NEXT OUTPUTS
+
+Before any Stage 5 implementation authorization, the following shall
+be produced and reviewed:
+
+1. Stage 5 Architecture and Scope Proposal.
+2. Stage 5 Work-Package Plan.
+3. Stage 5 Requirement and Boundary Inventory.
+4. Stage 5 Multi-Application Plug-and-Play Profile.
+5. Stage 5 VPL-004 Verification Plan.
+6. Stage 5 Security and Threat Model.
+7. Stage 5 Architecture Review.
+8. Stage 5 Red-Team Review.
+9. Stage 5 Traceability Matrix.
+10. Owner review and separate implementation authorization.
+
+FINAL DECISION
+
+STAGE5_PLANNING_AND_DESIGN = AUTHORIZED
+STAGE5_IMPLEMENTATION = UNAUTHORIZED
+STAGE5_GIT_MUTATION = UNAUTHORIZED
+STAGE5_DEPLOYMENT = UNAUTHORIZED
+STAGE5_RUNTIME_ACTIVATION = UNAUTHORIZED
+
+Issued by:
+Falcon Owner
+
+Decision Record Created:
+2026-08-06 23:14:18 +03:00

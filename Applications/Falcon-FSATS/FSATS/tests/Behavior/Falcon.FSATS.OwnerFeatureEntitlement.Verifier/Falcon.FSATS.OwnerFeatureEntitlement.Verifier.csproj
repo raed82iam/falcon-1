@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>Falcon.FSATS.OwnerFeatureEntitlement.Verifier</AssemblyName>
+    <RootNamespace>Falcon.FSATS.OwnerFeatureEntitlement.Verifier</RootNamespace>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\Trading\Falcon.FSATS.Trading.Contracts\Falcon.FSATS.Trading.Contracts.csproj" />
+  </ItemGroup>
+</Project>

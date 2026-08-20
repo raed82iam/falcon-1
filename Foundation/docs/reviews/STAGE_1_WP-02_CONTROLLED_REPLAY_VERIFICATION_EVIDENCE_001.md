@@ -1,0 +1,17 @@
+# Stage 1 WP-02 Controlled Replay Verification Evidence
+
+## Verification results
+
+- Core project SHA-256: `2CF3697400723B34CFDC7897BDCF4D509C676F08B7087E4FB35D172A2CB982C1`
+- Contracts project SHA-256: `0964A12F1ECD02B606EF7DA64915293033F38CD65FC2FF3D2A6ADE913A76784F`
+- Infrastructure project SHA-256: `A86FEEBCCD7E110158E0EE70CCDEA89926A74452EF2ECC3115561141AE452D63`
+- Solution SHA-256: `90671013285C9BD4CCD8426192BA955226168927A0142D0EFAA2B5151C638C76`
+
+## Structural checks
+
+- UTF-8 validity: PASS
+- XML / SLNX validity: PASS
+- WP-03 artifacts introduced: 0
+- external package source contacts: 0
+- runtime behavior introduced: 0
+

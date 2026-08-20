@@ -1,0 +1,50 @@
+﻿FALCON FOUNDATION STAGE 4 WP-02
+IMPLEMENTATION AUTHORIZATION
+
+Owner: Raed Ammoura
+Authorization timestamp: 2026-08-05T21:38:20+03:00
+Status: APPROVED_AND_EFFECTIVE
+
+Repository:
+C:\Falcon\Falcon1
+
+Branch:
+stage3/baseline-integrity-remediation
+
+HEAD:
+888fb661e9e32f253ea891c5d793d9852caf200d
+
+Tree:
+b2f9e5fc1439e4382bfb7484fd714e6d483bf2a9
+
+WP-01 closure ZIP SHA-256:
+AD1D2DD5112687C63C39568328E3B00630F305B5E2D6CB61FA364597421058C7
+
+Authorized Work Package:
+WP-02 - Authoritative Lifecycle Integration and Hardening
+
+Exact implementation allowlist SHA-256:
+231AA59F3C4F630FFE271037537EA196FD4674EE9CF811DA8206CCC8768BE5DD
+
+AUTHORIZED:
+1. Integrate Foundation.Authority with the existing Lifecycle execution boundary in Foundation.Infrastructure.
+2. Add the bounded Stage 4 WP-02 verifier.
+3. Update exact solution, architecture-test, and security-test paths named in the allowlist.
+4. Prove authority-to-transition binding, invalid transition rejection, stale-state rejection, duplicate and conflict behavior, and deterministic replay.
+5. Preserve all accepted Stage 3 Lifecycle behavior.
+
+NOT AUTHORIZED:
+1. A second Lifecycle controller.
+2. Changes to Foundation.Core/LifecycleControl.cs.
+3. Changes to Foundation.Contracts or Contract Registry.
+4. WP-03 through WP-06.
+5. State, persistence, Evidence Journal, accepted facts, concurrency, uncertain-write, or restart work.
+6. FIL or Service Bus production implementation.
+7. External packages or network dependencies.
+8. Application, trading, broker, market-data, Self-Awareness, or Guardian work.
+9. Commit, tag, merge, rebase, push, deployment, or runtime activation.
+10. Any path outside the exact allowlist.
+
+FINAL:
+FALCON_FOUNDATION_STAGE4_WP02_IMPLEMENTATION_AUTHORIZED
+STAGE4_WP03_THROUGH_WP06_UNAUTHORIZED

@@ -1,0 +1,12 @@
+docs.zip
+**/bin/
+**/obj/
+.vs/
+**/.vs/
+TestResults/
+**/TestResults/
+artifacts/
+.stage0b/
+.stage*/
+*.user
+*.suo

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><AssemblyName>Falcon.FSATS.Integration.Verifier</AssemblyName><RootNamespace>Falcon.FSATS.Integration.Verifier</RootNamespace><IsPackable>false</IsPackable></PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\Trading\Falcon.FSATS.Trading.Application\Falcon.FSATS.Trading.Application.csproj" />
+    <ProjectReference Include="..\..\..\src\Trading\Falcon.FSATS.Trading.Awareness\Falcon.FSATS.Trading.Awareness.csproj" />
+    <ProjectReference Include="..\..\..\src\Trading\Falcon.FSATS.Trading.Domain\Falcon.FSATS.Trading.Domain.csproj" />
+    <ProjectReference Include="..\..\..\src\FSAPMA\Falcon.FSATS.FSAPMA.Application\Falcon.FSATS.FSAPMA.Application.csproj" />
+    <ProjectReference Include="..\..\..\src\FSAPMA\Falcon.FSATS.FSAPMA.Awareness\Falcon.FSATS.FSAPMA.Awareness.csproj" />
+    <ProjectReference Include="..\..\..\src\FSAPMA\Falcon.FSATS.FSAPMA.Domain\Falcon.FSATS.FSAPMA.Domain.csproj" />
+    <ProjectReference Include="..\..\..\src\TradingGuardian\Falcon.FSATS.TradingGuardian.Application\Falcon.FSATS.TradingGuardian.Application.csproj" />
+    <ProjectReference Include="..\..\..\src\TradingGuardian\Falcon.FSATS.TradingGuardian.Awareness\Falcon.FSATS.TradingGuardian.Awareness.csproj" />
+    <ProjectReference Include="..\..\..\src\TradingGuardian\Falcon.FSATS.TradingGuardian.Domain\Falcon.FSATS.TradingGuardian.Domain.csproj" />
+    <ProjectReference Include="..\..\..\src\FSTSimA\Falcon.FSATS.FSTSimA.Application\Falcon.FSATS.FSTSimA.Application.csproj" />
+    <ProjectReference Include="..\..\..\src\FSTSimA\Falcon.FSATS.FSTSimA.Awareness\Falcon.FSATS.FSTSimA.Awareness.csproj" />
+    <ProjectReference Include="..\..\..\src\FSTSimA\Falcon.FSATS.FSTSimA.Domain\Falcon.FSATS.FSTSimA.Domain.csproj" />
+    <ProjectReference Include="..\..\..\src\ResourceManagement\Falcon.FSATS.ResourceManagement.Application\Falcon.FSATS.ResourceManagement.Application.csproj" />
+    <ProjectReference Include="..\..\..\src\ResourceManagement\Falcon.FSATS.ResourceManagement.Awareness\Falcon.FSATS.ResourceManagement.Awareness.csproj" />
+    <ProjectReference Include="..\..\..\src\ResourceManagement\Falcon.FSATS.ResourceManagement.Domain\Falcon.FSATS.ResourceManagement.Domain.csproj" />
+  </ItemGroup>
+</Project>

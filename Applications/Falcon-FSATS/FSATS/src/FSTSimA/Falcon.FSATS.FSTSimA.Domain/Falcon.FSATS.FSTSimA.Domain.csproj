@@ -1,0 +1,1 @@
+<Project Sdk="Microsoft.NET.Sdk"><PropertyGroup><AssemblyName>Falcon.FSATS.FSTSimA.Domain</AssemblyName><RootNamespace>Falcon.FSATS.FSTSimA.Domain</RootNamespace><IsPackable>false</IsPackable></PropertyGroup></Project>

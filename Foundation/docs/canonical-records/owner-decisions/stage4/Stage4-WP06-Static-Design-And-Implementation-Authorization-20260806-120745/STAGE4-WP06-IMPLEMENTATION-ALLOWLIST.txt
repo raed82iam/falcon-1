@@ -1,0 +1,70 @@
+﻿FALCON FOUNDATION
+STAGE 4 WP-06 IMPLEMENTATION ALLOWLIST
+
+Existing files allowed to be modified only when necessary:
+
+1. src/Foundation.Infrastructure/BootstrapLifecycleControl.cs
+   Purpose:
+   Wire RestartReconciler into the real lifecycle restart/continuation path
+   without creating another lifecycle controller.
+
+2. src/Foundation.Core/LifecycleControl.cs
+   Purpose:
+   Add only the minimal contracts or result surfaces required to express
+   verified restart continuation, restriction, or challenge.
+   Existing lifecycle ownership and transition graph must remain unchanged.
+
+3. src/Foundation.Reconciliation/ReconciliationModels.cs
+   Purpose:
+   Add only WP-06 integration result fields or deterministic identities that
+   are demonstrably required by VPL-003.
+
+4. src/Foundation.Reconciliation/RestartReconciler.cs
+   Purpose:
+   Add only integration-safe invocation or result handling required by the
+   real lifecycle restart path. WP-05 semantics must remain intact.
+
+5. src/Foundation.Infrastructure/Foundation.Infrastructure.csproj
+   Purpose:
+   Reference correction only if required. No unrelated package additions.
+
+6. tests/Falcon.Foundation.Architecture.Tests/Program.cs
+   Purpose:
+   Enforce WP-06 ownership, dependency, and no-second-controller boundaries.
+
+7. tests/Falcon.Foundation.Security.Tests/Program.cs
+   Purpose:
+   Add only security checks required to prevent authority, State, Evidence,
+   or restart bypass.
+
+New files allowed:
+
+8. verification/Falcon.Stage4.WP06.Verifier/Falcon.Stage4.WP06.Verifier.csproj
+
+9. verification/Falcon.Stage4.WP06.Verifier/Program.cs
+
+10. docs/stage-4-wp06/01_STATIC_DESIGN.md
+
+11. docs/stage-4-wp06/02_IMPLEMENTATION_AND_VERIFICATION_REPORT.md
+
+12. Falcon.Foundation.ControlledProjectFoundation.slnx
+    Purpose:
+    Add the WP-06 verifier project only.
+
+Any file not listed above is denied by default.
+
+Adding a file to this allowlist requires a separate Owner amendment before
+that file is modified.
+
+PROHIBITED MODIFICATIONS
+
+- WP-01 verifier or accepted Authority implementation.
+- WP-02 verifier or accepted lifecycle graph semantics.
+- WP-03 verifier or accepted State ownership semantics.
+- WP-04 verifier or accepted Evidence semantics.
+- WP-05 verifier except through separate explicit Owner amendment.
+- Foundation contracts not proven necessary.
+- Stage 2 or Stage 3 accepted implementation.
+- Git metadata.
+- deployment configuration.
+- runtime activation configuration.

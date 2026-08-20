@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Falcon.FSATS.Trading.Domain</AssemblyName>
+    <RootNamespace>Falcon.FSATS.Trading.Domain</RootNamespace>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>Falcon.FSATS.OperationalDataOutcome.Verifier</AssemblyName>
+    <RootNamespace>Falcon.FSATS.OperationalDataOutcome.Verifier</RootNamespace>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\FSAPMA\Falcon.FSATS.FSAPMA.Contracts\Falcon.FSATS.FSAPMA.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\src\FSAPMA\Falcon.FSATS.FSAPMA.Application\Falcon.FSATS.FSAPMA.Application.csproj" />
+    <ProjectReference Include="..\..\..\src\Trading\Falcon.FSATS.Trading.Application\Falcon.FSATS.Trading.Application.csproj" />
+  </ItemGroup>
+</Project>

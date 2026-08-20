@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Foundation.Infrastructure</AssemblyName>
+    <RootNamespace>Foundation.Infrastructure</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Foundation.Core\Foundation.Core.csproj" />
+    <ProjectReference Include="..\Foundation.Contracts\Foundation.Contracts.csproj" />
+    <ProjectReference Include="..\Foundation.Authority\Foundation.Authority.csproj" />
+    <ProjectReference Include="..\Foundation.State\Foundation.State.csproj" />
+    <ProjectReference Include="..\Foundation.Evidence\Foundation.Evidence.csproj" />
+    <ProjectReference Include="..\Foundation.Reconciliation\Foundation.Reconciliation.csproj" />
+  </ItemGroup>
+</Project>

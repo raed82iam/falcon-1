@@ -1,0 +1,51 @@
+FALCON FOUNDATION — OWNER AUTHORIZATION
+STAGE 5 WP-08 — CRYPTOGRAPHIC MESSAGE PROTECTION
+
+Decision Date: 2026-08-08
+Owner: Project Owner
+Branch: foundation-development
+Authorization Status: GRANTED
+
+Owner Direction:
+The Project Owner explicitly directed the Foundation workstream to begin Stage 5 WP-08 after Stage 5 WP-07 was accepted and closed.
+
+Authorized Scope:
+Implementation, verification, security hardening, evidence preparation, and closure-readiness work for the bounded Application-neutral Stage 5 WP-08 Cryptographic Message Protection capability only, as constrained by:
+- SEC-001 Security;
+- SEC-002 Foundation Trust Object Model;
+- the accepted Stage 5 architecture and predecessor boundaries;
+- docs/stage-5-wp08/00_PRE_IMPLEMENTATION_SCOPE_AND_FCR_REVIEW.md;
+- Falcon Vision and Constitution; and
+- existing accepted WP-01 through WP-07 contracts and evidence boundaries.
+
+WP-08 may implement a governed replaceable cryptographic protection profile, authenticated message protection/verification using approved platform cryptography, protected-context binding, key-reference/status consumption without exposing key bytes, fail-closed verification, cryptographic evidence identities, and associated Application-neutral verifier coverage.
+
+Explicit Holds / Non-Authority:
+This authorization does NOT authorize:
+- custom cryptographic algorithms or protocols;
+- a complete KMS/HSM/vault/CA/PKI or external credential platform;
+- Internet egress or destination policy;
+- Live broker credential or route enforcement;
+- resource-governance implementation;
+- Application business logic or trading-specific behavior;
+- Stage 5 WP-09 or WP-10 implementation;
+- deployment or runtime activation;
+- baseline activation;
+- external connectivity, broker access, market-data access, trading, or financial activity;
+- Stage 6 through Stage 9 implementation;
+- writing to application-development, reference/fsats-v1.3-scratch, main, applications/**, or reference/**.
+
+FCR Boundary:
+FCR-0004, FCR-0005, FCR-0006 and FCR-0009 have only limited cross-cutting relevance to cryptographic protection. FCR-0007, FCR-0008, FCR-0010 and FCR-0011 remain outside WP-08 ownership. No FCR closure is granted by this authorization.
+
+Predecessor Protection:
+WP-08 shall not weaken or reinterpret accepted WP-01 through WP-07 semantics. Cryptographic verification proves only the cryptographic protection claim and shall not create business authority, admission, route eligibility, delivery success, event truth, or Application action authority.
+
+Owner Acceptance and Closure:
+NOT GRANTED. A separate explicit Owner decision is required after validation, independent review, FCR reconciliation and closure-readiness evidence.
+
+Current State After This Decision:
+STAGE5_WP01_THROUGH_WP07 = ACCEPTED_AND_CLOSED
+STAGE5_WP08_IMPLEMENTATION = AUTHORIZED_AND_IN_PROGRESS
+STAGE5_WP09_THROUGH_WP10 = UNAUTHORIZED
+STAGE6_THROUGH_STAGE9_IMPLEMENTATION = UNAUTHORIZED

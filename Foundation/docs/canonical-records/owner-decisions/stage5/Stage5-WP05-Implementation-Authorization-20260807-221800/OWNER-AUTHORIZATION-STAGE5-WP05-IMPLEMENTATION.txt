@@ -1,0 +1,178 @@
+FALCON FOUNDATION
+STAGE 5 WP-05 IMPLEMENTATION AUTHORIZATION
+
+DECISION STATUS
+STAGE5_WP05_IMPLEMENTATION_AUTHORIZED
+
+Work Package:
+WP-05 - Service Bus Dynamic Routing and Isolation
+
+Repository:
+raed82iam/Falcon
+
+Branch:
+foundation-development
+
+OWNER INSTRUCTION BASIS
+The Falcon Owner explicitly instructed the Foundation workstream to begin Stage 5 WP-05 after Stage 5 WP-04 was accepted, closed, and closure-document consistency was reconciled.
+
+BOUND PREDECESSOR
+Stage 5 WP-04 Owner Acceptance and Closure:
+docs/canonical-records/owner-decisions/stage5/Stage5-WP04-Owner-Acceptance-And-Closure-20260807-220900/OWNER-ACCEPTANCE-AND-CLOSURE-STAGE5-WP04.txt
+
+Final validated WP-04 implementation identity:
+0712b5f3ba44d1257cc2a3e54914d6499f4728a7
+
+BOUND WP-05 PRE-IMPLEMENTATION REVIEW
+docs/stage-5-wp05/00_PRE_IMPLEMENTATION_SCOPE_REVIEW.md
+
+Review commit:
+0b7e6b1ea54a74574972a49b62dca60c2e60fcba
+
+BOUND GOVERNING ARCHITECTURE AND SPECIFICATIONS
+- Accepted Stage 5 planning proposal
+- ADR-I012 - Foundation Plug-and-Play Application Integration Boundary - ACCEPTED
+- ADR-I015 - Falcon OS Application and Awareness Alignment - ACCEPTED
+- APP-001 v1.1 - Application Boundary and Lifecycle - APPROVED / ACTIVE
+- SYS-005 v1.1 - Service Bus - APPROVED
+- SYS-006 v1.1 - Multi-Level Resource Governance - APPROVED / ACTIVE where isolation/resource pressure constrains route eligibility
+- SYS-009 v1.1 - FIL - APPROVED
+- accepted Stage 4 Default-Deny Authority behavior
+- accepted and closed Stage 5 WP-01 through WP-04
+
+OWNER AUTHORIZATION
+The Owner authorizes implementation of:
+
+Stage 5 WP-05 - Service Bus Dynamic Routing and Isolation
+
+WP-05 PURPOSE
+WP-05 shall establish an Application-neutral, deterministic, attributable, auditable, fail-closed Service Bus route declaration, route-eligibility, route-selection, and route/endpoint-isolation decision surface for messages that have already passed the accepted WP-04 message-admission boundary.
+
+WP-05 shall not deliver messages. It shall determine only whether a governed route is valid and eligible and, where authorized by explicit deterministic policy, which one governed route is selected.
+
+AUTHORIZED WP-05 SCOPE
+WP-05 may implement only the source, immutable models, registries/resolvers where needed, validators/evaluators, deterministic canonicalization/digest behavior, documentation, architecture/security coverage, fixtures, and verification required for:
+
+1. Reusing the accepted WP-04 admission result without redefining admission semantics.
+2. Immutable route identity and explicit route declarations.
+3. Versioned route declaration/resolution if required for deterministic identity.
+4. Explicit producer/source endpoint and consumer/destination endpoint binding.
+5. Explicit route binding to technical FIL/Manifest metadata including message type, destination/recipient scope, declared purpose, and accepted authority/admission evidence where applicable.
+6. Default-deny route eligibility.
+7. Explicit route state sufficient to distinguish eligible from isolated/unavailable/ineligible routes without executing lifecycle transitions.
+8. Explicit endpoint eligibility/isolation sufficient to prevent selection of an affected source/destination while preserving unrelated routes.
+9. Deterministic route selection from declared eligible candidates only.
+10. Fail-closed no-route behavior.
+11. Fail-closed ambiguous-route behavior where deterministic policy does not establish exactly one winner.
+12. Rejection of unknown, undeclared, duplicate, conflicting, stale, isolated, mismatched, or unverifiable route bindings.
+13. Preservation of original producer identity, message identity, correlation, causation, classification, provenance, schema, authority/admission binding, and payload opacity.
+14. No Application-name parsing or business-payload interpretation for routing.
+15. Immutable route decision containing route identity, relevant source/destination/admission/authority/policy/state/evidence bindings, exact decision/reason, deterministic observation inputs where applicable, and decision identity.
+16. Deterministic canonicalization and SHA-256 binding of material routing inputs and outputs.
+17. Mutation sensitivity for every material input that can change route eligibility or route selection.
+18. Route-failure/isolation containment such that isolating one route/endpoint does not silently invalidate unrelated independent routes.
+19. Zero-Application Foundation compatibility.
+20. At least two independent Application-neutral routing fixtures with no FSATS special treatment.
+21. Generic compatibility with FCR-0004/0005/0006/0009 only where their needs intersect this already-authorized route-selection/isolation surface.
+22. Dedicated WP-05 verification, Architecture/Security coverage, deterministic rerun, documentation, traceability, independent architecture review, independent red-team review, independent completeness review, and final evidence/FCR reconciliation.
+
+MANDATORY WP-05 PRINCIPLES
+- Default deny.
+- Route existence is not authority.
+- Technical reachability is not admission or activation.
+- WP-04 admission is a prerequisite input, not a routing grant.
+- Routing shall use declared governed technical metadata only.
+- Routing shall never inspect Application business payload meaning.
+- No Application receives privileged routing behavior.
+- Hidden direct Application-to-Application coupling is prohibited.
+- Isolation shall be contained to the governed affected route/endpoint to the required degree.
+- No hidden wall-clock input shall make deterministic route replay nondeterministic.
+- Existing accepted owners remain singular and unchanged.
+
+FCR BOUNDARY
+Open FCRs remain request/disposition records only and do not grant implementation authority.
+
+FCR-0004 may inform generic governed protection-command route requirements only up to route eligibility/selection/isolation. It does not authorize command delivery/execution, protective QoS, acknowledgement, or congestion behavior.
+
+FCR-0005 may inform generic producer/consumer/schema/route eligibility only. Operational delivery semantics remain outside WP-05.
+
+FCR-0006 may inform generic route attribution/isolation only. Event truth, event publication, replay delivery, ordering/correction execution, and evidence-retention behavior remain outside WP-05.
+
+FCR-0009 may inform route eligibility from already-governed expiry/deadline/technical metadata only. Queueing, backpressure, scheduling, overload handling, delivery QoS, and tail-latency behavior remain outside WP-05.
+
+MANDATORY VERIFICATION BEFORE OWNER ACCEPTANCE
+Evidence shall show:
+- clean restore;
+- clean Release build with zero warnings/errors under accepted controlled policy;
+- Architecture tests PASS;
+- Security tests PASS with zero findings;
+- Baseline Integrity PASS;
+- all accepted Stage 2 through Stage 4 verifiers remain PASS;
+- accepted Stage 5 WP-01, WP-02, WP-03, and WP-04 verifiers remain PASS;
+- positive governed route eligibility/selection cases PASS;
+- no-route, undeclared-route, unknown-route, ambiguous-route, duplicate/conflicting-route, isolated-route, endpoint-isolation, and binding-mismatch cases fail closed;
+- a message not proven admitted by WP-04 cannot become route-eligible;
+- route decision identity is deterministic and mutation-sensitive;
+- route selection uses no business payload interpretation;
+- one isolated route does not contaminate independent unaffected route eligibility;
+- zero-Application fixture passes;
+- at least two independent Application-neutral fixtures pass;
+- no FSATS special casing exists;
+- no dispatch, queueing, delivery, acknowledgement, retry execution, dead-letter execution, ordering execution, backpressure, flow control, event publication, crypto, Application lifecycle execution, deployment, or runtime activation surface is introduced;
+- deterministic WP-05 verifier rerun produces equivalent accepted results from the same Release outputs;
+- documentation/traceability/reviews/evidence reconciliation are complete;
+- no known blocking architecture, security, red-team, completeness, evidence, or FCR finding remains.
+
+EXPLICIT NON-AUTHORIZATION
+This decision does not authorize:
+- WP-06 Delivery Semantics and Flow Control implementation;
+- WP-07 Event System and Truthful Publication implementation;
+- WP-08 Cryptographic Message Protection implementation;
+- WP-09 Plug-and-Play Attachment, Upgrade, or Safe Detachment implementation;
+- WP-10 Integrated closure implementation;
+- transport I/O or dispatch execution;
+- queueing;
+- delivery completion or delivery guarantees;
+- acknowledgements;
+- retry execution;
+- operational duplicate-effect suppression;
+- replay delivery;
+- ordering execution;
+- dead-letter transport execution;
+- backpressure or flow control;
+- congestion/overload scheduling;
+- event publication/subscription execution;
+- cryptographic signing/encryption/key custody/key rotation;
+- Application installation/activation/attachment/update/replacement/draining/detachment/removal execution;
+- Application lifecycle transition execution;
+- Foundation resource reallocation ownership;
+- Foundation FSA, Application MSA/LSA/CSA, or Guardian implementation;
+- interpretation of Application business payload meaning;
+- modification of accepted Stage 0 through Stage 4 semantics;
+- modification of accepted/closed Stage 5 WP-01 through WP-04 semantics except strictly additive reuse integration preserving accepted public behavior;
+- modification of `applications/**`, `application-development`, `reference/**`, `reference/fsats-v1.3-scratch`, or `main`;
+- merge, tag, deployment, runtime activation, baseline activation, or Stage 6 through Stage 9 implementation;
+- Owner acceptance or closure of WP-05.
+
+REPOSITORY AND WORKSTREAM BOUNDARY
+All WP-05 implementation work shall occur only on `foundation-development`.
+
+No later Stage 5 work package becomes authorized because WP-05 code exists, builds, passes tests, or appears technically ready.
+
+TIME PRINCIPLE
+The timestamp of this decision is audit metadata only and does not expire Owner authority or accepted work. Operational expiry inputs remain governed separately.
+
+FINAL OWNER DECISION
+STAGE5_WP05_IMPLEMENTATION = AUTHORIZED
+STAGE5_WP06_THROUGH_WP10_IMPLEMENTATION = UNAUTHORIZED
+REPOSITORY_FILE_MODIFICATION_FOR_WP05 = AUTHORIZED_ON_FOUNDATION_DEVELOPMENT_ONLY
+DEPLOYMENT = UNAUTHORIZED
+RUNTIME_ACTIVATION = UNAUTHORIZED
+BASELINE_ACTIVATION = UNAUTHORIZED
+STAGE6_THROUGH_STAGE9_IMPLEMENTATION = UNAUTHORIZED
+
+Issued by:
+Falcon Owner
+
+Decision Record Created:
+2026-08-07 22:18:00 +03:00

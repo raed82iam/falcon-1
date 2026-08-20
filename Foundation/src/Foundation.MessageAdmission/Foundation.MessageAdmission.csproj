@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+    <AssemblyName>Foundation.MessageAdmission</AssemblyName>
+    <RootNamespace>Foundation.MessageAdmission</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Foundation.Contracts\Foundation.Contracts.csproj" />
+    <ProjectReference Include="..\Foundation.SchemaRegistry\Foundation.SchemaRegistry.csproj" />
+    <ProjectReference Include="..\Foundation.ApplicationManifest\Foundation.ApplicationManifest.csproj" />
+    <ProjectReference Include="..\Foundation.Authority\Foundation.Authority.csproj" />
+  </ItemGroup>
+</Project>

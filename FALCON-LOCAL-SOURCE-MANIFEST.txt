@@ -1,0 +1,69 @@
+﻿FALCON CLEAN LOCAL WORKSPACE
+
+Generated:
+2026-08-19 23:41:37
+
+Repository:
+raed82iam/Falcon
+
+============================================================
+FOUNDATION
+============================================================
+Source Branch:
+foundation-development
+
+Source Commit:
+15e6d66ec0d571f1e803f56444acc90c84885312
+
+Local Destination:
+C:\Falcon\Falcon\Foundation
+
+Excluded:
+applications/**
+reference/**
+.git/**
+
+============================================================
+APPLICATION / FSATS
+============================================================
+Source Branch:
+application-development
+
+Source Commit:
+e14c59f7bd068b5f56a67f5e045fbaafa0f30691
+
+Source:
+applications/**
+
+Local Destination:
+C:\Falcon\Falcon\Applications\Falcon-FSATS
+
+Excluded:
+applications/shared/web/**
+
+============================================================
+SHARED WEB
+============================================================
+Source Branch:
+web-development
+
+Source Commit:
+da2f7bdcae5ffeceede6bf409ebeca7f07ce1015
+
+Source:
+applications/shared/web/**
+
+Local Destination:
+C:\Falcon\Falcon\Applications\Falcon-Shared-Web
+
+============================================================
+FCR BACKUP
+============================================================
+Source:
+GitHub Issues
+
+Local Destination:
+C:\Falcon\Falcon\FCR
+
+FCR Count:
+1

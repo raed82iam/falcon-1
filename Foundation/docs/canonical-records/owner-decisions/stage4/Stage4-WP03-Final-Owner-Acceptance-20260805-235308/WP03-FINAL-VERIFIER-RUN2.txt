@@ -1,0 +1,6 @@
+DIAG accepted authority=ALLOW/AUTHORITY_ALLOWED; lifecycle=ACCEPTED/TRANSITION_ACCEPTED; memory=Initializing/2; durable=Accepted/STATE_LOADED/INITIALIZING/1; events=1
+DIAG rejecting authority=ALLOW/AUTHORITY_ALLOWED; lifecycle=REJECTED/AUTHORITATIVE_STATE_PERSISTENCE_REJECTED:SIMULATED_COMMIT_REJECTION; before=Registered/1; after=Registered/1; events=0
+Stage 4 WP-03 verifier: PASS
+FDN-001 ownership, singular write authority, durable versioned current state, immutable history, explicit failure classification, and deterministic reload verified.
+Application business state remains out of scope.
+State digest: B40A066949B4A46CD4688FD599D0355D510595578C4D8C1BB5C9B81CB8E31534

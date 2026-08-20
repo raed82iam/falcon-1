@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Falcon.Stage7.WP10.Verifier</AssemblyName>
+    <RootNamespace>Falcon.Stage7.WP10.Verifier</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Foundation.HealthFitness\Foundation.HealthFitness.csproj" />
+    <ProjectReference Include="..\..\src\Foundation.SelfAwareness\Foundation.SelfAwareness.csproj" />
+  </ItemGroup>
+</Project>

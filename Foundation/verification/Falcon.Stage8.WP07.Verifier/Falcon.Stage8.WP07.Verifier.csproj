@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Falcon.Stage8.WP07.Verifier</AssemblyName>
+    <RootNamespace>Falcon.Stage8.WP07.Verifier</RootNamespace>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Foundation.Guardian\Foundation.Guardian.csproj" />
+    <ProjectReference Include="..\..\src\Foundation.Authority\Foundation.Authority.csproj" />
+    <ProjectReference Include="..\..\src\Foundation.Contracts\Foundation.Contracts.csproj" />
+  </ItemGroup>
+</Project>

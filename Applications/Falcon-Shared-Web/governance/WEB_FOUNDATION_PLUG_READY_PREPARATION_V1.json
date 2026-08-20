@@ -1,0 +1,130 @@
+{
+  "preparationIdentity": "WEB_FOUNDATION_PLUG_READY_PREPARATION_V1",
+  "preparationVersion": "1.0",
+  "application": {
+    "identity": "FALCON_SHARED_WEB",
+    "packageIdentity": "falcon-shared-web",
+    "packageVersion": "0.1.0",
+    "manifestPath": "applications/shared/web/governance/SHARED_WEB_APPLICATION_ADMISSION_MANIFEST_V1.json",
+    "admissionCandidateCount": 1,
+    "runtimeRegistrationTemplateCount": 1,
+    "requestPairCount": 1
+  },
+  "reviewedLineage": {
+    "webSourceCandidate": "3d083e774dae79821784d42dd79b0ef6a8213da5",
+    "foundationHeadAtPreparation": "15e6d66ec0d571f1e803f56444acc90c84885312",
+    "lineageIsFutureExactArtifactIdentity": false
+  },
+  "foundationContractBaseline": {
+    "applicationContract": {
+      "identity": "CON-023",
+      "version": "1.1"
+    },
+    "genericApplicationDependency": {
+      "identity": "CON-001",
+      "version": "1.0"
+    },
+    "integrationProfiles": [
+      "FDN-006@1.0",
+      "FDN-007@1.0"
+    ],
+    "genericAdmissionRuntimePath": "EXISTING_SEALED_FOUNDATION_CAPABILITY",
+    "foundationChangeRequired": false
+  },
+  "admissionCandidate": {
+    "subjectKind": "APPLICATION",
+    "applicationIdentity": "FALCON_SHARED_WEB",
+    "manifestIdentity": "SHARED_WEB_APPLICATION_ADMISSION_MANIFEST_V1",
+    "manifestVersion": "1.0",
+    "exactArtifactIdentityBindingMode": "AUTHORITATIVE_AT_OPERATION",
+    "positiveCanonicalAdmissionEvidenceBindingMode": "AUTHORITATIVE_AT_OPERATION",
+    "lifecycleAttachEligibilityAndDecisionIdentityBindingMode": "AUTHORITATIVE_AT_OPERATION",
+    "resourceGrantBindingMode": "AUTHORITATIVE_AT_OPERATION",
+    "observedAtBindingMode": "AUTHORITATIVE_AT_OPERATION"
+  },
+  "runtimeRegistrationTemplate": {
+    "applicationIdentity": "FALCON_SHARED_WEB",
+    "registrationBindingMode": "AUTHORITATIVE_AT_OPERATION",
+    "runtimePortBindingMode": "AUTHORITATIVE_AT_OPERATION",
+    "activationRequested": false,
+    "deploymentRequested": false,
+    "connectivityRequested": false,
+    "productionUseRequested": false,
+    "businessAuthorityRequested": false,
+    "tradingAuthorityRequested": false
+  },
+  "bindAtOperation": {
+    "foundationAdmissionRuntime": [
+      "EXACT_WEB_ARTIFACT_IDENTITY",
+      "POSITIVE_CANONICAL_ADMISSION_EVIDENCE",
+      "LIFECYCLE_ATTACH_ELIGIBILITY_AND_DECISION_IDENTITY",
+      "CURRENT_FOUNDATION_RESOURCE_GRANTS",
+      "AUTHORITATIVE_OBSERVED_AT"
+    ],
+    "webProviderRuntime": [
+      "AUTHORITATIVE_WEB_PROVIDER_SERVICE_PRINCIPAL",
+      "AUTHORITATIVE_WEB_PROVIDER_SERVICE_ROLE"
+    ],
+    "credentialReferences": [
+      {
+        "fcr": "FCR-0176",
+        "requirement": "VALID_OPAQUE_WEB_CREDENTIAL_REFERENCE",
+        "secretBytesAllowed": false
+      },
+      {
+        "fcr": "FCR-0177",
+        "requirement": "VALID_OPAQUE_WEB_CREDENTIAL_REFERENCE",
+        "secretBytesAllowed": false
+      },
+      {
+        "fcr": "FCR-0196",
+        "requirement": "VALID_OPAQUE_WEB_CREDENTIAL_REFERENCE",
+        "secretBytesAllowed": false
+      },
+      {
+        "fcr": "FCR-0197",
+        "requirement": "VALID_OPAQUE_WEB_CREDENTIAL_REFERENCE",
+        "secretBytesAllowed": false
+      }
+    ],
+    "publicProviderRoutesWithoutCredentialReference": [
+      "FCR-0173",
+      "FCR-0174",
+      "FCR-0175",
+      "FCR-0198",
+      "FCR-0199",
+      "FCR-0200"
+    ],
+    "productionIncidentRuntime": [
+      "AUTHORITATIVE_PRINCIPAL_TENANT_SESSION",
+      "TENANT_SCOPED_PRODUCTION_PERSISTENCE",
+      "GOVERNED_SCREENSHOT_SCANNER",
+      "GOVERNED_SUPPORT_TRANSPORT",
+      "LOCAL_WHISPER_CPP_PIPER_RUNTIME"
+    ]
+  },
+  "preflightSemantics": {
+    "webPreparation": "READY",
+    "foundationGenericCapability": "READY",
+    "runtimeCurrentValues": "BIND_AT_OPERATION",
+    "missingBindAtOperationValuesInvalidatePreparation": false,
+    "missingBindAtOperationValuesPreventActualOperation": true,
+    "fullPlugReadyContractPreflightTarget": "VERIFIED",
+    "fullPlugReadyPreflightTarget": "VERIFIED_BY_COMPOSITION"
+  },
+  "mandatoryNoLinkState": {
+    "actualAdmissionExecuted": false,
+    "actualCanonicalRuntimeRegistrationExecuted": false,
+    "runtimeActivationExecuted": false,
+    "deploymentExecuted": false,
+    "providerConnectivityExecuted": false,
+    "productionUseAuthorized": false,
+    "businessAuthorityGranted": false,
+    "tradingAuthorityGranted": false
+  },
+  "secretSafety": {
+    "rawSecretBytesPresent": false,
+    "credentialReferencesAreOpaqueIdentifiersOnly": true,
+    "ordinaryWebStateMayContainSecretBytes": false
+  }
+}

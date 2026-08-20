@@ -1,0 +1,482 @@
+﻿[
+    {
+        "FCR":  "FCR-0002",
+        "Issue":  2,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0002] FSATS - Example intake placeholder",
+        "UpdatedAt":  "2026-08-07T16:28:14Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/2"
+    },
+    {
+        "FCR":  "FCR-0003",
+        "Issue":  3,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0003] Coordination - FCR workflow activation record",
+        "UpdatedAt":  "2026-08-07T16:28:35Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/3"
+    },
+    {
+        "FCR":  "FCR-0004",
+        "Issue":  4,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0004] Falcon Trading Guardian - governed protection command route",
+        "UpdatedAt":  "2026-08-14T12:12:19Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/4"
+    },
+    {
+        "FCR":  "FCR-0005",
+        "Issue":  5,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0005] FSAPMA - operational market-data delivery contract",
+        "UpdatedAt":  "2026-08-14T12:12:34Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/5"
+    },
+    {
+        "FCR":  "FCR-0006",
+        "Issue":  6,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0006] FSATS Applications - event evidence and replay delivery",
+        "UpdatedAt":  "2026-08-14T12:12:49Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/6"
+    },
+    {
+        "FCR":  "FCR-0007",
+        "Issue":  7,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0007] Falcon Trading Application - TARC Foundation resource request boundary",
+        "UpdatedAt":  "2026-08-10T03:40:15Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/7"
+    },
+    {
+        "FCR":  "FCR-0008",
+        "Issue":  8,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0008] Falcon Awareness - research-only Internet egress boundary",
+        "UpdatedAt":  "2026-08-18T06:42:16Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/8"
+    },
+    {
+        "FCR":  "FCR-0009",
+        "Issue":  9,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0009] FSATS Applications - latency deadline and QoS aware transport",
+        "UpdatedAt":  "2026-08-18T06:42:25Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/9"
+    },
+    {
+        "FCR":  "FCR-0010",
+        "Issue":  10,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0010] FSATS Applications - resource pressure and load-shedding signals",
+        "UpdatedAt":  "2026-08-18T06:42:34Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/10"
+    },
+    {
+        "FCR":  "FCR-0011",
+        "Issue":  11,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0011] FSTSimA - enforce non-Live isolation and egress guard",
+        "UpdatedAt":  "2026-08-18T06:43:01Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/11"
+    },
+    {
+        "FCR":  "FCR-0012",
+        "Issue":  12,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0012] FSA - comprehensive Owner governance, integrity containment, monitoring and bounded evolution control plane",
+        "UpdatedAt":  "2026-08-18T06:43:30Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/12"
+    },
+    {
+        "FCR":  "FCR-0013",
+        "Issue":  13,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0013] FSAPMA - governed operational provider egress and credential-reference boundary",
+        "UpdatedAt":  "2026-08-18T06:44:05Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/13"
+    },
+    {
+        "FCR":  "FCR-0014",
+        "Issue":  14,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0014] Trading Execution - governed external broker execution egress and credential-reference boundary",
+        "UpdatedAt":  "2026-08-18T06:44:23Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/14"
+    },
+    {
+        "FCR":  "FCR-0016",
+        "Issue":  16,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0016] Falcon Application - canonical cross-workstream Foundation artifact consumption boundary",
+        "UpdatedAt":  "2026-08-17T21:08:51Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/16"
+    },
+    {
+        "FCR":  "FCR-0029",
+        "Issue":  29,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0029] Falcon Applications - WITHDRAWAL REQUESTED ΓÇö prior non-Trading resource-request clarification",
+        "UpdatedAt":  "2026-08-09T15:11:06Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/29"
+    },
+    {
+        "FCR":  "FCR-0030",
+        "Issue":  30,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0030] Falcon Awareness - MSA to FSA governed interface and transport binding clarification",
+        "UpdatedAt":  "2026-08-18T06:44:45Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/30"
+    },
+    {
+        "FCR":  "FCR-0031",
+        "Issue":  31,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0031] FSATS - aggregate resource-management boundary for FSARM",
+        "UpdatedAt":  "2026-08-18T06:45:01Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/31"
+    },
+    {
+        "FCR":  "FCR-0076",
+        "Issue":  76,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0076] Shared Falcon Web - Foundation planning inputs for Web and Owner emergency mobile control",
+        "UpdatedAt":  "2026-08-18T21:06:11Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/76"
+    },
+    {
+        "FCR":  "FCR-0077",
+        "Issue":  77,
+        "State":  "OPEN",
+        "Title":  "[FCR-0077] Shared Falcon Web - Application-owned planning inputs for Web and emergency mobile control",
+        "UpdatedAt":  "2026-08-14T12:00:29Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/77"
+    },
+    {
+        "FCR":  "FCR-0080",
+        "Issue":  80,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0080] FSATS - external communication contract model with Shared Applications and Foundation",
+        "UpdatedAt":  "2026-08-14T08:41:06Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/80"
+    },
+    {
+        "FCR":  "FCR-0081",
+        "Issue":  81,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0081] Shared Falcon Web - FSATS user onboarding and external credential requirements",
+        "UpdatedAt":  "2026-08-14T08:23:53Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/81"
+    },
+    {
+        "FCR":  "FCR-0082",
+        "Issue":  82,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0082] FSATS - generic AI/FSA containment and safety-continuity boundary",
+        "UpdatedAt":  "2026-08-18T20:49:02Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/82"
+    },
+    {
+        "FCR":  "FCR-0083",
+        "Issue":  83,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0083] FSATS to Shared Web - AI-independent emergency visibility and control continuity",
+        "UpdatedAt":  "2026-08-14T07:31:51Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/83"
+    },
+    {
+        "FCR":  "FCR-0087",
+        "Issue":  87,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0087] Foundation Coordination - Application ACK for future-stage Waiting On rule",
+        "UpdatedAt":  "2026-08-14T11:19:01Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/87"
+    },
+    {
+        "FCR":  "FCR-0088",
+        "Issue":  88,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0088] Foundation Coordination - Shared Web ACK for future-stage Waiting On rule",
+        "UpdatedAt":  "2026-08-14T11:19:10Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/88"
+    },
+    {
+        "FCR":  "FCR-0092",
+        "Issue":  92,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0092] Foundation - Shared Web-owned architecture and Foundation-facing clarification",
+        "UpdatedAt":  "2026-08-14T17:10:15Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/92"
+    },
+    {
+        "FCR":  "FCR-0094",
+        "Issue":  94,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0094] Foundation - Application-owned Shared Web interaction and domain-boundary clarification",
+        "UpdatedAt":  "2026-08-14T17:10:30Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/94"
+    },
+    {
+        "FCR":  "FCR-0095",
+        "Issue":  95,
+        "State":  "OPEN",
+        "Title":  "[FCR-0095] Shared Web - Guardian user-targeted notification and action semantics",
+        "UpdatedAt":  "2026-08-19T18:07:09Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/95"
+    },
+    {
+        "FCR":  "FCR-0125",
+        "Issue":  125,
+        "State":  "OPEN",
+        "Title":  "[FCR-0125] Shared Falcon Web - chart market-data request/response and on-demand instrument contract",
+        "UpdatedAt":  "2026-08-19T18:07:24Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/125"
+    },
+    {
+        "FCR":  "FCR-0126",
+        "Issue":  126,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0126] Shared Falcon Web - strategy and school chart-overlay projection contract",
+        "UpdatedAt":  "2026-08-16T19:50:20Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/126"
+    },
+    {
+        "FCR":  "FCR-0127",
+        "Issue":  127,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0127] Shared Falcon Web - on-demand analysis request for instrument outside active universe",
+        "UpdatedAt":  "2026-08-16T19:50:36Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/127"
+    },
+    {
+        "FCR":  "FCR-0128",
+        "Issue":  128,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0128] Shared Falcon Web - dynamic School/Strategy catalog and availability projection",
+        "UpdatedAt":  "2026-08-16T19:50:51Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/128"
+    },
+    {
+        "FCR":  "FCR-0130",
+        "Issue":  130,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0130] Shared Falcon Web - detailed AI asset analysis and multi-strategy/school synthesis contract",
+        "UpdatedAt":  "2026-08-16T19:51:08Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/130"
+    },
+    {
+        "FCR":  "FCR-0133",
+        "Issue":  133,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0133] Shared Falcon Web - customer portfolio positions trades and performance projection contract",
+        "UpdatedAt":  "2026-08-16T19:51:33Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/133"
+    },
+    {
+        "FCR":  "FCR-0152",
+        "Issue":  152,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0152] Shared Falcon Web - authoritative Falcon identity session and MFA boundary",
+        "UpdatedAt":  "2026-08-18T21:06:23Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/152"
+    },
+    {
+        "FCR":  "FCR-0169",
+        "Issue":  169,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0169] Shared Falcon Web - authoritative Falcon OS operational projection for truthful Web presentation",
+        "UpdatedAt":  "2026-08-17T22:45:15Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/169"
+    },
+    {
+        "FCR":  "FCR-0173",
+        "Issue":  173,
+        "State":  "OPEN",
+        "Title":  "[FCR-0173] Shared Falcon Web - Binance presentation-only provider egress",
+        "UpdatedAt":  "2026-08-19T18:07:54Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/173"
+    },
+    {
+        "FCR":  "FCR-0174",
+        "Issue":  174,
+        "State":  "OPEN",
+        "Title":  "[FCR-0174] Shared Falcon Web - Coinbase presentation-only provider egress",
+        "UpdatedAt":  "2026-08-19T18:08:08Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/174"
+    },
+    {
+        "FCR":  "FCR-0175",
+        "Issue":  175,
+        "State":  "OPEN",
+        "Title":  "[FCR-0175] Shared Falcon Web - Bybit presentation-only provider egress",
+        "UpdatedAt":  "2026-08-19T18:08:21Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/175"
+    },
+    {
+        "FCR":  "FCR-0176",
+        "Issue":  176,
+        "State":  "OPEN",
+        "Title":  "[FCR-0176] Shared Falcon Web - Alpaca IEX presentation-only provider egress",
+        "UpdatedAt":  "2026-08-19T18:23:09Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/176"
+    },
+    {
+        "FCR":  "FCR-0177",
+        "Issue":  177,
+        "State":  "OPEN",
+        "Title":  "[FCR-0177] Shared Falcon Web - Finnhub presentation-only provider egress",
+        "UpdatedAt":  "2026-08-19T18:23:25Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/177"
+    },
+    {
+        "FCR":  "FCR-0196",
+        "Issue":  196,
+        "State":  "OPEN",
+        "Title":  "[FCR-0196] Shared Falcon Web - Alpaca US-equity universe presentation-only REST egress",
+        "UpdatedAt":  "2026-08-19T18:23:40Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/196"
+    },
+    {
+        "FCR":  "FCR-0197",
+        "Issue":  197,
+        "State":  "OPEN",
+        "Title":  "[FCR-0197] Shared Falcon Web - Alpaca US-equity historical bars presentation-only REST egress",
+        "UpdatedAt":  "2026-08-19T18:23:56Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/197"
+    },
+    {
+        "FCR":  "FCR-0198",
+        "Issue":  198,
+        "State":  "OPEN",
+        "Title":  "[FCR-0198] Shared Falcon Web - Binance crypto Spot universe presentation-only REST egress",
+        "UpdatedAt":  "2026-08-19T18:24:09Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/198"
+    },
+    {
+        "FCR":  "FCR-0199",
+        "Issue":  199,
+        "State":  "OPEN",
+        "Title":  "[FCR-0199] Shared Falcon Web - Binance crypto Spot historical klines presentation-only REST egress",
+        "UpdatedAt":  "2026-08-19T18:24:24Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/199"
+    },
+    {
+        "FCR":  "FCR-0200",
+        "Issue":  200,
+        "State":  "OPEN",
+        "Title":  "[FCR-0200] Shared Falcon Web - Binance broad-market mini ticker presentation-only WebSocket egress",
+        "UpdatedAt":  "2026-08-19T18:24:38Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/200"
+    },
+    {
+        "FCR":  "FCR-0203",
+        "Issue":  203,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0203] Shared Web - incident affected-position and FSTSimA shadow-monitoring projection semantics",
+        "UpdatedAt":  "2026-08-16T19:50:03Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/203"
+    },
+    {
+        "FCR":  "FCR-0220",
+        "Issue":  220,
+        "State":  "OPEN",
+        "Title":  "[FCR-0220] FSATS - advisory market onboarding, free-provider discovery, chart-source and Owner-action presentation semantics",
+        "UpdatedAt":  "2026-08-19T18:07:40Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/220"
+    },
+    {
+        "FCR":  "FCR-0224",
+        "Issue":  224,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0224] Foundation - Falcon-wide independent AI Kill Control Plane and Safe Core survival",
+        "UpdatedAt":  "2026-08-17T21:09:08Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/224"
+    },
+    {
+        "FCR":  "FCR-0225",
+        "Issue":  225,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0225] Foundation - Shared Web Owner AI Kill control path planning and binding",
+        "UpdatedAt":  "2026-08-16T19:46:52Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/225"
+    },
+    {
+        "FCR":  "FCR-0226",
+        "Issue":  226,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0226] Foundation - Application AI target registration containment and Kill binding planning",
+        "UpdatedAt":  "2026-08-17T21:09:25Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/226"
+    },
+    {
+        "FCR":  "FCR-0235",
+        "Issue":  235,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0235] Shared Falcon Web - Stage 16 identity FIL / Service Bus plug-and-play integration contract",
+        "UpdatedAt":  "2026-08-18T21:06:39Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/235"
+    },
+    {
+        "FCR":  "FCR-0237",
+        "Issue":  237,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0237] Shared Falcon Web - standing Owner pre-approval policy and delegated auto-accept authority contract",
+        "UpdatedAt":  "2026-08-18T20:56:42Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/237"
+    },
+    {
+        "FCR":  "FCR-0238",
+        "Issue":  238,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0238] FSATS to Shared Falcon Web - update classification semantics for Owner standing pre-approval list",
+        "UpdatedAt":  "2026-08-18T20:56:57Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/238"
+    },
+    {
+        "FCR":  "FCR-0239",
+        "Issue":  239,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0239] Shared Falcon Web - Stage 14 operational projection FIL plug-and-play runtime integration contract",
+        "UpdatedAt":  "2026-08-17T22:45:03Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/239"
+    },
+    {
+        "FCR":  "FCR-0241",
+        "Issue":  241,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0241] Shared Falcon Web - standing Owner preapproval and rollback command FIL transport contract",
+        "UpdatedAt":  "2026-08-18T20:56:31Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/241"
+    },
+    {
+        "FCR":  "FCR-0242",
+        "Issue":  242,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0242] Shared Falcon Web - Project Owner permanent FSATS full feature entitlement contract",
+        "UpdatedAt":  "2026-08-18T21:06:52Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/242"
+    },
+    {
+        "FCR":  "FCR-0252",
+        "Issue":  252,
+        "State":  "CLOSED",
+        "Title":  "[FCR-0252] Falcon Application Workstream - pre-live-seal conformance to FDN-006/FDN-007",
+        "UpdatedAt":  "2026-08-19T06:48:39Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/252"
+    },
+    {
+        "FCR":  "FCR-0253",
+        "Issue":  253,
+        "State":  "OPEN",
+        "Title":  "[FCR-0253] Shared Falcon Web Workstream - pre-live-seal conformance to FDN-006/FDN-007",
+        "UpdatedAt":  "2026-08-19T20:26:04Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/253"
+    },
+    {
+        "FCR":  "FCR-0254",
+        "Issue":  254,
+        "State":  "OPEN",
+        "Title":  "[FCR-0254] FSATS Application - Part 11 runtime onboarding admission and registration handoff",
+        "UpdatedAt":  "2026-08-19T13:43:56Z",
+        "URL":  "https://github.com/raed82iam/Falcon/issues/254"
+    }
+]

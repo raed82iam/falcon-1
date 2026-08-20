@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Falcon.FSATS.Trading.Contracts</AssemblyName>
+    <RootNamespace>Falcon.FSATS.Trading.Contracts</RootNamespace>
+    <PackageId>Falcon.FSATS.Trading.Contracts</PackageId>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+</Project>

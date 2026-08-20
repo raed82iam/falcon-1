@@ -1,0 +1,11 @@
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\FSTSimA\Falcon.FSATS.FSTSimA.Domain\bin\Release\net10.0\Falcon.FSATS.FSTSimA.Domain.deps.json
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\FSTSimA\Falcon.FSATS.FSTSimA.Domain\bin\Release\net10.0\Falcon.FSATS.FSTSimA.Domain.dll
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\FSTSimA\Falcon.FSATS.FSTSimA.Domain\bin\Release\net10.0\Falcon.FSATS.FSTSimA.Domain.pdb
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\FSTSimA\Falcon.FSATS.FSTSimA.Domain\obj\Release\net10.0\Falcon.FSATS.FSTSimA.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\FSTSimA\Falcon.FSATS.FSTSimA.Domain\obj\Release\net10.0\Falcon.FSATS.FSTSimA.Domain.AssemblyInfoInputs.cache
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\FSTSimA\Falcon.FSATS.FSTSimA.Domain\obj\Release\net10.0\Falcon.FSATS.FSTSimA.Domain.AssemblyInfo.cs
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\FSTSimA\Falcon.FSATS.FSTSimA.Domain\obj\Release\net10.0\Falcon.FSATS.FSTSimA.Domain.csproj.CoreCompileInputs.cache
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\FSTSimA\Falcon.FSATS.FSTSimA.Domain\obj\Release\net10.0\Falcon.FSATS.FSTSimA.Domain.dll
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\FSTSimA\Falcon.FSATS.FSTSimA.Domain\obj\Release\net10.0\refint\Falcon.FSATS.FSTSimA.Domain.dll
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\FSTSimA\Falcon.FSATS.FSTSimA.Domain\obj\Release\net10.0\Falcon.FSATS.FSTSimA.Domain.pdb
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\FSTSimA\Falcon.FSATS.FSTSimA.Domain\obj\Release\net10.0\ref\Falcon.FSATS.FSTSimA.Domain.dll

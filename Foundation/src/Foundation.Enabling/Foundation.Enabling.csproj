@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Foundation.Enabling</AssemblyName>
+    <RootNamespace>Foundation.Enabling</RootNamespace>
+    <Description>Scoped local Foundation-enabling realizations authorized by GOV-058. Not an operational Falcon runtime.</Description>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="src/Falcon.Stage0B.Candidates/Falcon.Stage0B.Candidates.csproj" />
+  <Project Path="verification/Falcon.Stage0B.Verifier/Falcon.Stage0B.Verifier.csproj" />
+</Solution>

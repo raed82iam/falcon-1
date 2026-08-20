@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>Falcon.Foundation.Architecture.Tests</AssemblyName>
+    <RootNamespace>Falcon.Foundation.Architecture.Tests</RootNamespace>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Foundation.Core\Foundation.Core.csproj" />
+    <ProjectReference Include="..\..\src\Foundation.Contracts\Foundation.Contracts.csproj" />
+    <ProjectReference Include="..\..\src\Foundation.Infrastructure\Foundation.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

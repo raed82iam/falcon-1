@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+    <AssemblyName>Foundation.MessageRouting</AssemblyName>
+    <RootNamespace>Foundation.MessageRouting</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Foundation.Contracts\Foundation.Contracts.csproj" />
+    <ProjectReference Include="..\Foundation.ApplicationManifest\Foundation.ApplicationManifest.csproj" />
+    <ProjectReference Include="..\Foundation.MessageAdmission\Foundation.MessageAdmission.csproj" />
+  </ItemGroup>
+</Project>

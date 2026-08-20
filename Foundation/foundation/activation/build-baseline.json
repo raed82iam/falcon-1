@@ -1,0 +1,29 @@
+{
+  "baselineId": "FALCON-FOUNDATION-BUILD-LOCAL-1",
+  "version": "1.0",
+  "status": "ACTIVATION_CANDIDATE",
+  "buildIntent": "STAGE_0C_REMEDIATION_VERIFICATION",
+  "targetFramework": "net10.0",
+  "configuration": "Release",
+  "deterministic": true,
+  "continuousIntegrationBuild": true,
+  "treatWarningsAsErrors": true,
+  "allowedDependencyClasses": [
+    ".NET Base Class Library"
+  ],
+  "packageSources": [],
+  "externalPackages": [],
+  "environmentProfileId": "FALCON-FOUNDATION-WINDOWS-LOCAL-1",
+  "requiredResults": {
+    "warnings": 0,
+    "errors": 0,
+    "evidenceCompleteness": "COMPLETE"
+  },
+  "nonAuthorities": [
+    "NO_RELEASE",
+    "NO_STAGE_1",
+    "NO_PRODUCTION",
+    "NO_CLOUD",
+    "NO_FINANCIAL_AUTHORITY"
+  ]
+}

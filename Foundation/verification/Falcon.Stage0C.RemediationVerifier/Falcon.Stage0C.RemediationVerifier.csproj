@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>Falcon.Stage0C.RemediationVerifier</AssemblyName>
+    <RootNamespace>Falcon.Stage0C.RemediationVerifier</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Foundation.Enabling\Foundation.Enabling.csproj" />
+  </ItemGroup>
+</Project>

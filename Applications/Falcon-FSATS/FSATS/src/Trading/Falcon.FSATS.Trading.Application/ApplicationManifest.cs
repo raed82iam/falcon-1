@@ -1,0 +1,114 @@
+namespace Falcon.FSATS.Trading.Application;
+
+public sealed record ApplicationResourceProfile(
+    string MinimumSafe,
+    string Desired,
+    string CeilingOrUsefulBound,
+    string PressureSemantics,
+    string Reclaimability,
+    string DegradedOrSheddingSemantics,
+    string RestorationSemantics);
+
+public sealed record ApplicationManifest(
+    string ApplicationId,
+    string PackageId,
+    string Version,
+    string Owner,
+    string Purpose,
+    string PackageProvenance,
+    string PackageIntegrityPolicy,
+    string CompatibilityPolicy,
+    string LifecycleState,
+    string OwnedBusinessBoundary,
+    string MsaId,
+    IReadOnlyList<string> LsaIds,
+    IReadOnlyList<string> CsaIds,
+    string CsaEligibilityPolicy,
+    IReadOnlyList<string> DeclaredDependencies,
+    IReadOnlyList<string> RequiredFoundationCapabilities,
+    IReadOnlyList<string> RequiredFoundationContracts,
+    IReadOnlyList<string> ProvidedCapabilities,
+    IReadOnlyList<string> DeclaredConsumers,
+    IReadOnlyList<string> Permissions,
+    IReadOnlyList<string> AuthorityRequests,
+    string SecurityProfile,
+    string ResourcePolicy,
+    string PersistencePolicy,
+    string CommunicationPolicy,
+    string ConfigurationPolicy,
+    string EvidencePolicy,
+    string LifecyclePolicy,
+    string HealthPolicy,
+    string FailureContainmentPolicy,
+    string SelfDevelopmentPolicy,
+    string GuardianRequirement,
+    string ProtectionInterface,
+    string RollbackPlan,
+    IReadOnlyList<string> ProhibitedResponsibilities,
+    bool RuntimeAuthorized,
+    bool ExternalEgressAuthorized)
+{
+    public ApplicationResourceProfile ResourceProfile { get; init; } = new("UNDECLARED", "UNDECLARED", "UNDECLARED", "UNDECLARED", "UNDECLARED", "UNDECLARED", "UNDECLARED");
+    public string SafetyContinuityPolicy { get; init; } = "UNDECLARED";
+    public string AiRepairRecoveryPolicy { get; init; } = "UNDECLARED";
+    public string ReplacementRemovalPolicy { get; init; } = "UNDECLARED";
+    public string ManifestGeneration { get; init; } = "PART3_BASE_MANIFEST_GENERATION";
+    public string ManifestGenerationLifecycleState { get; init; } = "PART3_DURABILITY_IMPLEMENTATION_ONLY_NOT_RUNTIME_ACTIVE";
+    public string CurrentGovernedApplicationState { get; init; } = "PART8_OWNER_ACCEPTED_AND_CLOSED_NOT_RUNTIME_ACTIVE";
+    public bool CurrentGovernedStateGrantsRuntimeAuthority { get; init; } = false;
+}
+
+public static class TradingManifest
+{
+    public static ApplicationManifest Current { get; } = new(
+        "FSATS-TRADING",
+        "Falcon.FSATS.Trading",
+        "0.1.0-part3",
+        "FSATS Application Workstream",
+        "Trading business workflow, strategy orchestration, unified risk, portfolio, execution interpretation and learning.",
+        "APPLICATION_DEVELOPMENT_GOVERNED_SOURCE",
+        "EXACT_BUILD_ARTIFACT_IDENTITY_AND_DIGEST_REQUIRED_BEFORE_ADMISSION",
+        "CONTRACT_VERSION_AND_FOUNDATION_BINDING_MUST_BE_EXPLICITLY_VERIFIED",
+        "PART3_DURABILITY_IMPLEMENTATION_ONLY_NOT_RUNTIME_ACTIVE",
+        "TRADING_BUSINESS_STATE_STRATEGY_RISK_PORTFOLIO_AND_EXECUTION_INTERPRETATION_ONLY",
+        "MSA-TRADING-01",
+        Array.AsReadOnly(Enumerable.Range(1, 13).Select(i => $"T-LSA-{i:00}").ToArray()),
+        Array.AsReadOnly(new[] { "CSA-T05-01", "CSA-T06-01", "CSA-T12-01" }),
+        "CSA_ONLY_FOR_OWNER_ACCEPTED_ELIGIBLE_INTELLIGENT_COMPONENTS_WITH_EXACT_PARENT_LSA",
+        Array.AsReadOnly(new[] { "FSAPMA:GOVERNED_OPERATIONAL_DATA", "TRADING_GUARDIAN:GOVERNED_PROTECTION", "APP-RSC:GOVERNED_RESOURCE_COORDINATION" }),
+        Array.AsReadOnly(new[] { "ApplicationLifecycle", "Communication", "Evidence", "Resources", "Security", "Persistence" }),
+        Array.AsReadOnly(new[] { "APP-001", "CON-023", "FIL", "SERVICE_BUS", "LIFECYCLE", "RESOURCE_GOVERNANCE", "SECURITY", "EVIDENCE", "PERSISTENCE" }),
+        Array.AsReadOnly(new[] { "TRADING_DECISION_PREPARATION", "UNIFIED_RISK_GATE", "STRATEGY_SELECTION", "PORTFOLIO_AND_EXECUTION_INTERPRETATION", "APPLICATION_DURABLE_RESTART_RECONSTRUCTION" }),
+        Array.AsReadOnly(new[] { "AUTHORIZED_FSATS_INTERNAL_CONSUMERS_ONLY" }),
+        Array.AsReadOnly(new[] { "APPLICATION_OWNED_STATE", "DECLARED_CONTRACT_CONSUMPTION", "GOVERNED_PERSISTENCE_PORT_ONLY", "NO_UNDECLARED_CROSS_APPLICATION_INTERNAL_ACCESS" }),
+        Array.AsReadOnly(new[] { "NO_RUNTIME_AUTHORITY_REQUEST_ACTIVE", "NO_EXTERNAL_EGRESS_AUTHORITY_REQUEST_ACTIVE", "NO_PRODUCTION_PERSISTENCE_BINDING_AUTHORITY_ACTIVE" }),
+        "DENY_UNDECLARED_ROUTE_PERMISSION_SECRET_AND_AUTHORITY; BROKER_ACCOUNT_CREDENTIAL_BYTES_NOT_OWNED; NO_CUSTOMER_OR_USER_IDENTITY_OWNERSHIP",
+        "USE_ONLY_FOUNDATION_ADMITTED_ALLOCATION; APP_INTERNAL_DISTRIBUTION_ONLY; NO_FOUNDATION_GRANT_MINTING; DEGRADE_OR_DENY_WHEN_LIMITS_CANNOT_BE_SAFELY_MET",
+        "APPLICATION_OWNED_TRADING_STATE_HAS_VERSIONED_DIGEST_BOUND_DURABLE_RECONSTRUCTION_SEMANTICS; CONTAINMENT_TOMBSTONES_RECONCILIATION_OBLIGATIONS_AND_CAPITAL_RESERVATIONS_MUST_SURVIVE_RESTART; GOVERNED_FOUNDATION_PERSISTENCE_BINDING_REQUIRED_FOR_RUNTIME; NO_LOCAL_PRODUCTION_SUBSTITUTE",
+        "DECLARED_GOVERNED_CONTRACTS_ONLY; ROUTE_EXISTENCE_DOES_NOT_CREATE_AUTHORITY; REPLAY_TEST_SIMULATION_NEVER_PROMOTED_TO_OPERATIONAL_TRUTH",
+        "GOVERNED_CONFIGURATION_ONLY; MATERIAL_AUTHORITY_OR_IDENTITY_CHANGE_REQUIRES_REVIEW",
+        "ATTRIBUTABLE_RECONSTRUCTABLE_DECISION_RISK_EXECUTION_RECOVERY_DURABILITY_AND_COMPACTION_EVIDENCE_REQUIRED",
+        "PACKAGE_RECEIVED_TO_ACTIVE_STATES_REMAIN_DISTINCT; PART3_DOES_NOT_GRANT_ACTIVATION; RESTART_DOES_NOT_GRANT_RECOVERY",
+        "REPORT_MSA_LSA_CSA_HEALTH_READINESS_TRUST_DEGRADED_AND_RECONSTRUCTION_STATE_WITHOUT_SELF_GRANTING_AUTHORITY",
+        "CONTAIN_TO_EXACT_BROKER_ACCOUNT_ROUTE_OR_APPLICATION_SCOPE_WHEN_LOCALITY_IS_TRUSTWORTHY; EXPAND_ON_UNKNOWN_BLAST_RADIUS; FSATS_DOES_NOT_OWN_CUSTOMER_USER_IDENTITY",
+        "CSA_LSA_MSA_CANDIDATES_ISOLATED_AND_EVIDENCE_BOUND; PRODUCTION_PATH_ORIGIN_TO_PARENT_TO_MSA_TO_FSA_TO_SEPARATE_OWNER_GOVERNANCE",
+        "TRADING_GUARDIAN_REQUIRED_FOR_TRADING_PROTECTION; GUARDIAN_DOES_NOT_OWN_TRADING_BUSINESS_MEANING",
+        "GOVERNED_PROTECTION_COMMAND_AND_OUTCOME_CONTRACT; PROTECTIVE_ACTION_TRUTH_REMAINS_ATTRIBUTABLE_AND_FAIL_CLOSED",
+        "ROLLBACK_OR_APPROVED_CORRECTIVE_ACTION_MUST_PRESERVE_STATE_EVIDENCE_AUTHORITY_RECONCILIATION_DURABLE_IDENTITY_FENCES_AND_CONTAINMENT; RESTART_IS_NOT_RECOVERY",
+        Array.AsReadOnly(new[] { "FoundationLifecycleOwnership", "FoundationResourceGovernance", "FoundationPersistenceImplementation", "ProviderGatewayOwnership", "GuardianAuthority", "FSAOwnership", "CustomerUserIdentityOwnership" }),
+        RuntimeAuthorized: false,
+        ExternalEgressAuthorized: false)
+    {
+        ResourceProfile = new(
+            "SAFE_PROTECTION_RECONCILIATION_DURABLE_RESTART_FENCING_AND_OPEN_OBLIGATION_OWNERSHIP_WITHIN_FOUNDATION_ADMITTED_ALLOCATION",
+            "NORMAL_TRADING_ANALYSIS_DECISION_AND_MONITORING_CAPACITY_WITHIN_ADMITTED_ALLOCATION",
+            "FOUNDATION_ADMITTED_CEILING_OR_USEFUL_BOUND_ONLY_NEVER_APPLICATION_MINTED",
+            "RESOURCE_PRESSURE_MUST_REDUCE_OR_DENY_RISK_INCREASING_WORK_BEFORE_SAFETY_CONTINUITY",
+            "NON_PROTECTIVE_ANALYSIS_EXPERIMENT_AND_OPPORTUNITY_WORK_IS_RECLAIMABLE_BEFORE_OPEN_OBLIGATION_SAFETY",
+            "SHED_NONESSENTIAL_ANALYSIS_AND_NEW_RISK; NEVER_EVICT_ACTIVE_CONTAINMENT_RECONCILIATION_OR_NO_RESURRECTION_IDENTITY_FENCES",
+            "RESTORE_ONLY_AFTER_CURRENT_FOUNDATION_ENVELOPE_TRADING_TRUST_EPOCH_AND_REQUIRED_RECONSTRUCTED_TRUTH_ARE_REVALIDATED"),
+        SafetyContinuityPolicy = "KILLED_OR_UNTRUSTED_INTELLIGENCE_CANNOT_ORPHAN_OPEN_POSITIONS_ORDERS_PROTECTION_OR_RECONCILIATION; RESTART_PRESERVES_CONTAINMENT_AND_UNKNOWN_EXTERNAL_OUTCOMES; MINIMUM_NECESSARY_CONTAINMENT; UNKNOWN_BLAST_RADIUS_EXPANDS; NO_NEW_RISK_WITHOUT_TRUSTED_FALLBACK",
+        AiRepairRecoveryPolicy = "DETECT->CONTAIN->INVESTIGATE->REPAIR_IN_ISOLATION->INDEPENDENT_VALIDATION->CONTROLLED_REVIVAL; R1_PREAUTHORIZED_NONSEMANTIC_ONLY; R2_OWNER_APPROVAL_BEFORE_REVIVAL; R3_OWNER_GOVERNANCE_MANDATORY",
+        ReplacementRemovalPolicy = "RECONCILE_IDENTITY_ROUTES_PERMISSIONS_RESOURCES_PERSISTED_STATE_EVIDENCE_OPEN_OBLIGATIONS_CONTAINMENT_RECOVERY_STALE_EPOCHS_DURABLE_TOMBSTONES_AND_DEPENDENCIES; NO_SIBLING_INHERITS_AUTHORITY_BY_DEFAULT"
+    };
+}

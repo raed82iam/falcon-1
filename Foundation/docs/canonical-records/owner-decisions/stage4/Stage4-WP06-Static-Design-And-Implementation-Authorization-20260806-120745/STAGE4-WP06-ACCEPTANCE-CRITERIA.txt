@@ -1,0 +1,82 @@
+﻿FALCON FOUNDATION
+STAGE 4 WP-06 ACCEPTANCE CRITERIA
+
+BUILD AND REGRESSION
+
+- Clean Release build passes.
+- Architecture test passes.
+- Security test passes.
+- Stage 2 accepted regressions pass.
+- Stage 3 WP-01 through WP-06 pass.
+- Stage 4 WP-01 through WP-05 pass.
+- WP-06 verifier passes twice from the same Release outputs.
+- WP-06 verifier output is deterministic.
+
+VPL-002
+
+- Permitted control action is separately authorized and succeeds.
+- Prohibited action is denied.
+- Expired delegation is denied.
+- Revoked delegation is denied.
+- Retry is denied.
+- Replay is denied.
+- FIL or declared execution-boundary bypass is denied.
+- Authoritative State remains unchanged for every denied path.
+- No prohibited side effect occurs.
+- Denial evidence is complete and attributable.
+- Independent inspection confirms no action occurred.
+
+VPL-003
+
+- One valid transition produces one authoritative successor.
+- Invalid target is rejected.
+- Stale prior State is rejected.
+- Identical duplicate is safe and deterministic.
+- Conflicting requests produce at most one authoritative successor.
+- Unauthorized requester is rejected.
+- Rejected requests remain visible.
+- Rejected requests do not create false success events.
+- Restart invokes RestartReconciler before continuation.
+- Consistent restart may continue.
+- Missing-required, divergent, corrupted, ambiguous, or unverified restart
+  requires restriction or challenge.
+- State does not regress or become fabricated.
+- Durable ReconciliationState is persisted.
+- Independent evidence-to-State comparison passes.
+
+MUTATION AND FAIL-CLOSED TESTS
+
+The verifier must fail when any of the following is mutated independently:
+
+- Authority result;
+- requester identity;
+- delegation status;
+- request identity;
+- prior State version;
+- target State;
+- commit identity or phase;
+- State digest;
+- Evidence identity or digest;
+- Accepted Fact identity;
+- anchor head;
+- reconciliation result;
+- continuation decision;
+- lifecycle success event.
+
+BOUNDARY CONDITIONS
+
+- No second lifecycle controller.
+- No second State owner.
+- No second Evidence owner.
+- No application business state.
+- No time-based Owner-authority or evidence-validity gate.
+- No Git, deployment, runtime activation, Stage 5, or Stage 4 closure.
+- WP-06 remains implementation-only until independent review and Owner
+  acceptance are separately issued.
+
+PASS CLASSIFICATION
+
+STAGE4_WP06_LOCAL_VERIFICATION = PASS
+VPL_002 = PASS
+VPL_003 = PASS
+READY_FOR_FINAL_STAGE4_WP06_INDEPENDENT_REVIEW

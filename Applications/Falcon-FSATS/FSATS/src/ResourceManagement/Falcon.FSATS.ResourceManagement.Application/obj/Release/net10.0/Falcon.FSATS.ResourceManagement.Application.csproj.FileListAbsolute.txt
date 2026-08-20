@@ -1,0 +1,17 @@
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\ResourceManagement\Falcon.FSATS.ResourceManagement.Application\bin\Release\net10.0\Falcon.FSATS.ResourceManagement.Application.deps.json
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\ResourceManagement\Falcon.FSATS.ResourceManagement.Application\bin\Release\net10.0\Falcon.FSATS.ResourceManagement.Application.dll
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\ResourceManagement\Falcon.FSATS.ResourceManagement.Application\bin\Release\net10.0\Falcon.FSATS.ResourceManagement.Application.pdb
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\ResourceManagement\Falcon.FSATS.ResourceManagement.Application\bin\Release\net10.0\Falcon.FSATS.ResourceManagement.Contracts.dll
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\ResourceManagement\Falcon.FSATS.ResourceManagement.Application\bin\Release\net10.0\Falcon.FSATS.ResourceManagement.Domain.dll
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\ResourceManagement\Falcon.FSATS.ResourceManagement.Application\bin\Release\net10.0\Falcon.FSATS.ResourceManagement.Contracts.pdb
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\ResourceManagement\Falcon.FSATS.ResourceManagement.Application\bin\Release\net10.0\Falcon.FSATS.ResourceManagement.Domain.pdb
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\ResourceManagement\Falcon.FSATS.ResourceManagement.Application\obj\Release\net10.0\Falcon.FSATS.ResourceManagement.Application.csproj.AssemblyReference.cache
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\ResourceManagement\Falcon.FSATS.ResourceManagement.Application\obj\Release\net10.0\Falcon.FSATS.ResourceManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\ResourceManagement\Falcon.FSATS.ResourceManagement.Application\obj\Release\net10.0\Falcon.FSATS.ResourceManagement.Application.AssemblyInfoInputs.cache
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\ResourceManagement\Falcon.FSATS.ResourceManagement.Application\obj\Release\net10.0\Falcon.FSATS.ResourceManagement.Application.AssemblyInfo.cs
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\ResourceManagement\Falcon.FSATS.ResourceManagement.Application\obj\Release\net10.0\Falcon.FSATS.ResourceManagement.Application.csproj.CoreCompileInputs.cache
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\ResourceManagement\Falcon.FSATS.ResourceManagement.Application\obj\Release\net10.0\Falcon.F.E394F5AD.Up2Date
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\ResourceManagement\Falcon.FSATS.ResourceManagement.Application\obj\Release\net10.0\Falcon.FSATS.ResourceManagement.Application.dll
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\ResourceManagement\Falcon.FSATS.ResourceManagement.Application\obj\Release\net10.0\refint\Falcon.FSATS.ResourceManagement.Application.dll
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\ResourceManagement\Falcon.FSATS.ResourceManagement.Application\obj\Release\net10.0\Falcon.FSATS.ResourceManagement.Application.pdb
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\ResourceManagement\Falcon.FSATS.ResourceManagement.Application\obj\Release\net10.0\ref\Falcon.FSATS.ResourceManagement.Application.dll

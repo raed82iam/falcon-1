@@ -1,0 +1,13 @@
+<Solution>
+  <Project Path="src/Falcon.FSATS.Primitives/Falcon.FSATS.Primitives.csproj" />
+  <Project Path="src/Falcon.FSATS.ContractSpine/Falcon.FSATS.ContractSpine.csproj" />
+  <Project Path="src/Falcon.FSATS.FoundationBindings/Falcon.FSATS.FoundationBindings.csproj" />
+  <Project Path="src/Falcon.Trading.Guardian/Falcon.Trading.Guardian.csproj" />
+  <Project Path="src/Falcon.Trading.FSAPMA/Falcon.Trading.FSAPMA.csproj" />
+  <Project Path="src/Falcon.Trading.Application/Falcon.Trading.Application.csproj" />
+  <Project Path="verification/Falcon.FSATS.Part1.Primitives.Verifier/Falcon.FSATS.Part1.Primitives.Verifier.csproj" />
+  <Project Path="verification/Falcon.FSATS.Part1.Shells.Verifier/Falcon.FSATS.Part1.Shells.Verifier.csproj" />
+  <Project Path="verification/Falcon.FSATS.Part1.ContractSpine.Verifier/Falcon.FSATS.Part1.ContractSpine.Verifier.csproj" />
+  <Project Path="verification/Falcon.FSATS.Part1.FoundationBindings.Verifier/Falcon.FSATS.Part1.FoundationBindings.Verifier.csproj" />
+  <Project Path="verification/Falcon.FSATS.Part1.Verifier/Falcon.FSATS.Part1.Verifier.csproj" />
+</Solution>

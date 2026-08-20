@@ -1,0 +1,11 @@
+﻿src/Foundation.Infrastructure/Foundation.Infrastructure.csproj
+src/Foundation.Infrastructure/BootstrapLifecycleControl.cs
+verification/Falcon.Stage4.WP02.Verifier/Falcon.Stage4.WP02.Verifier.csproj
+verification/Falcon.Stage4.WP02.Verifier/Program.cs
+Falcon.Foundation.ControlledProjectFoundation.slnx
+tests/Falcon.Foundation.Architecture.Tests/Program.cs
+tests/Falcon.Foundation.Security.Tests/Program.cs
+docs/stage-4-proposal/12_STAGE_4_WP02_IMPLEMENTATION_AUTHORITY.md
+docs/governance/GOV-105_STAGE_4_WP02_IMPLEMENTATION_AUTHORIZATION.md
+docs/governance/GOV-000_AUTHORITY_REGISTRY.md
+docs/stage-4-proposal/README.md

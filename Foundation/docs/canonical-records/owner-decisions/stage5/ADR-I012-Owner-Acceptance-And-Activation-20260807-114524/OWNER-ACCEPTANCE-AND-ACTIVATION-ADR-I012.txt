@@ -1,0 +1,44 @@
+﻿FALCON FOUNDATION
+ADR-I012 OWNER ACCEPTANCE AND DOCUMENTARY ACTIVATION
+
+DECISION
+ADR-I012 v1.1 = ACCEPTED_AND_ACTIVE
+
+Title:
+Foundation Plug-and-Play Application Integration Boundary
+
+Owner finding:
+The reviewed ADR-I012 v1.1 is constitutionally compatible,
+non-duplicative with ADR-I015, and aligned with APP-001, CON-023,
+the accepted Stage 5 design, and closed WP-01/WP-02.
+
+The prior ADR-I012 Proposed 1.0 remains historical proposal evidence only.
+It was never active and is not retroactively rewritten.
+
+BOUNDARIES
+ADR-I012 owns the generic Plug-and-Play Foundation/Application integration boundary.
+ADR-I015 continues to own Application and Awareness alignment.
+APP-001 continues to own Application boundary and lifecycle requirements.
+CON-023 continues to own Application Contract and Manifest requirements.
+
+NON-AUTHORIZATION
+WP-03 through WP-10 implementation remains unauthorized.
+Git history mutation remains unauthorized.
+Deployment remains unauthorized.
+Runtime activation remains unauthorized.
+Stage 6 through Stage 9 implementation remains unauthorized.
+
+MANDATORY END-OF-STAGE GOVERNANCE GATE
+Before every future Stage closure, evidence shall include:
+1. Falcon Vision conformance review.
+2. Falcon Constitution conformance review.
+3. Architecture and Application-neutrality review.
+4. ADR and Specification consistency review.
+5. Authority and scope-boundary review.
+6. Cross-Application and Foundation domain-leakage review.
+7. Security and fail-closed review.
+8. Regression and deterministic evidence review.
+9. Open ADR / deferred-obligation review.
+10. Explicit Owner closure decision.
+
+Activated at: 2026-08-07 11:45:25 +03:00

@@ -1,0 +1,33 @@
+{
+  "gateProfileId": "FALCON-FOUNDATION-GATE-LOCAL-1",
+  "version": "1.0",
+  "status": "ACTIVATION_CANDIDATE",
+  "requiredCompleteness": "COMPLETE",
+  "integrityRequired": true,
+  "independentCompletenessAuthorityRequired": true,
+  "frozenEvidenceRequirementSetRequired": true,
+  "rootEvidenceSetCount": 1,
+  "rejectStates": [
+    "PARTIAL",
+    "INCOMPLETE",
+    "INVALID",
+    "STALE",
+    "CONFLICTED",
+    "UNCERTAIN"
+  ],
+  "rejectConditions": [
+    "MISSING_REQUIREMENT",
+    "DUPLICATE_REQUIREMENT",
+    "MUTATED_EVIDENCE",
+    "WRONG_CONTEXT",
+    "DIRECT_SESSION_PROMOTION",
+    "SELF_PROMOTION",
+    "GATE_WEAKENING"
+  ],
+  "nonAuthorities": [
+    "NO_STAGE_1",
+    "NO_PRODUCTION",
+    "NO_CLOUD",
+    "NO_FINANCIAL_AUTHORITY"
+  ]
+}

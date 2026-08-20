@@ -1,0 +1,38 @@
+﻿STAGE 3 WP-04 CLOSURE STATUS: COMPLETE
+
+Evidence directory:
+C:\Falcon\WP04-Diagnostics\Closure-20260802-222705
+
+Gate results:
+- Restore: exit code 0
+- Clean-Release-Build: exit code 0
+- Architecture-Tests: exit code 0
+- Security-Tests: exit code 0
+- Stage3-WP01-Verifier: exit code 0
+- Stage3-WP02-Verifier: exit code 0
+- Stage3-WP03-Verifier: exit code 0
+- Stage3-WP04-Verifier-Run-1: exit code 0
+- Stage3-WP04-Verifier-Run-2: exit code 0
+
+WP-04 deterministic replay:
+- DLL SHA-256 before run 1: 981A1EF1DF8D5AB730B5E093FB03F7A3316A4DC8751320B224D6799516EEA4CA
+- DLL SHA-256 after run 1:  981A1EF1DF8D5AB730B5E093FB03F7A3316A4DC8751320B224D6799516EEA4CA
+- DLL SHA-256 after run 2:  981A1EF1DF8D5AB730B5E093FB03F7A3316A4DC8751320B224D6799516EEA4CA
+- DLL unchanged: True
+- Run 1 complete-output SHA-256: 43BA4BF28BBBB4D6D5B006B2E8044215371D75DBD85630A1DBA3D69C0F0ED751
+- Run 2 complete-output SHA-256: 43BA4BF28BBBB4D6D5B006B2E8044215371D75DBD85630A1DBA3D69C0F0ED751
+- Complete outputs identical: True
+- Deterministic replay accepted: True
+
+Golden graph expected from successful WP-04 output:
+- SHA-256: BA6CEF2A5E86EE12FA47A9A2CE31EF89B424BFF43EFEF05214788B086295D44E
+- UTF-8 byte length: 4833
+
+Source and binary hashes:
+- 3ACC84E6A28E7331CBF2EB09BBB2C2759DCF4FE844BB7ED72AAA18478D1DD5BB  C:\Falcon\Falcon1\verification\Falcon.Stage3.WP04.Verifier\Program.cs
+- D4D19D8B758E8156C83A89CB341F48E646009CE5B2311697C8C501B74394AA2D  C:\Falcon\Falcon1\src\Foundation.DependencyGovernance\DependencyGovernanceValidator.cs
+- 8361FD3D7D7BC003E62462BCBEA2416A46FCC578E37CD1BA480F57FAF4A31EA2  C:\Falcon\Falcon1\src\Foundation.DependencyGovernance\bin\Release\net10.0\Foundation.DependencyGovernance.dll
+- EBBA9BDA25005B323B133F12BC44D1985DD1F889F1B2E2BFA4FBA8A19CAF1955  C:\Falcon\Falcon1\verification\Falcon.Stage3.WP01.Verifier\bin\Release\net10.0\Falcon.Stage3.WP01.Verifier.dll
+- C17929905A1DB547E8CB914A85F70E4CDE6917DE5E656B0A4A735F68831E3268  C:\Falcon\Falcon1\verification\Falcon.Stage3.WP02.Verifier\bin\Release\net10.0\Falcon.Stage3.WP02.Verifier.dll
+- AAEE1FC75549DA011C35BE641CF6167B51D643A0EF50A84073644756C050AC56  C:\Falcon\Falcon1\verification\Falcon.Stage3.WP03.Verifier\bin\Release\net10.0\Falcon.Stage3.WP03.Verifier.dll
+- 981A1EF1DF8D5AB730B5E093FB03F7A3316A4DC8751320B224D6799516EEA4CA  C:\Falcon\Falcon1\verification\Falcon.Stage3.WP04.Verifier\bin\Release\net10.0\Falcon.Stage3.WP04.Verifier.dll

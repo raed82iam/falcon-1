@@ -1,0 +1,34 @@
+FALCON FOUNDATION OWNER DECISION
+
+Decision: AUTHORIZE STAGE 6 WP-01 IMPLEMENTATION ONLY
+Date: 2026-08-08
+Branch: foundation-development
+
+Owner instruction:
+"تمام بسم الله نبدأ ستيج 6 وندمج الردود في البدايه مع الرد تيم فقط 01 لا"
+
+Interpretation and bounded authority:
+- Stage 6 may proceed with WP-01 only.
+- Before WP-01 implementation, Foundation SHALL reconcile the received Application responses in FCR-0007 and FCR-0010 with the Stage 6 design and run a WP-01-specific Red-Team review.
+- The later Owner clarification recorded in docs/stage-6/05_OWNER_PRIORITY_CLARIFICATION_AND_APPLICATION_INPUT_REQUEST.md governs cross-Application priority where it conflicts with the older Application baseline statement that no blanket Trading priority had been approved.
+- Application-owned resource principals, message families, internal degradation hierarchy and reaction semantics are inputs only. Stage 6 WP-01 remains Application-neutral and defines generic resource-governance primitives only.
+- FCR-0016 remains a separately governed artifact-publication/consumption capability and does not become Stage 6 WP-01 implementation scope.
+
+Authorized WP-01 scope:
+Canonical Resource Governance Primitives: immutable generic identities and evidence surfaces for resource classes, capacity, allocation, quota, ceiling, protection floor, reserve, pressure, cross-Application priority, technical criticality, request, decision, reclamation and restoration conditions.
+
+Explicitly unauthorized by this decision:
+- Stage 6 WP-02 through WP-10 implementation;
+- total-resource allocation engine;
+- runtime allocation/reclamation/redistribution;
+- Application-facing resource request transport;
+- Application load-shedding business logic;
+- QoS scheduling;
+- artifact publication/consumption implementation;
+- external connectivity/egress/credentials;
+- deployment, runtime activation or baseline activation;
+- Stage 7 through Stage 9 implementation.
+
+Authority state:
+STAGE6_WP01_IMPLEMENTATION_AUTHORITY = GRANTED
+STAGE6_WP02_THROUGH_WP10_IMPLEMENTATION = UNAUTHORIZED

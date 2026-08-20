@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>Falcon.Stage0C.Verifier</AssemblyName>
+    <RootNamespace>Falcon.Stage0C.Verifier</RootNamespace>
+    <Description>Bounded Stage 0C Activation-evaluation verifier authorized by GOV-055 and GOV-056.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Falcon.Stage0B.Candidates\Falcon.Stage0B.Candidates.csproj" />
+  </ItemGroup>
+</Project>

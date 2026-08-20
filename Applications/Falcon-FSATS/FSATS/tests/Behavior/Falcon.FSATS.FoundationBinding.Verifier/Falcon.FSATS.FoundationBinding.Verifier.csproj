@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>Falcon.FSATS.FoundationBinding.Verifier</AssemblyName>
+    <RootNamespace>Falcon.FSATS.FoundationBinding.Verifier</RootNamespace>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\ResourceManagement\Falcon.FSATS.ResourceManagement.Contracts\Falcon.FSATS.ResourceManagement.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\src\Trading\Falcon.FSATS.Trading.Contracts\Falcon.FSATS.Trading.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\src\FSAPMA\Falcon.FSATS.FSAPMA.Contracts\Falcon.FSATS.FSAPMA.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\src\FSTSimA\Falcon.FSATS.FSTSimA.Contracts\Falcon.FSATS.FSTSimA.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\src\Trading\Falcon.FSATS.Trading.Awareness\Falcon.FSATS.Trading.Awareness.csproj" />
+    <ProjectReference Include="..\..\..\src\FSAPMA\Falcon.FSATS.FSAPMA.Awareness\Falcon.FSATS.FSAPMA.Awareness.csproj" />
+    <ProjectReference Include="..\..\..\src\TradingGuardian\Falcon.FSATS.TradingGuardian.Awareness\Falcon.FSATS.TradingGuardian.Awareness.csproj" />
+    <ProjectReference Include="..\..\..\src\FSTSimA\Falcon.FSATS.FSTSimA.Awareness\Falcon.FSATS.FSTSimA.Awareness.csproj" />
+    <ProjectReference Include="..\..\..\src\ResourceManagement\Falcon.FSATS.ResourceManagement.Awareness\Falcon.FSATS.ResourceManagement.Awareness.csproj" />
+    <ProjectReference Include="..\..\..\src\TradingGuardian\Falcon.FSATS.TradingGuardian.Contracts\Falcon.FSATS.TradingGuardian.Contracts.csproj" />
+  </ItemGroup>
+</Project>

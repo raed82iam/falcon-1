@@ -1,0 +1,124 @@
+FALCON FOUNDATION — STAGE 5 WP-07 IMPLEMENTATION AUTHORIZATION
+
+Record Identity: Stage5-WP07-Implementation-Authorization-20260808-021900
+Record Class: OWNER DECISION / PROSPECTIVE IMPLEMENTATION AUTHORIZATION
+Effective Date: 2026-08-08
+Authority: Project Owner / Falcon Constitutional Authority
+Workstream: foundation-development
+
+1. OWNER DIRECTION
+
+The Project Owner explicitly directs the Falcon Foundation workstream to begin the next Stage 5 work package after the accepted closure of Stage 5 WP-06.
+
+This record grants prospective implementation authority only for Stage 5 WP-07 — Event System and Truthful Publication — within the exact bounded scope defined by:
+
+docs/stage-5-wp07/00_PRE_IMPLEMENTATION_SCOPE_REVIEW.md
+
+2. PREDECESSOR CONDITION
+
+The following predecessor state is accepted and closed before this authority becomes effective:
+
+STAGE5_WP01 = ACCEPTED_AND_CLOSED
+STAGE5_WP02 = ACCEPTED_AND_CLOSED
+STAGE5_WP03 = ACCEPTED_AND_CLOSED
+STAGE5_WP04 = ACCEPTED_AND_CLOSED
+STAGE5_WP05 = ACCEPTED_AND_CLOSED
+STAGE5_WP06 = ACCEPTED_AND_CLOSED
+
+Accepted WP-06 technical baseline:
+4bf919a585a17c7a7842f5efea26fbf63744ebe9
+
+WP-07 SHALL preserve accepted predecessor semantics and SHALL NOT reopen closed predecessor architecture for implementation convenience.
+
+3. AUTHORIZED WP-07 SCOPE
+
+WP-07 may implement only the generic Application-neutral event-system truth boundary, including:
+
+- immutable event identity;
+- attributable publisher and subscriber/consumer scope;
+- truthful event publication decisions;
+- governed subscription declaration and eligibility;
+- preservation of canonical correlation/causation at the event layer;
+- explicit authoritative-operational versus replay/test/non-authoritative event classification;
+- fail-closed prevention of replay/test material from silently becoming authoritative operational truth;
+- duplicate identity handling;
+- correction/supersession relationships without destructive rewrite;
+- explicit event ordering scope where declared;
+- immutable event journal/evidence references sufficient for reconstruction/audit;
+- deterministic event publication/subscription/replay-truth evidence identities.
+
+4. FCR AUTHORITY BOUNDARY
+
+All open FCRs FCR-0004 through FCR-0011 were reviewed before this authorization.
+
+FCR-0006 is directly and materially relevant to WP-07.
+
+FCR-0004, FCR-0005, FCR-0009 and FCR-0010 have only limited/non-owner relevance and SHALL NOT be used to expand WP-07 scope.
+
+FCR-0007, FCR-0008 and FCR-0011 are outside WP-07 implementation ownership.
+
+No FCR disposition creates authority beyond this record.
+
+5. EXPLICIT NON-AUTHORITIES
+
+This authorization does NOT authorize:
+
+- Stage 5 WP-08 through WP-10 implementation;
+- cryptographic message/channel protection;
+- key generation, storage, rotation, signing or encryption;
+- Application installation, attachment, activation, upgrade, replacement, draining, detachment or removal;
+- integrated Stage 5 closure;
+- Application business-event interpretation;
+- Application-side event actions or handlers;
+- recreation of operational/action authority from replayed events;
+- resource allocation/request authority or resource-truth fabrication;
+- new QoS scheduling, bandwidth reservation or tail-latency engines;
+- Internet egress or external connectivity;
+- Live credential/broker-route enforcement;
+- deployment;
+- runtime activation;
+- baseline activation;
+- broker access;
+- market-data access;
+- trading or financial activity;
+- Stage 6 through Stage 9 implementation.
+
+6. WORKSTREAM BOUNDARY
+
+Writes are authorized only on:
+foundation-development
+
+The Foundation workstream SHALL NOT write to:
+application-development
+reference/fsats-v1.3-scratch
+main
+
+Foundation work SHALL NOT modify:
+applications/**
+reference/**
+
+7. EVIDENCE AND CLOSURE CONDITIONS
+
+WP-07 may not be accepted or closed solely because implementation compiles or a verifier passes.
+
+Before Owner closure, the workstream must complete:
+
+- requirement-to-verifier traceability;
+- complete open-FCR reconciliation;
+- static architecture/security red-team review;
+- focused runtime validation;
+- full final predecessor regression and Baseline Integrity validation;
+- deterministic WP-07 rerun;
+- independent post-implementation architecture/security/completeness review;
+- final feature-by-feature FCR reconciliation and issue updates;
+- explicit Owner acceptance and closure.
+
+8. CURRENT AUTHORITY STATE
+
+STAGE5_WP07_IMPLEMENTATION = AUTHORIZED_AND_IN_PROGRESS
+STAGE5_WP08_THROUGH_WP10 = UNAUTHORIZED
+DEPLOYMENT = UNAUTHORIZED
+RUNTIME_ACTIVATION = UNAUTHORIZED
+BASELINE_ACTIVATION = UNAUTHORIZED
+
+END OF STAGE 5 WP-07 IMPLEMENTATION AUTHORIZATION

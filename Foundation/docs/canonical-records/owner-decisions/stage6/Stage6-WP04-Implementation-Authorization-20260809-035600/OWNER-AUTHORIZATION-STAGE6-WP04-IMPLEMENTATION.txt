@@ -1,0 +1,39 @@
+Falcon Foundation — Owner Authorization
+Stage 6 WP-04 — Cross-Application Priority + Technical Criticality Governance
+
+Owner decision time: 2026-08-09 03:56 +03:00
+Owner instruction: "أبدأ WP-04"
+
+Disposition:
+AUTHORIZED_FOR_IMPLEMENTATION — Stage 6 WP-04 only.
+
+Authorized scope:
+- Foundation-governed cross-Application resource-priority truth.
+- Foundation-governed technical-criticality classification/truth for technical resource governance.
+- Exact separation between Application-level resource priority and Foundation technical criticality.
+- Binding of priority/criticality truth to accepted Stage 6 WP-01 resource-governance identities/evidence and accepted Stage 6 WP-03 Application allocation state where applicable.
+- Preservation of the Owner clarification that Trading-related Applications hold the highest Application-level priority for Foundation-governed technical resources only.
+- Preservation of Foundation survival/protection/control floors, non-reclaimable reserves, Authority, Health/Recovery, security/evidence integrity, and the minimum resources required to govern/revoke/restore Applications above Application workloads.
+- Deterministic, attributable, fail-closed priority/criticality state and evidence required for this WP only.
+
+Mandatory boundaries:
+- Foundation remains sole owner of total resource truth and final resource governance.
+- Application priority SHALL NOT override Foundation survival/protection/control capacity or protected reserves/floors.
+- Trading resource priority SHALL NOT create general Trading authority in governance, security, lifecycle, data truth, Risk, execution, awareness jurisdiction, strategy, market, instrument, order, provider, broker, or Owner decisions.
+- Caller-proposed or Application-internal priority/urgency SHALL be evidence only and SHALL NOT self-create Foundation technical criticality.
+- ResourcePriorityClassId and TechnicalCriticalityClassId remain distinct concepts and SHALL NOT imply authority by identity alone.
+- No resource-pressure engine, preemption, enforcement-state runtime, load shedding, resource request/decision runtime, reclamation, redistribution, rebalance, or restoration runtime is authorized in WP-04.
+- No Trading/TARC-specific production behavior is authorized; Application business semantics remain opaque to Foundation.
+- Stage 6 WP-05 and later remain unauthorized.
+
+Predecessors:
+- Stage 6 WP-01 = ACCEPTED_AND_CLOSED.
+- Stage 6 WP-02 = ACCEPTED_AND_CLOSED.
+- Stage 6 WP-03 = ACCEPTED_AND_CLOSED.
+
+Relevant FCR boundary:
+- FCR-0010 remains OPEN / ACCEPTED_FOR_PLANNING overall.
+- WP-04 may satisfy only the separately authorized cross-Application priority / technical-criticality governance portion.
+- Pressure, enforcement, load shedding, restoration, and resource-request behavior remain later separately authorized scope.
+
+This authorization is prospective and does not imply technical acceptance or closure.

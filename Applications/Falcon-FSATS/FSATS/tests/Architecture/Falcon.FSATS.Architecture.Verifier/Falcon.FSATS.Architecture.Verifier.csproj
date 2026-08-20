@@ -1,0 +1,1 @@
+<Project Sdk="Microsoft.NET.Sdk"><PropertyGroup><OutputType>Exe</OutputType><AssemblyName>Falcon.FSATS.Architecture.Verifier</AssemblyName><RootNamespace>Falcon.FSATS.Architecture.Verifier</RootNamespace><IsPackable>false</IsPackable></PropertyGroup></Project>

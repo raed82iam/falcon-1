@@ -1,0 +1,4 @@
+  Determining projects to restore...
+  Restored C:\Falcon\Falcon1\src\Falcon.Foundation.Infrastructure\Falcon.Foundation.Infrastructure.csproj (in 212 ms).
+  Restored C:\Falcon\Falcon1\src\Falcon.Foundation.Core\Falcon.Foundation.Core.csproj (in 205 ms).
+  Restored C:\Falcon\Falcon1\src\Falcon.Foundation.Contracts\Falcon.Foundation.Contracts.csproj (in 210 ms).

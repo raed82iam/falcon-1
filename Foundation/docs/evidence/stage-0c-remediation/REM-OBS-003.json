@@ -1,0 +1,388 @@
+{
+  "BuildIntent": "STAGE_0C_REMEDIATION_VERIFICATION",
+  "Authority": "GOV-058",
+  "Classification": "FOUNDATION_VERIFICATION_ONLY",
+  "Operational": false,
+  "ObservedAt": "2026-07-26T22:00:35.3268823+00:00",
+  "Total": 47,
+  "Passed": 47,
+  "Failed": 0,
+  "Results": [
+    {
+      "VerificationId": "REM-AUT-V01",
+      "Plan": "CON-012",
+      "RequirementId": "AUTHORITY-SCOPE",
+      "SubjectId": "GOV-058",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-AUT-V02",
+      "Plan": "CON-012",
+      "RequirementId": "AUTHORITY-SCOPE",
+      "SubjectId": "GOV-058",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-RST-V01",
+      "Plan": "CON-011",
+      "RequirementId": "CON-011-REQ-005",
+      "SubjectId": "ACT-RND-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-RST-V02",
+      "Plan": "CON-011",
+      "RequirementId": "CON-011-REQ-011",
+      "SubjectId": "ACT-RND-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-RND-V01",
+      "Plan": "VPL-BST-005",
+      "RequirementId": "VPL-BST-005-REQ-007",
+      "SubjectId": "ACT-RND-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-RND-V02",
+      "Plan": "VPL-BST-005",
+      "RequirementId": "VPL-BST-005-REQ-007",
+      "SubjectId": "ACT-RND-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-RND-V03",
+      "Plan": "VPL-BST-005",
+      "RequirementId": "VPL-BST-005-REQ-007",
+      "SubjectId": "ACT-RND-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-RND-V04",
+      "Plan": "CON-011",
+      "RequirementId": "CON-011-REQ-004",
+      "SubjectId": "ACT-RND-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-TIM-V01",
+      "Plan": "VPL-BST-004",
+      "RequirementId": "VPL-BST-004-REQ-001",
+      "SubjectId": "ACT-TIM-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-TIM-V02",
+      "Plan": "VPL-BST-004",
+      "RequirementId": "VPL-BST-004-REQ-004",
+      "SubjectId": "ACT-TIM-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-TIM-V03",
+      "Plan": "VPL-BST-004",
+      "RequirementId": "VPL-BST-004-REQ-003",
+      "SubjectId": "ACT-TIM-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-TIM-V04",
+      "Plan": "VPL-BST-004",
+      "RequirementId": "VPL-BST-004-REQ-006",
+      "SubjectId": "ACT-TIM-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-IDN-V01",
+      "Plan": "VPL-BST-003",
+      "RequirementId": "VPL-BST-003-REQ-001",
+      "SubjectId": "ACT-IDN-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-IDN-V02",
+      "Plan": "VPL-BST-003",
+      "RequirementId": "VPL-BST-003-REQ-004",
+      "SubjectId": "ACT-IDN-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-IDN-V03",
+      "Plan": "VPL-BST-003",
+      "RequirementId": "VPL-BST-003-REQ-006",
+      "SubjectId": "ACT-IDN-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-IDN-V04",
+      "Plan": "VPL-BST-003",
+      "RequirementId": "VPL-BST-003-REQ-008",
+      "SubjectId": "ACT-IDN-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-CRY-V01",
+      "Plan": "VPL-BST-005",
+      "RequirementId": "VPL-BST-005-REQ-001",
+      "SubjectId": "ACT-CRY-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-CRY-V02",
+      "Plan": "VPL-BST-005",
+      "RequirementId": "VPL-BST-005-REQ-008",
+      "SubjectId": "ACT-CRY-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-CRY-V03",
+      "Plan": "VPL-BST-005",
+      "RequirementId": "VPL-BST-005-REQ-003",
+      "SubjectId": "ACT-CRY-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-CRY-V04",
+      "Plan": "VPL-BST-005",
+      "RequirementId": "VPL-BST-005-REQ-003",
+      "SubjectId": "ACT-CRY-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-CRY-V05",
+      "Plan": "VPL-BST-005",
+      "RequirementId": "VPL-BST-005-REQ-005",
+      "SubjectId": "ACT-CRY-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-SEC-V01",
+      "Plan": "VPL-BST-005",
+      "RequirementId": "VPL-BST-005-REQ-004",
+      "SubjectId": "ACT-SEC-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-SEC-V02",
+      "Plan": "VPL-BST-005",
+      "RequirementId": "VPL-BST-005-REQ-005",
+      "SubjectId": "ACT-SEC-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-CID-V01",
+      "Plan": "VPL-BST-005",
+      "RequirementId": "VPL-BST-005-REQ-006",
+      "SubjectId": "ACT-CID-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-CID-V02",
+      "Plan": "VPL-BST-005",
+      "RequirementId": "VPL-BST-005-REQ-006",
+      "SubjectId": "ACT-CID-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-CID-V03",
+      "Plan": "VPL-BST-005",
+      "RequirementId": "VPL-BST-005-REQ-006",
+      "SubjectId": "ACT-CID-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-ENV-V01",
+      "Plan": "VPL-BST-006",
+      "RequirementId": "VPL-BST-006-REQ-001",
+      "SubjectId": "ACT-ENV-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-ENV-V02",
+      "Plan": "VPL-BST-006",
+      "RequirementId": "VPL-BST-006-REQ-005",
+      "SubjectId": "ACT-ENV-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-ENV-V03",
+      "Plan": "VPL-BST-006",
+      "RequirementId": "VPL-BST-006-REQ-006",
+      "SubjectId": "ACT-ENV-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-ENV-V04",
+      "Plan": "VPL-BST-006",
+      "RequirementId": "VPL-BST-006-REQ-009",
+      "SubjectId": "ACT-ENV-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-GATE-V01",
+      "Plan": "VPL-BST-007",
+      "RequirementId": "VPL-BST-007-REQ-004",
+      "SubjectId": "ACT-GATE-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-GATE-V02",
+      "Plan": "VPL-BST-007",
+      "RequirementId": "VPL-BST-007-REQ-008",
+      "SubjectId": "ACT-GATE-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-GATE-V03",
+      "Plan": "VPL-BST-007",
+      "RequirementId": "VPL-BST-007-REQ-007",
+      "SubjectId": "ACT-GATE-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-GATE-V04",
+      "Plan": "VPL-BST-007",
+      "RequirementId": "VPL-BST-007-REQ-009",
+      "SubjectId": "ACT-GATE-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-GATE-V05",
+      "Plan": "VPL-BST-007",
+      "RequirementId": "VPL-BST-007-REQ-006",
+      "SubjectId": "ACT-PIPE-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-TRC-V01",
+      "Plan": "VPL-BST-007",
+      "RequirementId": "VPL-BST-007-REQ-001",
+      "SubjectId": "ACT-TRC-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-TRC-V02",
+      "Plan": "VPL-BST-007",
+      "RequirementId": "VPL-BST-007-REQ-002",
+      "SubjectId": "ACT-TRC-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-TRC-V03",
+      "Plan": "VPL-BST-007",
+      "RequirementId": "VPL-BST-007-REQ-001",
+      "SubjectId": "ACT-TRC-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-TRC-V04",
+      "Plan": "VPL-BST-007",
+      "RequirementId": "VPL-BST-007-REQ-002",
+      "SubjectId": "ACT-TRC-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-TRC-V05",
+      "Plan": "VPL-BST-007",
+      "RequirementId": "VPL-BST-007-REQ-008",
+      "SubjectId": "ACT-TRC-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-TRC-V06",
+      "Plan": "VPL-BST-008",
+      "RequirementId": "VPL-BST-008-REQ-004",
+      "SubjectId": "ACT-TRC-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-TRC-V01",
+      "Plan": "VPL-BST-007",
+      "RequirementId": "VPL-BST-007-REQ-001",
+      "SubjectId": "ACT-TRC-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-TRC-V02",
+      "Plan": "VPL-BST-007",
+      "RequirementId": "VPL-BST-007-REQ-002",
+      "SubjectId": "ACT-TRC-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-TRC-V03",
+      "Plan": "VPL-BST-007",
+      "RequirementId": "VPL-BST-007-REQ-001",
+      "SubjectId": "ACT-TRC-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-TRC-V04",
+      "Plan": "VPL-BST-007",
+      "RequirementId": "VPL-BST-007-REQ-002",
+      "SubjectId": "ACT-TRC-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-TRC-V05",
+      "Plan": "VPL-BST-007",
+      "RequirementId": "VPL-BST-007-REQ-008",
+      "SubjectId": "ACT-TRC-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "REM-TRC-V06",
+      "Plan": "VPL-BST-008",
+      "RequirementId": "VPL-BST-008-REQ-004",
+      "SubjectId": "ACT-TRC-001",
+      "Passed": true,
+      "Reason": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+﻿FALCON FOUNDATION
+STAGE 4 WP-05 IMPLEMENTATION AUTHORIZATION
+
+OWNER DECISION:
+AUTHORIZED FOR IMPLEMENTATION
+
+WORK PACKAGE:
+Stage 4 WP-05 â€” Bounded Concurrency, Uncertain Writes, and Restart Reconciliation
+
+AUTHORIZED ARCHITECTURAL BOUNDARY:
+Foundation.Reconciliation
+
+AUTHORIZED PURPOSE:
+- expected-version concurrency;
+- exactly one successful authoritative successor per accepted version;
+- identical duplicate request handling;
+- conflicting duplicate rejection;
+- stale-write rejection;
+- uncertain-write classification before and after durable commit;
+- lookup by request identity and decision identity;
+- deterministic restart reconciliation;
+- comparison of authoritative state, persistence result, Evidence Journal, and Accepted Facts;
+- explicit divergence classifications;
+- fail-closed continuation when reconciliation is uncertain or incomplete;
+- prevention of blind retry, fabricated state, and state regression.
+
+IMPLEMENTATION BASE:
+Branch: stage3/baseline-integrity-remediation
+HEAD: 888fb661e9e32f253ea891c5d793d9852caf200d
+
+PLANNING BASIS:
+C:\Falcon\Stage4\Packages\STAGE_4_WP05_PLANNING_ASSESSMENT.md
+SHA-256: EF3E70519AA3A710E03F6F5DD6EF2D8295E9682FFB348B0E743A585AC189E4CF
+
+AUTHORIZED FILES:
+See WP05-AUTHORIZED-FILE-ALLOWLIST.txt
+
+EXPLICITLY PROHIBITED:
+- modification of Foundation.Core/LifecycleControl.cs;
+- modification of Foundation.Authority;
+- Application or Trading implementation;
+- FIL or Service Bus production implementation;
+- Guardian implementation;
+- WP-06 implementation or closure;
+- general retry scheduling;
+- external connectivity, secrets, or live providers;
+- Git commit, merge, tag, push, rebase;
+- deployment, runtime activation, canonical pointer change, archive replacement, or production release.
+
+OWNER CONTROL:
+This authorization is bounded to WP-05 implementation only.
+Any file outside the exact allowlist is unauthorized.
+Any scope expansion requires a separate Owner decision.
+Time does not expire Owner authority, context, work, continuation rights, or evidence validity.
+
+REQUIRED VERIFICATION:
+- clean Release build;
+- Architecture PASS;
+- Security PASS with zero findings;
+- WP-01 through WP-04 regression PASS;
+- Stage 2 and Stage 3 regression PASS;
+- WP-05 verifier PASS twice;
+- deterministic output;
+- mutation coverage for duplicate, conflict, stale write, uncertain commit, corruption, truncation, and restart reconciliation;
+- independent implementation review;
+- separate final Owner acceptance.
+
+FINAL MARKER:
+FALCON_FOUNDATION_STAGE4_WP05_IMPLEMENTATION_AUTHORIZED
+
+WP01 = ACCEPTED_AND_CLOSED
+WP02 = ACCEPTED_AND_CLOSED
+WP03 = ACCEPTED_AND_CLOSED
+WP04 = ACCEPTED_AND_CLOSED
+WP05 = IMPLEMENTATION_AUTHORIZED
+WP06 = UNAUTHORIZED
+GIT_DEPLOYMENT_ACTIVATION = UNAUTHORIZED

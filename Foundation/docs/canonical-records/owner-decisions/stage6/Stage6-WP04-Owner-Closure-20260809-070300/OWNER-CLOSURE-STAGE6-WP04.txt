@@ -1,0 +1,87 @@
+FALCON FOUNDATION — STAGE 6 WP-04 OWNER CLOSURE
+
+Decision Date: 2026-08-09
+Decision Timezone: Asia/Riyadh (+03:00)
+Owner Decision: ACCEPTED_AND_CLOSED
+
+Work Package:
+Stage 6 WP-04 — Cross-Application Priority + Technical Criticality Governance
+
+Owner Acceptance:
+The Project Owner explicitly directed that Stage 6 WP-04 be closed after review of the completed technical implementation, focused validation, post-focused Red-Team, full historical closure regression, final Red-Team, and Owner-readiness evidence.
+
+Exact Technical Baseline:
+8a74f064daf5171bf8b9b7cca5653618215dc5b9
+
+Focused Validation Evidence:
+- Stage 6 WP-01 verifier: 51/51 PASS
+- Stage 6 WP-02 verifier: 34/34 PASS
+- Stage 6 WP-03 verifier: 45/45 PASS
+- Stage 6 WP-04 verifier: 48/48 PASS, repeated deterministically
+- Focused transcript SHA-256: B259BC66F60DA0C4E31759AEB85E7E89183C9A7B9E9769F5165C7551A7CA60A3
+
+Full Historical Closure Regression Evidence:
+- Restore: PASS
+- Release Build: PASS
+- Architecture: PASS
+- Security: PASS with zero findings
+- Baseline Integrity: PASS
+- Stage 2 WP-01 through WP-04: PASS
+- Stage 3 WP-01 through WP-06: PASS
+- Stage 4 WP-01 through WP-06: PASS
+- Stage 5 WP-01 through WP-10: PASS
+- Stage 6 WP-01: PASS
+- Stage 6 WP-02: PASS
+- Stage 6 WP-03: PASS
+- Stage 6 WP-04 verifier execution 1: 48/48 PASS
+- Stage 6 WP-04 deterministic rerun: 48/48 PASS
+- Exact technical baseline preserved
+- Final worktree clean
+- Transcript: C:\Falcon\Stage6-WP04-Full-Historical-Closure-20260809-062820.txt
+- Transcript SHA-256: E2F16C6B078C1F523651BB04839987860ACBBFB8F4C1AEC61736177EE49CD6F8
+
+Final Red-Team:
+PASS
+
+Open WP-04 Technical Blockers:
+NONE
+
+Open WP-04 Architectural Blockers:
+NONE
+
+Open WP-04 Governance Blockers:
+NONE
+
+Accepted Boundary:
+WP-04 establishes Foundation-governed cross-Application resource-priority truth and Foundation-governed technical-criticality classification/truth while preserving strict separation between Application priority and Foundation technical criticality.
+
+Trading-related Applications may hold the highest Application-level priority for Foundation-governed technical resources only. This priority remains subordinate to Foundation survival/protection/control capacity, Authority, Health/Recovery, security/evidence integrity, non-reclaimable protection floors/reserves, and the minimum capacity required for Foundation governance.
+
+Application or caller urgency, identity, business importance, Guardian signals, TARC evidence, or proposed priority cannot create Foundation authority or directly mint Foundation technical criticality.
+
+Application resource interaction remains Application-neutral at Foundation production level. For the Falcon Self-Aware Trading Application, TARC remains the sole Trading Application resource-facing role, while the Foundation-side counterpart is the governed Foundation Resource Governance boundary, not FSA and not Guardian. No final internal Foundation component name is created by this closure.
+
+Not Authorized / Not Closed by This Decision:
+- Stage 6 WP-05 through WP-10 implementation
+- resource-pressure runtime
+- preemption
+- enforcement-state runtime
+- load shedding
+- additional-resource request/decision runtime
+- reclamation
+- redistribution
+- rebalance
+- restoration
+- Trading/TARC-specific Foundation production behavior
+- Application business semantics
+- FCR-0010 overall closure
+- FCR-0007 overall closure
+- Stage 6 overall closure
+- Stage 7 through Stage 9 implementation
+
+Authority Exhaustion:
+The Stage 6 WP-04 implementation authority is completed and exhausted by this Owner closure. Any subsequent Stage 6 work package requires separate prospective Owner authorization.
+
+Canonical Status:
+STAGE6_WP04 = ACCEPTED_AND_CLOSED
+WP05_PLUS = NOT_AUTHORIZED

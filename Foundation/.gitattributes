@@ -1,0 +1,14 @@
+# Canonical Falcon text policy.
+# CRLF preserves the established Windows working-tree baseline while Git
+# normalizes text content consistently. Binary formats remain opaque.
+
+* text=auto eol=crlf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.zip binary
+*.dll binary
+*.pdb binary

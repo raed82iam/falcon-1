@@ -1,0 +1,11 @@
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\Trading\Falcon.FSATS.Trading.Domain\bin\Release\net10.0\Falcon.FSATS.Trading.Domain.deps.json
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\Trading\Falcon.FSATS.Trading.Domain\bin\Release\net10.0\Falcon.FSATS.Trading.Domain.dll
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\Trading\Falcon.FSATS.Trading.Domain\bin\Release\net10.0\Falcon.FSATS.Trading.Domain.pdb
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\Trading\Falcon.FSATS.Trading.Domain\obj\Release\net10.0\Falcon.FSATS.Trading.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\Trading\Falcon.FSATS.Trading.Domain\obj\Release\net10.0\Falcon.FSATS.Trading.Domain.AssemblyInfoInputs.cache
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\Trading\Falcon.FSATS.Trading.Domain\obj\Release\net10.0\Falcon.FSATS.Trading.Domain.AssemblyInfo.cs
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\Trading\Falcon.FSATS.Trading.Domain\obj\Release\net10.0\Falcon.FSATS.Trading.Domain.csproj.CoreCompileInputs.cache
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\Trading\Falcon.FSATS.Trading.Domain\obj\Release\net10.0\Falcon.FSATS.Trading.Domain.dll
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\Trading\Falcon.FSATS.Trading.Domain\obj\Release\net10.0\refint\Falcon.FSATS.Trading.Domain.dll
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\Trading\Falcon.FSATS.Trading.Domain\obj\Release\net10.0\Falcon.FSATS.Trading.Domain.pdb
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\Trading\Falcon.FSATS.Trading.Domain\obj\Release\net10.0\ref\Falcon.FSATS.Trading.Domain.dll

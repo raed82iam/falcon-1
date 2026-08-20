@@ -1,0 +1,11 @@
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\TradingGuardian\Falcon.FSATS.TradingGuardian.Domain\bin\Release\net10.0\Falcon.FSATS.TradingGuardian.Domain.deps.json
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\TradingGuardian\Falcon.FSATS.TradingGuardian.Domain\bin\Release\net10.0\Falcon.FSATS.TradingGuardian.Domain.dll
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\TradingGuardian\Falcon.FSATS.TradingGuardian.Domain\bin\Release\net10.0\Falcon.FSATS.TradingGuardian.Domain.pdb
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\TradingGuardian\Falcon.FSATS.TradingGuardian.Domain\obj\Release\net10.0\Falcon.FSATS.TradingGuardian.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\TradingGuardian\Falcon.FSATS.TradingGuardian.Domain\obj\Release\net10.0\Falcon.FSATS.TradingGuardian.Domain.AssemblyInfoInputs.cache
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\TradingGuardian\Falcon.FSATS.TradingGuardian.Domain\obj\Release\net10.0\Falcon.FSATS.TradingGuardian.Domain.AssemblyInfo.cs
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\TradingGuardian\Falcon.FSATS.TradingGuardian.Domain\obj\Release\net10.0\Falcon.FSATS.TradingGuardian.Domain.csproj.CoreCompileInputs.cache
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\TradingGuardian\Falcon.FSATS.TradingGuardian.Domain\obj\Release\net10.0\Falcon.FSATS.TradingGuardian.Domain.dll
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\TradingGuardian\Falcon.FSATS.TradingGuardian.Domain\obj\Release\net10.0\refint\Falcon.FSATS.TradingGuardian.Domain.dll
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\TradingGuardian\Falcon.FSATS.TradingGuardian.Domain\obj\Release\net10.0\Falcon.FSATS.TradingGuardian.Domain.pdb
+C:\falcon\Falcon\Applications\Falcon-FSATS\FSATS\src\TradingGuardian\Falcon.FSATS.TradingGuardian.Domain\obj\Release\net10.0\ref\Falcon.FSATS.TradingGuardian.Domain.dll

@@ -1,0 +1,102 @@
+﻿FALCON FOUNDATION
+STAGE 4 WP-06 STATIC DESIGN
+
+Work Package:
+Stage 4 WP-06
+
+Purpose:
+Perform the final integrated verification of Stage 4 by proving VPL-002
+Unauthorized Action and VPL-003 Invalid Lifecycle Transition against the real
+Foundation execution, lifecycle, State, Evidence, Accepted Fact, commit,
+anchor, and reconciliation boundaries.
+
+WP-06 SHALL integrate the already accepted WP-01 through WP-05 capabilities.
+It SHALL NOT redesign or replace them.
+
+PRIMARY VERIFICATION PATH A â€” VPL-002
+
+1. Establish an authenticated actor with limited authority.
+2. Execute one separately authorized harmless control action.
+3. Submit a prohibited action using the same valid identity.
+4. Submit the prohibited action through an expired delegation.
+5. Submit the prohibited action through a revoked delegation.
+6. Retry and replay the prohibited action.
+7. Attempt the prohibited action through every declared execution boundary,
+   including the normal FIL verification path where applicable.
+8. Prove that the authoritative State remains unchanged.
+9. Preserve attributable denial evidence containing actor, action, resource,
+   purpose, authority baseline, controlling rule, and reason.
+10. Independently inspect both the execution boundary and State owner.
+11. Prove that authentication is never treated as authorization.
+12. Prove that prior success, technical reach, message validity, replay, or
+    retry cannot manufacture authority.
+
+PRIMARY VERIFICATION PATH B â€” VPL-003
+
+1. Establish one admitted harmless Foundation test component.
+2. Record its lifecycle model and authoritative starting State.
+3. Execute one valid authorized transition.
+4. Reject an invalid target transition.
+5. Reject a stale prior-State request.
+6. Handle an identical duplicate safely.
+7. Reject conflicting competing requests against one State version while
+   allowing exactly one authoritative successor.
+8. Reject an unauthorized requester.
+9. Preserve rejected attempts without emitting false success events.
+10. Restart the lifecycle path.
+11. Invoke RestartReconciler before continuation.
+12. Reconcile:
+    - authoritative State;
+    - exact commit result;
+    - immutable State history;
+    - Evidence Journal;
+    - Accepted Fact;
+    - durable ReconciliationState;
+    - independent anchor store.
+13. Permit continuation only for a verified consistent classification.
+14. Require challenge/restriction for divergent, missing-required,
+    corrupted, ambiguous, or unverified classifications.
+15. Prove restart does not fabricate, regress, or self-declare State.
+16. Independently compare lifecycle evidence with durable State.
+
+INTEGRATION PRINCIPLES
+
+- WP-01 remains the single Authority decision owner.
+- WP-02 remains the single Lifecycle transition controller.
+- WP-03 remains the authoritative State persistence owner.
+- WP-04 remains the Evidence and Accepted Fact owner.
+- WP-05 remains the commit outcome and Restart Reconciliation owner.
+- WP-06 adds integration and verification, not a second controller.
+- Reconciliation must occur before restart continuation.
+- Failed attempts remain visible.
+- False success events are forbidden.
+- Time is audit metadata only and cannot invalidate Owner authority,
+  evidence, acceptance, closure, context, or continuation rights.
+
+NON-SCOPE
+
+WP-06 does not authorize:
+
+- redesign of WP-01 through WP-05;
+- a second lifecycle controller;
+- a second State owner;
+- a second Evidence owner;
+- application business state;
+- financial or trading actions;
+- external side effects;
+- deployment;
+- runtime activation;
+- Git commit, tag, merge, push, or baseline activation;
+- Stage 5;
+- documentary reconciliation or Stage 4 closure;
+- any time-based Owner-authority or evidence-validity gate.
+
+EXPECTED RESULT
+
+VPL-002 = PASS
+VPL-003 = PASS
+STAGE4_WP06_TECHNICALLY_VERIFIED
+READY_FOR_FINAL_STAGE4_INDEPENDENT_REVIEW
+
+WP-06 success does not itself close Stage 4.
+A separate independent review and Owner acceptance are required.

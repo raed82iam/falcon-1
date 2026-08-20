@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Falcon.Stage3.WP04.Verifier</AssemblyName>
+    <RootNamespace>Falcon.Stage3.WP04.Verifier</RootNamespace>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Foundation.DependencyGovernance\Foundation.DependencyGovernance.csproj" />
+    <ProjectReference Include="..\..\src\Foundation.Admission\Foundation.Admission.csproj" />
+    <ProjectReference Include="..\..\src\Foundation.ContractRegistry\Foundation.ContractRegistry.csproj" />
+    <ProjectReference Include="..\..\src\Foundation.Contracts\Foundation.Contracts.csproj" />
+    <ProjectReference Include="..\..\src\Foundation.ServiceCatalog\Foundation.ServiceCatalog.csproj" />
+  </ItemGroup>
+</Project>

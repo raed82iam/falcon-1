@@ -1,0 +1,217 @@
+FALCON FOUNDATION
+STAGE 5 WP-04 IMPLEMENTATION AUTHORIZATION
+
+DECISION STATUS
+STAGE5_WP04_IMPLEMENTATION_AUTHORIZED
+
+Work Package:
+WP-04 - FIL Validation and Message Admission
+
+Repository:
+raed82iam/Falcon
+
+Branch:
+foundation-development
+
+OWNER INSTRUCTION BASIS
+The Falcon Owner explicitly instructed the Foundation workstream to begin WP-04 and to take into account all documentation and all materially related dependencies before implementation.
+
+BOUND PREDECESSOR
+Stage 5 WP-03 Owner Acceptance and Closure:
+docs/canonical-records/owner-decisions/stage5/Stage5-WP03-Owner-Acceptance-And-Closure-20260807-204800/OWNER-ACCEPTANCE-AND-CLOSURE-STAGE5-WP03.txt
+
+WP-03 closure Git blob SHA:
+1835ac489be09e9de7717011baef90e128319712
+
+Final validated WP-03 implementation identity:
+5b2998d4329b518d422e815a5fdd60015627f8d8
+
+BOUND WP-04 PRE-IMPLEMENTATION REVIEW
+docs/stage-5-wp04/00_PRE_IMPLEMENTATION_SCOPE_REVIEW.md
+
+Review commit:
+cb9ade60855c0928397e9a83663486bfe87147db
+
+BOUND ACCEPTED STAGE 5 PLANNING PROPOSAL
+docs/canonical-records/plans/stage5/Falcon_Stage5_Planning_Proposal_v1.zip
+
+Planning proposal SHA-256:
+C0EFD75DFDDFE3A8A7A93D21BC7A3AFB47A32703F422B2FBB7106E050BCA9D51
+
+BOUND GOVERNING ARCHITECTURE AND CONTRACTS
+ADR-I012 - Foundation Plug-and-Play Application Integration Boundary - ACCEPTED
+ADR-I015 - Falcon OS Application and Awareness Alignment - ACCEPTED
+APP-001 - Application Boundary and Lifecycle v1.1 - APPROVED / ACTIVE
+CON-004 - FIL Envelope Contract v1.1 - APPROVED
+CON-023 - Falcon Application Contract and Manifest v1.1 - APPROVED / ACTIVE
+SYS-005 - Service Bus v1.1 - APPROVED
+SYS-009 - FIL v1.1 - APPROVED
+SEC-001 - Security v1.1 - APPROVED
+Accepted Stage 4 Default-Deny Authority Engine
+Accepted and closed Stage 5 WP-01, WP-02, and WP-03
+
+OWNER AUTHORIZATION
+The Owner authorizes implementation of:
+
+Stage 5 WP-04 - FIL Validation and Message Admission
+
+WP-04 PURPOSE
+WP-04 shall establish the application-neutral, deterministic, attributable, reconstructable, fail-closed FIL validation and message-admission decision surface that determines whether a canonical WP-01 message may cross the bounded admission gate under accepted WP-02 schema rules, accepted WP-03 Manifest declarations, accepted Stage 4 authority decisions, and applicable deterministic temporal constraints.
+
+WP-04 admission is a decision only. It shall not route, dispatch, queue, deliver, publish, execute, retry, deduplicate operational effects, create transport connectivity, or interpret Application business payload meaning.
+
+AUTHORIZED WP-04 SCOPE
+WP-04 may implement only the source, immutable decision structures, validators/evaluators, deterministic canonicalization/digest behavior, documentation, architecture/security coverage, fixtures, and verification required for:
+
+1. Consuming the accepted WP-01 CanonicalFilEnvelope without redefining WP-01 semantics.
+2. Separating structural FIL validity, schema validity/compatibility, authority, admission, domain validity, and execution states.
+3. Validating canonical message identity, kind, type, classification, producer identity, recipient scope, schema identity/version, authority reference, provenance, correlation/causation, time/expiry, and other accepted WP-01 material admission metadata.
+4. Resolving schema identity/version through the accepted WP-02 ISchemaRegistry.
+5. Applying accepted WP-02 explicit schema compatibility behavior where a governed declared version and received message version differ.
+6. Rejecting unknown, retired, undeclared, or incompatible schema use as applicable.
+7. Resolving and validating the applicable accepted WP-03 Application Communication Manifest.
+8. Binding each message unambiguously to the applicable Application/Manifest identity and communication declaration.
+9. Checking message type, kind, classification, schema, direction, role, producer, and applicable recipient/consumer declaration consistency without creating a route.
+10. Rejecting missing, undeclared, ambiguous, duplicate, or conflicting communication bindings fail closed.
+11. Reusing the accepted Stage 4 DefaultDenyAuthorityEngine / AuthorityResult surface rather than creating a second authority engine.
+12. Requiring explicit attributable accepted authority for admission where authority is required by the canonical message/declaration.
+13. Rejecting missing, denied, stale, expired, mismatched, malformed, or unverifiable required authority input fail closed.
+14. Enforcing message expiry at an explicitly supplied deterministic observation time without using hidden wall-clock authority.
+15. Preserving the distinction between message expiry and the governance TIME PRINCIPLE; Owner authority and accepted work do not expire merely because audit time advances.
+16. Producing an immutable admission result containing decision identity, message identity, relevant Manifest/schema/authority bindings, decision, exact reason, observation time, bounded expiry, and evidence identity/reference.
+17. Deterministic canonicalization and SHA-256 binding of material admission inputs and outputs.
+18. Mutation sensitivity for every material input that can change an admission decision.
+19. Explicit rejection reason codes with no ambiguous generic success state.
+20. Proving that ADMITTED means only WP-04 admission passed and does not mean route creation, dispatch, delivery, consumer acceptance, command execution, event truth, business success, deployment approval, or production approval.
+21. Preserving Application payload opacity; Foundation shall not parse or interpret Application business payload meaning.
+22. Zero-Application Foundation compatibility.
+23. At least two independent Application-neutral admission fixtures with no FSATS special treatment.
+24. Compatibility with accepted Stage 0 through Stage 4 behavior and accepted/closed Stage 5 WP-01 through WP-03.
+25. Dedicated WP-04 verification, architecture/security coverage, deterministic rerun, documentation, traceability, independent architecture review, independent red-team review, independent completeness review, and final evidence reconciliation.
+
+MANDATORY WP-04 PRINCIPLES
+
+- Default deny.
+- No inferred authority.
+- Authentication or identity presence is not action authority.
+- Structural validity is not schema validity.
+- Schema validity/compatibility is not authority.
+- Manifest validity is not message admission.
+- Message admission is not route creation.
+- Message admission is not delivery.
+- Message admission is not execution.
+- Transport success, when later implemented, is not business truth.
+- Application business payload meaning remains opaque to Foundation.
+- All material rejection states are explicit and attributable.
+- Deterministic supplied evidence and observation inputs shall be used; no hidden mutable clock or ambient authority may make replay nondeterministic.
+- Existing accepted owners remain singular: WP-01 owns canonical messaging primitives; WP-02 owns schema registration/compatibility; WP-03 owns Manifest declaration/validation; Stage 4 Authority owns authority decisions; WP-04 owns only the bounded message-admission decision.
+
+FCR BOUNDARY
+Open FCRs remain governed request/disposition records only and do not grant implementation authority.
+
+FCR-0004, FCR-0005, FCR-0006, and FCR-0009 may be used only as generic downstream compatibility fixtures where their needs intersect the already-authorized WP-04 admission surface. They shall not expand WP-04 into routing, delivery, replay delivery, event publication, QoS transport, backpressure, resource governance, or Application-specific behavior.
+
+MANDATORY VERIFICATION BEFORE OWNER ACCEPTANCE
+Evidence shall show:
+
+- clean restore;
+- clean Release build with zero warnings and zero errors under the accepted controlled build policy;
+- Architecture tests PASS;
+- Security tests PASS with zero findings;
+- all previously accepted Stage 2 through Stage 4 verifiers remain PASS;
+- Baseline Integrity verifier remains PASS;
+- accepted Stage 5 WP-01 verifier remains PASS;
+- accepted Stage 5 WP-02 verifier remains PASS;
+- accepted Stage 5 WP-03 verifier remains PASS including its conflicting-communication red-team gate;
+- WP-04 positive admission cases PASS;
+- malformed canonical-message cases fail closed;
+- undeclared/missing/ambiguous/conflicting Manifest communication binding cases fail closed;
+- unknown/retired/incompatible schema cases fail closed;
+- missing/denied/stale/expired/mismatched authority cases fail closed;
+- expired-message cases fail closed using deterministic supplied observation time;
+- admission decision identity is deterministic and mutation-sensitive;
+- zero-Application fixture passes;
+- at least two independent Application-neutral fixtures pass;
+- no FSATS special casing exists;
+- Application payload meaning remains opaque;
+- no route creation, dispatch, delivery, retry execution, event publication, crypto implementation, Application activation, deployment, or runtime activation surface is introduced by WP-04;
+- deterministic WP-04 verifier rerun produces equivalent accepted results from the same Release outputs;
+- documentation and requirement-to-verifier traceability are complete;
+- independent architecture review is completed;
+- independent red-team review is completed;
+- independent completeness review is completed;
+- final evidence reconciliation is complete;
+- no known blocking architecture, security, red-team, completeness, evidence, or FCR finding remains.
+
+EXPLICIT NON-AUTHORIZATION
+This decision does not authorize:
+
+- WP-05 Service Bus Dynamic Routing and Isolation implementation;
+- WP-06 Delivery Semantics and Flow Control implementation;
+- WP-07 Event System and Truthful Publication implementation;
+- WP-08 Cryptographic Message Protection implementation;
+- WP-09 Plug-and-Play Attachment, Upgrade, or Safe Detachment implementation;
+- WP-10 Integrated VPL-004 and Multi-Application Closure implementation;
+- dynamic route creation or route selection;
+- Service Bus transport execution beyond the bounded WP-04 admission-decision surface;
+- queueing or dispatch;
+- acknowledgements;
+- retry execution;
+- operational duplicate-effect suppression state;
+- replay delivery;
+- ordering execution;
+- backpressure or flow control;
+- dead-letter transport execution;
+- publication/subscription execution;
+- event journal or event publication execution;
+- cryptographic algorithm, signing, encryption, key custody, key rotation, secure-channel, or message-protection implementation;
+- Application installation, activation, attachment, upgrade, replacement, draining, detachment, or removal execution;
+- Application lifecycle transition execution;
+- Foundation FSA implementation;
+- Application MSA, LSA, or CSA implementation;
+- Guardian implementation;
+- recovery-governance implementation;
+- interpretation of Application business payload meaning;
+- modification of accepted Stage 0 through Stage 4 semantics;
+- modification of accepted and closed Stage 5 WP-01 semantics;
+- modification of accepted and closed Stage 5 WP-02 semantics;
+- modification of accepted and closed Stage 5 WP-03 semantics except strictly additive reuse integration that preserves their accepted public behavior;
+- modification of Application-owned files under applications/**;
+- modification of historical/scratch references under reference/**;
+- modification of approved FSATS semantics;
+- merge to another branch;
+- tag creation;
+- deployment;
+- runtime activation;
+- baseline activation;
+- Stage 6 through Stage 9 implementation;
+- Owner acceptance or closure of WP-04.
+
+REPOSITORY AND WORKSTREAM BOUNDARY
+All WP-04 implementation work shall occur only on foundation-development.
+
+Repository source, verifier, documentation, tests, and controlled solution files under the Foundation workstream may be modified only as required by this bounded WP-04 authorization.
+
+application-development, applications/**, reference/fsats-v1.3-scratch, reference/**, and main remain read-only/out of scope for this Foundation workstream.
+
+No later Stage 5 work package becomes authorized because WP-04 code exists, builds, passes tests, or appears technically ready.
+
+TIME PRINCIPLE
+The timestamp of this decision is audit metadata only.
+Time does not expire or invalidate Owner authority, this authorization, accepted work, evidence, context, completed work, or continuation rights.
+Message expiry and authority-evaluation expiry are governed operational inputs and remain distinct from this governance principle.
+
+FINAL OWNER DECISION
+STAGE5_WP04_IMPLEMENTATION = AUTHORIZED
+STAGE5_WP05_THROUGH_WP10_IMPLEMENTATION = UNAUTHORIZED
+REPOSITORY_FILE_MODIFICATION_FOR_WP04 = AUTHORIZED_ON_FOUNDATION_DEVELOPMENT_ONLY
+DEPLOYMENT = UNAUTHORIZED
+RUNTIME_ACTIVATION = UNAUTHORIZED
+BASELINE_ACTIVATION = UNAUTHORIZED
+STAGE6_THROUGH_STAGE9_IMPLEMENTATION = UNAUTHORIZED
+
+Issued by:
+Falcon Owner
+
+Decision Record Created:
+2026-08-07 20:55:00 +03:00

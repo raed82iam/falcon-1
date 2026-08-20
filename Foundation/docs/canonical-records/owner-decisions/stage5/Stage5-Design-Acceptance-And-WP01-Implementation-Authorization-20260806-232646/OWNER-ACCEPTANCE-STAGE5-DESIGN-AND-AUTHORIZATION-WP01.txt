@@ -1,0 +1,219 @@
+﻿FALCON FOUNDATION
+STAGE 5 DESIGN ACCEPTANCE
+AND WP-01 IMPLEMENTATION AUTHORIZATION
+
+Decision Status:
+STAGE5_DESIGN_ACCEPTED
+STAGE5_WP01_IMPLEMENTATION_AUTHORIZED
+
+Repository:
+C:\Falcon\Falcon1
+
+Branch:
+stage3/baseline-integrity-remediation
+
+HEAD:
+888fb661e9e32f253ea891c5d793d9852caf200d
+
+Accepted Planning Authorization:
+C:\Falcon\Stage5\Owner-Decisions\Stage5-Planning-And-Design-Authorization-20260806-231418\OWNER-AUTHORIZATION-STAGE5-PLANNING-AND-DESIGN.txt
+
+Planning Authorization SHA-256:
+CBDA15802D621F67DFDEBF2BA507700B6C6DC0ABAF02D988759015B919B75BA7
+
+Accepted Stage 5 Planning Proposal:
+C:\Falcon\Stage5\Packages\Falcon_Stage5_Planning_Proposal_v1.zip
+
+Planning Proposal SHA-256:
+C0EFD75DFDDFE3A8A7A93D21BC7A3AFB47A32703F422B2FBB7106E050BCA9D51
+
+OWNER DESIGN ACCEPTANCE
+
+The Owner confirms review and acceptance of the Stage 5 planning and
+design package identified above.
+
+The accepted Stage 5 design establishes an application-neutral,
+multi-Application, Plug-and-Play communication foundation.
+
+The accepted architecture includes:
+
+- Canonical messaging primitives.
+- FIL Command, Query, Response, Event, and Notice classes.
+- Canonical message envelope.
+- Schema registry and compatibility governance.
+- Application Communication Manifest.
+- Publication and subscription authorization.
+- Service Bus admission and dynamic routing.
+- Per-Application isolation and namespaces.
+- Retry, duplicate, replay, expiry, ordering, flow control,
+  and undeliverable-message handling.
+- Truthful event publication and prevention of false-success events.
+- Cryptographic integrity, confidentiality, recipient binding,
+  and anti-downgrade behavior.
+- Dynamic Application attachment, upgrade, replacement,
+  draining, and safe detachment.
+- Zero-Application Foundation validity.
+- Multi-Application compatibility verification.
+- Integrated VPL-004 closure verification.
+- Separation of Foundation Health, FSA, and Application MSA.
+- Modular, replaceable, versioned, and independently testable parts.
+
+The Stage 5 design does not make FSATS the owner or privileged consumer
+of Foundation communication semantics.
+
+FSATS remains a reference consumer and compatibility fixture only.
+
+WP-01 IMPLEMENTATION AUTHORIZATION
+
+The Owner authorizes implementation of:
+
+Stage 5 WP-01 â€” Canonical Messaging Primitives
+
+WP-01 PURPOSE
+
+WP-01 shall establish the application-neutral canonical primitives
+required by all later Stage 5 work packages.
+
+WP-01 AUTHORIZED SCOPE
+
+WP-01 may implement only the approved foundational contracts,
+value objects, validators, and verification coverage required for:
+
+1. Canonical message identity.
+2. Producer identity reference.
+3. Intended recipient or recipient-scope reference.
+4. Correlation identity.
+5. Causation identity.
+6. Schema identity and schema-version reference.
+7. Authority reference.
+8. Provenance reference.
+9. Message classification.
+10. Message kind classification:
+    Command, Query, Response, Event, Notice.
+11. Typed outcome model including UNKNOWN.
+12. Canonical time metadata representation.
+13. Expiry metadata representation without changing the rule that
+    time does not expire Owner authority, accepted evidence, or context.
+14. Idempotency identity.
+15. Delivery-attempt and retry-lineage identity where required
+    by the accepted design.
+16. Canonical immutable message-envelope contract.
+17. Deterministic equality, serialization boundaries,
+    validation, and identity behavior.
+18. Fail-closed rejection of malformed or ambiguous primitives.
+19. Architecture tests.
+20. Security tests.
+21. WP-01 verifier and deterministic rerun evidence.
+22. Documentation and traceability for WP-01 only.
+
+WP-01 MANDATORY BOUNDARIES
+
+WP-01 shall remain:
+
+- application-neutral;
+- domain-independent;
+- free of trading, accounting, communication, web,
+  or other Application business semantics;
+- free of hardcoded Application names or routes;
+- modular and replaceable behind approved contracts;
+- compatible with multiple independent Plug-and-Play Applications;
+- compatible with a zero-Application Foundation;
+- consistent with accepted Stage 0 through Stage 4 authority,
+  lifecycle, State, Evidence, registration, admission,
+  dependency-governance, and reconciliation behavior.
+
+WP-01 shall not introduce:
+
+- a Service Bus implementation;
+- dynamic routing;
+- schema-registry persistence;
+- publish/subscribe execution;
+- event-journal execution;
+- cryptographic transport;
+- Application attachment or detachment execution;
+- FSA;
+- Application MSA;
+- Guardian;
+- recovery governance;
+- business payload interpretation;
+- a second authority controller;
+- a second lifecycle controller;
+- a second authoritative State owner;
+- a second Evidence owner.
+
+REQUIRED WP-01 VERIFICATION
+
+Before WP-01 may be presented for Owner acceptance, evidence shall show:
+
+- clean Release build;
+- architecture tests pass;
+- security tests pass;
+- Stage 0 through Stage 4 accepted verifiers remain passing;
+- canonical primitive positive scenarios pass;
+- malformed primitive scenarios fail closed;
+- UNKNOWN cannot be silently converted to success or failure;
+- message kinds cannot be confused or substituted;
+- correlation and causation identities remain distinct;
+- producer and recipient identities cannot be mutated undetected;
+- schema identity and version remain bound;
+- idempotency identity remains deterministic;
+- immutable envelope behavior is verified;
+- application-neutrality is verified;
+- no FSATS-specific or other domain-specific logic exists;
+- deterministic rerun produces equivalent accepted results;
+- independent completeness review is completed.
+
+NOT AUTHORIZED BY THIS DECISION
+
+This decision does not authorize:
+
+- Stage 5 WP-02 through WP-10 implementation;
+- Stage 5 full implementation;
+- Git commit, tag, merge, push, or branch change;
+- deployment;
+- runtime activation;
+- production activation;
+- baseline activation;
+- Paper, Tiny Live, or Live operation;
+- Stage 6 through Stage 9 implementation;
+- modification of accepted Stage 0 through Stage 4 behavior;
+- modification of the approved FSATS V1.3 baseline;
+- acceptance or closure of WP-01 before evidence and Owner review.
+
+AUTHORIZATION MODEL
+
+WP-01 implementation may modify repository source and verification files
+only as required by the authorized WP-01 scope.
+
+Repository modification is authorized for WP-01 implementation only.
+
+Git history mutation remains unauthorized.
+
+No later work package becomes authorized merely because WP-01 code
+exists, builds, passes tests, or appears technically ready.
+
+TIME PRINCIPLE
+
+The timestamp of this decision is audit metadata only.
+
+Time does not expire or invalidate Owner authority, this authorization,
+accepted design, completed work, evidence, context, or continuation rights.
+
+FINAL DECISION
+
+STAGE5_DESIGN_ACCEPTANCE = GRANTED
+STAGE5_WP01_IMPLEMENTATION = AUTHORIZED
+
+STAGE5_WP02_THROUGH_WP10_IMPLEMENTATION = UNAUTHORIZED
+
+REPOSITORY_FILE_MODIFICATION_FOR_WP01 = AUTHORIZED
+GIT_HISTORY_MUTATION = UNAUTHORIZED
+DEPLOYMENT = UNAUTHORIZED
+RUNTIME_ACTIVATION = UNAUTHORIZED
+STAGE6_THROUGH_STAGE9_IMPLEMENTATION = UNAUTHORIZED
+
+Issued by:
+Falcon Owner
+
+Decision Record Created:
+2026-08-06 23:26:46 +03:00

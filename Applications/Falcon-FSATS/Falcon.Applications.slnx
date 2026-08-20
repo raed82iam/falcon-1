@@ -1,0 +1,47 @@
+<Solution>
+  <Folder Name="/FSATS Applications/">
+    <Project Path="FSATS/src/Trading/Falcon.FSATS.Trading.Contracts/Falcon.FSATS.Trading.Contracts.csproj" />
+    <Project Path="FSATS/src/Trading/Falcon.FSATS.Trading.Domain/Falcon.FSATS.Trading.Domain.csproj" />
+    <Project Path="FSATS/src/Trading/Falcon.FSATS.Trading.Application/Falcon.FSATS.Trading.Application.csproj" />
+    <Project Path="FSATS/src/Trading/Falcon.FSATS.Trading.Infrastructure/Falcon.FSATS.Trading.Infrastructure.csproj" />
+    <Project Path="FSATS/src/Trading/Falcon.FSATS.Trading.Awareness/Falcon.FSATS.Trading.Awareness.csproj" />
+    <Project Path="FSATS/src/Trading/Falcon.FSATS.Trading.Host/Falcon.FSATS.Trading.Host.csproj" />
+    <Project Path="FSATS/src/FSAPMA/Falcon.FSATS.FSAPMA.Contracts/Falcon.FSATS.FSAPMA.Contracts.csproj" />
+    <Project Path="FSATS/src/FSAPMA/Falcon.FSATS.FSAPMA.Domain/Falcon.FSATS.FSAPMA.Domain.csproj" />
+    <Project Path="FSATS/src/FSAPMA/Falcon.FSATS.FSAPMA.Application/Falcon.FSATS.FSAPMA.Application.csproj" />
+    <Project Path="FSATS/src/FSAPMA/Falcon.FSATS.FSAPMA.Infrastructure/Falcon.FSATS.FSAPMA.Infrastructure.csproj" />
+    <Project Path="FSATS/src/FSAPMA/Falcon.FSATS.FSAPMA.Awareness/Falcon.FSATS.FSAPMA.Awareness.csproj" />
+    <Project Path="FSATS/src/FSAPMA/Falcon.FSATS.FSAPMA.Host/Falcon.FSATS.FSAPMA.Host.csproj" />
+    <Project Path="FSATS/src/TradingGuardian/Falcon.FSATS.TradingGuardian.Contracts/Falcon.FSATS.TradingGuardian.Contracts.csproj" />
+    <Project Path="FSATS/src/TradingGuardian/Falcon.FSATS.TradingGuardian.Domain/Falcon.FSATS.TradingGuardian.Domain.csproj" />
+    <Project Path="FSATS/src/TradingGuardian/Falcon.FSATS.TradingGuardian.Application/Falcon.FSATS.TradingGuardian.Application.csproj" />
+    <Project Path="FSATS/src/TradingGuardian/Falcon.FSATS.TradingGuardian.Infrastructure/Falcon.FSATS.TradingGuardian.Infrastructure.csproj" />
+    <Project Path="FSATS/src/TradingGuardian/Falcon.FSATS.TradingGuardian.Awareness/Falcon.FSATS.TradingGuardian.Awareness.csproj" />
+    <Project Path="FSATS/src/TradingGuardian/Falcon.FSATS.TradingGuardian.Host/Falcon.FSATS.TradingGuardian.Host.csproj" />
+    <Project Path="FSATS/src/FSTSimA/Falcon.FSATS.FSTSimA.Contracts/Falcon.FSATS.FSTSimA.Contracts.csproj" />
+    <Project Path="FSATS/src/FSTSimA/Falcon.FSATS.FSTSimA.Domain/Falcon.FSATS.FSTSimA.Domain.csproj" />
+    <Project Path="FSATS/src/FSTSimA/Falcon.FSATS.FSTSimA.Application/Falcon.FSATS.FSTSimA.Application.csproj" />
+    <Project Path="FSATS/src/FSTSimA/Falcon.FSATS.FSTSimA.Infrastructure/Falcon.FSATS.FSTSimA.Infrastructure.csproj" />
+    <Project Path="FSATS/src/FSTSimA/Falcon.FSATS.FSTSimA.Awareness/Falcon.FSATS.FSTSimA.Awareness.csproj" />
+    <Project Path="FSATS/src/FSTSimA/Falcon.FSATS.FSTSimA.Host/Falcon.FSATS.FSTSimA.Host.csproj" />
+    <Project Path="FSATS/src/ResourceManagement/Falcon.FSATS.ResourceManagement.Contracts/Falcon.FSATS.ResourceManagement.Contracts.csproj" />
+    <Project Path="FSATS/src/ResourceManagement/Falcon.FSATS.ResourceManagement.Domain/Falcon.FSATS.ResourceManagement.Domain.csproj" />
+    <Project Path="FSATS/src/ResourceManagement/Falcon.FSATS.ResourceManagement.Application/Falcon.FSATS.ResourceManagement.Application.csproj" />
+    <Project Path="FSATS/src/ResourceManagement/Falcon.FSATS.ResourceManagement.Infrastructure/Falcon.FSATS.ResourceManagement.Infrastructure.csproj" />
+    <Project Path="FSATS/src/ResourceManagement/Falcon.FSATS.ResourceManagement.Awareness/Falcon.FSATS.ResourceManagement.Awareness.csproj" />
+    <Project Path="FSATS/src/ResourceManagement/Falcon.FSATS.ResourceManagement.Host/Falcon.FSATS.ResourceManagement.Host.csproj" />
+  </Folder>
+  <Folder Name="/FSATS Verification/">
+    <Project Path="FSATS/tests/Architecture/Falcon.FSATS.Architecture.Verifier/Falcon.FSATS.Architecture.Verifier.csproj" />
+    <Project Path="FSATS/tests/Security/Falcon.FSATS.Security.Verifier/Falcon.FSATS.Security.Verifier.csproj" />
+    <Project Path="FSATS/tests/Behavior/Falcon.FSATS.Behavior.Verifier/Falcon.FSATS.Behavior.Verifier.csproj" />
+    <Project Path="FSATS/tests/Behavior/Falcon.FSATS.OperationalDataOutcome.Verifier/Falcon.FSATS.OperationalDataOutcome.Verifier.csproj" />
+    <Project Path="FSATS/tests/Behavior/Falcon.FSATS.OwnerUpdateGovernance.Verifier/Falcon.FSATS.OwnerUpdateGovernance.Verifier.csproj" />
+    <Project Path="FSATS/tests/Behavior/Falcon.FSATS.FoundationBinding.Verifier/Falcon.FSATS.FoundationBinding.Verifier.csproj" />
+    <Project Path="FSATS/tests/Behavior/Falcon.FSATS.OwnerFeatureEntitlement.Verifier/Falcon.FSATS.OwnerFeatureEntitlement.Verifier.csproj" />
+    <Project Path="FSATS/tests/FoundationCompatibility/Falcon.FSATS.FoundationOnboarding.Verifier/Falcon.FSATS.FoundationOnboarding.Verifier.csproj" />
+    <Project Path="FSATS/tests/FoundationCompatibility/Falcon.FSATS.CrossBranchFoundationOnboarding.Verifier/Falcon.FSATS.CrossBranchFoundationOnboarding.Verifier.csproj" />
+    <Project Path="FSATS/tests/Integration/Falcon.FSATS.Integration.Verifier/Falcon.FSATS.Integration.Verifier.csproj" />
+    <Project Path="FSATS/tests/Failure/Falcon.FSATS.Failure.Verifier/Falcon.FSATS.Failure.Verifier.csproj" />
+  </Folder>
+</Solution>

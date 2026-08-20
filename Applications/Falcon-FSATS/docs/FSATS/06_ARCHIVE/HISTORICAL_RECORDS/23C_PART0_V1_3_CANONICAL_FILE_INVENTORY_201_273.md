@@ -1,0 +1,82 @@
+# FSATS V1.3 Canonical File Inventory — Shard 3
+
+**Range:** `201-273`  
+**Canonical package SHA-256:** `d7fbde9fa0a584d9bb77f388016c9deb5fecdc30b0b9c3c0c7087743b32ac223`  
+**Reference branch:** `reference/fsats-v1.3-scratch`  
+**Reference HEAD observed:** `9b2046eb7539ad40c3733a1423fe374fa872fe23`  
+
+This shard is part of the Part 0 canonical 273-file V1.3 inventory. Paths are package-relative.
+
+201. `04_Implementation_and_Verification/00_IMPLEMENTATION_AND_VERIFICATION_MANIFEST_v1.3.md`
+202. `04_Implementation_and_Verification/15_COMPLETE_REVISION_CONSOLIDATION_AND_CLOSURE_REPORT_v1.3.md`
+203. `04_Implementation_and_Verification/13_FINAL_RED_TEAM_CLOSURE_REPORT_v1.3.md`
+204. `04_Implementation_and_Verification/14_ADVANCED_RESILIENCE_LATENCY_EVOLUTION_PROVENANCE_ALLOCATION_AND_SIMULATOR_TEST_CASES_v1.3.md`
+205. `04_Implementation_and_Verification/24_EVENT_STORE_PROJECTION_AND_REPLAY_BLUEPRINT_v1.3.md`
+206. `04_Implementation_and_Verification/SEMANTIC_VALIDATION_REPORT.json`
+207. `04_Implementation_and_Verification/30_FINAL_CODE_READINESS_REPORT_v1.3.md`
+208. `04_Implementation_and_Verification/baseline_preservation_verifier.py`
+209. `04_Implementation_and_Verification/16_RED_TEAM_MARKET_DYNAMICS_EXECUTION_REALITY_AND_CALIBRATION_HARDENING_TEST_CASES_v1.3.md`
+210. `04_Implementation_and_Verification/STATE_MACHINE_VALIDATION_REPORT.json`
+211. `04_Implementation_and_Verification/SCHEMA_VALIDATION_REPORT.json`
+212. `04_Implementation_and_Verification/26_IMPLEMENTATION_BACKLOG_AND_VERTICAL_SLICE_SEQUENCE_v1.3.md`
+213. `04_Implementation_and_Verification/20_MULTI_HORIZON_ARCHITECTURE_ACCEPTANCE_AND_TESTS_v1.3.md`
+214. `04_Implementation_and_Verification/03_ARCHITECTURE_TEST_CATALOG_v1.3.md`
+215. `04_Implementation_and_Verification/04_STAGE_GATES_AND_EVIDENCE_REQUIREMENTS_v1.3.md`
+216. `04_Implementation_and_Verification/09_PACKAGE_FILE_INVENTORY_v1.3.md`
+217. `04_Implementation_and_Verification/SEMANTIC_VALIDATION_RULES.json`
+218. `04_Implementation_and_Verification/10_REQUIREMENT_TEST_AND_EVIDENCE_MAP_v1.3.md`
+219. `04_Implementation_and_Verification/22_CANONICAL_DOMAIN_AGGREGATE_AND_PERSISTENCE_MAP_v1.3.md`
+220. `04_Implementation_and_Verification/31_REQUIREMENT_TRACEABILITY_MATRIX_v1.3.md`
+221. `04_Implementation_and_Verification/11_DETAILED_P0_ARCHITECTURE_TEST_CASES_v1.3.md`
+222. `04_Implementation_and_Verification/state_machine_verifier.py`
+223. `04_Implementation_and_Verification/27_CODE_GENERATION_READINESS_CHECKLIST_v1.3.md`
+224. `04_Implementation_and_Verification/validate_package.py`
+225. `04_Implementation_and_Verification/19_V1_3_SEMANTIC_CLOSURE_AND_ARCHITECTURE_READINESS_REPORT_v1.3.md`
+226. `04_Implementation_and_Verification/25_API_EVENT_SCHEMA_AND_COMPATIBILITY_TEST_PLAN_v1.3.md`
+227. `04_Implementation_and_Verification/05_SOURCE_AND_DECISION_TRACEABILITY_MATRIX_v1.3.md`
+228. `04_Implementation_and_Verification/BASELINE_PRESERVATION_VALIDATION_REPORT.json`
+229. `04_Implementation_and_Verification/red_team_verifier.py`
+230. `04_Implementation_and_Verification/23_PORT_INTERFACE_AND_DEPENDENCY_INVERSION_CATALOG_v1.3.md`
+231. `04_Implementation_and_Verification/structural_validator.py`
+232. `04_Implementation_and_Verification/21_CODE_READY_IMPLEMENTATION_BLUEPRINT_v1.3.md`
+233. `04_Implementation_and_Verification/TRACEABILITY_VALIDATION_REPORT.json`
+234. `04_Implementation_and_Verification/06_SUPERSEDED_REMOVED_AND_REPLACED_STRUCTURES_v1.3.md`
+235. `04_Implementation_and_Verification/17_RED_TEAM_HARDENING_CONSOLIDATION_AND_CLOSURE_REPORT_v1.3.md`
+236. `04_Implementation_and_Verification/18_SEMANTIC_CONSISTENCY_PROTECTIVE_EXECUTION_AND_SYSTEMIC_CHANGE_TEST_CASES_v1.3.md`
+237. `04_Implementation_and_Verification/29_FINAL_RED_TEAM_REPORT_v1.3.md`
+238. `04_Implementation_and_Verification/28_INDEPENDENT_ARCHITECTURE_AUDITOR_REPORT_v1.3.md`
+239. `04_Implementation_and_Verification/schema_verifier.py`
+240. `04_Implementation_and_Verification/02_TRADING_CAPABILITY_BUILD_SEQUENCE_v1.3.md`
+241. `04_Implementation_and_Verification/12_DETAILED_P1_ARCHITECTURE_TEST_CASES_v1.3.md`
+242. `04_Implementation_and_Verification/STRUCTURAL_VALIDATION_REPORT.json`
+243. `04_Implementation_and_Verification/07_RUNTIME_CONFIGURATION_AND_FUTURE_ACTIVATION_APPROVALS_v1.3.md`
+244. `04_Implementation_and_Verification/08_FINAL_ARCHITECTURE_CONSOLIDATION_REPORT_v1.3.md`
+245. `04_Implementation_and_Verification/RED_TEAM_VALIDATION_REPORT.json`
+246. `04_Implementation_and_Verification/semantic_verifier.py`
+247. `PACKAGE_VALIDATION_REPORT.json`
+248. `20_V1_3_CODE_READY_REBUILD_AND_CLOSURE_REPORT.md`
+249. `02_Shared_Applications/01_Falcon_Communication_Application/09_COMMUNICATION_MSA_LSA_CSA_AND_SELF_DEVELOPMENT_v1.3.md`
+250. `02_Shared_Applications/01_Falcon_Communication_Application/02_MESSAGE_CLASSES_SEVERITY_AND_SOURCE_AUTHORITY_v1.3.md`
+251. `02_Shared_Applications/01_Falcon_Communication_Application/08_COMMUNICATION_SECURITY_PRIVACY_AND_ANTI_FORGERY_v1.3.md`
+252. `02_Shared_Applications/01_Falcon_Communication_Application/04_RECIPIENT_ROUTING_PREFERENCES_AND_MANDATORY_DELIVERY_v1.3.md`
+253. `02_Shared_Applications/01_Falcon_Communication_Application/10_COMMUNICATION_ACCEPTANCE_CHECKLIST_v1.3.md`
+254. `02_Shared_Applications/01_Falcon_Communication_Application/05_SCHEDULED_REPORTS_OWNER_REPORTS_AND_PERFORMANCE_CONTENT_v1.3.md`
+255. `02_Shared_Applications/01_Falcon_Communication_Application/01_COMMUNICATION_IDENTITY_BOUNDARY_AND_MESSAGE_MODEL_v1.3.md`
+256. `02_Shared_Applications/01_Falcon_Communication_Application/07_DELIVERY_STATE_IDEMPOTENCY_RETRY_DEDUPLICATION_AND_ORDERING_v1.3.md`
+257. `02_Shared_Applications/01_Falcon_Communication_Application/00_COMMUNICATION_PACKAGE_MANIFEST_v1.3.md`
+258. `02_Shared_Applications/01_Falcon_Communication_Application/03_CHANNEL_ADAPTERS_AND_FREE_FIRST_DELIVERY_PROFILE_v1.3.md`
+259. `02_Shared_Applications/01_Falcon_Communication_Application/06_CRITICAL_INCIDENT_ACKNOWLEDGEMENT_AND_ESCALATION_v1.3.md`
+260. `02_Shared_Applications/03_Future_Shared_Applications/00_FUTURE_SHARED_APPLICATIONS_REGISTER_v1.3.md`
+261. `02_Shared_Applications/00_SHARED_APPLICATIONS_PACKAGE_MANIFEST_v1.3.md`
+262. `02_Shared_Applications/02_Falcon_Web_Application/07_ENTITLEMENT_SUBSCRIPTION_AND_FUTURE_COMMERCIAL_BOUNDARY_v1.3.md`
+263. `02_Shared_Applications/02_Falcon_Web_Application/00_WEB_PACKAGE_MANIFEST_v1.3.md`
+264. `02_Shared_Applications/02_Falcon_Web_Application/08_LOCALIZATION_ACCESSIBILITY_AND_DEGRADED_STATES_v1.3.md`
+265. `02_Shared_Applications/02_Falcon_Web_Application/02_AUTHENTICATION_SESSION_MFA_AND_IDENTITY_LINKING_v1.3.md`
+266. `02_Shared_Applications/02_Falcon_Web_Application/10_WEB_MSA_LSA_CSA_AND_SELF_DEVELOPMENT_v1.3.md`
+267. `02_Shared_Applications/02_Falcon_Web_Application/06_CONTROL_CENTER_ROLES_SUPPORT_AND_BREAK_GLASS_v1.3.md`
+268. `02_Shared_Applications/02_Falcon_Web_Application/01_WEB_IDENTITY_POSITION_AND_BOUNDARY_v1.3.md`
+269. `02_Shared_Applications/02_Falcon_Web_Application/09_API_GATEWAY_REALTIME_SECURITY_PRIVACY_AND_AUDIT_v1.3.md`
+270. `02_Shared_Applications/02_Falcon_Web_Application/11_WEB_ACCEPTANCE_CHECKLIST_v1.3.md`
+271. `02_Shared_Applications/02_Falcon_Web_Application/03_PORTAL_APPLICATION_CATALOG_AND_MODULE_COMPOSITION_v1.3.md`
+272. `02_Shared_Applications/02_Falcon_Web_Application/04_TRADING_DASHBOARD_RECORDS_AND_PERFORMANCE_PRESENTATION_v1.3.md`
+273. `02_Shared_Applications/02_Falcon_Web_Application/05_BROKER_CONNECTION_CONSENT_AND_CAPABILITY_UI_v1.3.md`

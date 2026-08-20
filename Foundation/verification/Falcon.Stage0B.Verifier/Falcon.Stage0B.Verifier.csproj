@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>Falcon.Stage0B.Verifier</AssemblyName>
+    <RootNamespace>Falcon.Stage0B.Verifier</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Falcon.Stage0B.Candidates\Falcon.Stage0B.Candidates.csproj" />
+  </ItemGroup>
+</Project>

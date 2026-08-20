@@ -1,0 +1,308 @@
+{
+  "BuildIntent": "STAGE_0B_CANDIDATE_VERIFICATION",
+  "Authority": "GOV-051",
+  "Classification": "CANDIDATE",
+  "Operational": false,
+  "ObservedAt": "2026-07-26T21:15:56.2037405+00:00",
+  "Total": 37,
+  "Passed": 37,
+  "Failed": 0,
+  "Results": [
+    {
+      "VerificationId": "FCE-001-V01",
+      "Plan": "FCE-001",
+      "RequirementId": "FCE-001-REQ-014",
+      "CandidateId": "CND-FCE-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "FCE-001-V02",
+      "Plan": "FCE-001",
+      "RequirementId": "FCE-001-REQ-003",
+      "CandidateId": "CND-FCE-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "FCE-001-V03",
+      "Plan": "FCE-001",
+      "RequirementId": "FCE-001-REQ-012",
+      "CandidateId": "CND-FCE-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "FCE-001-V04",
+      "Plan": "FCE-001",
+      "RequirementId": "FCE-001-REQ-004",
+      "CandidateId": "CND-FCE-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "FCE-001-V05",
+      "Plan": "FCE-001",
+      "RequirementId": "FCE-001-REQ-018",
+      "CandidateId": "CND-FCE-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "SEC-002-V01",
+      "Plan": "SEC-002",
+      "RequirementId": "TRUST-SCOPED-VALIDITY",
+      "CandidateId": "CND-TRUST-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "VPL-BST-003-V01",
+      "Plan": "VPL-BST-003",
+      "RequirementId": "VPL-BST-003-REQ-001",
+      "CandidateId": "CND-IDN-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "VPL-BST-003-V02",
+      "Plan": "VPL-BST-003",
+      "RequirementId": "VPL-BST-003-REQ-004",
+      "CandidateId": "CND-IDN-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "VPL-BST-003-V03",
+      "Plan": "VPL-BST-003",
+      "RequirementId": "VPL-BST-003-REQ-003",
+      "CandidateId": "CND-IDN-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "VPL-BST-003-V04",
+      "Plan": "VPL-BST-003",
+      "RequirementId": "VPL-BST-003-REQ-006",
+      "CandidateId": "CND-IDN-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "VPL-BST-003-V05",
+      "Plan": "VPL-BST-003",
+      "RequirementId": "VPL-BST-003-REQ-007",
+      "CandidateId": "CND-IDN-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "VPL-BST-003-V06",
+      "Plan": "VPL-BST-003",
+      "RequirementId": "VPL-BST-003-REQ-005",
+      "CandidateId": "CND-IDN-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "VPL-BST-003-V07",
+      "Plan": "VPL-BST-003",
+      "RequirementId": "VPL-BST-003-REQ-008",
+      "CandidateId": "CND-IDN-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "VPL-BST-004-V01",
+      "Plan": "VPL-BST-004",
+      "RequirementId": "VPL-BST-004-REQ-001",
+      "CandidateId": "CND-TIM-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "VPL-BST-004-V02",
+      "Plan": "VPL-BST-004",
+      "RequirementId": "VPL-BST-004-REQ-002",
+      "CandidateId": "CND-TIM-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "VPL-BST-004-V03",
+      "Plan": "VPL-BST-004",
+      "RequirementId": "VPL-BST-004-REQ-003",
+      "CandidateId": "CND-TIM-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "VPL-BST-004-V04",
+      "Plan": "VPL-BST-004",
+      "RequirementId": "VPL-BST-004-REQ-004",
+      "CandidateId": "CND-TIM-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "VPL-BST-004-V05",
+      "Plan": "VPL-BST-004",
+      "RequirementId": "VPL-BST-004-REQ-006",
+      "CandidateId": "CND-TIM-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "VPL-BST-004-V06",
+      "Plan": "VPL-BST-004",
+      "RequirementId": "VPL-BST-004-REQ-007",
+      "CandidateId": "CND-TIM-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "VPL-BST-004-V07",
+      "Plan": "VPL-BST-004",
+      "RequirementId": "VPL-BST-004-REQ-008",
+      "CandidateId": "CND-TIM-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "VPL-BST-005-V01",
+      "Plan": "VPL-BST-005",
+      "RequirementId": "VPL-BST-005-REQ-007",
+      "CandidateId": "CND-RND-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "VPL-BST-005-V02",
+      "Plan": "VPL-BST-005",
+      "RequirementId": "VPL-BST-005-REQ-007",
+      "CandidateId": "CND-RND-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "VPL-BST-005-V03",
+      "Plan": "VPL-BST-005",
+      "RequirementId": "VPL-BST-005-REQ-001",
+      "CandidateId": "CND-CRY-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "VPL-BST-005-V04",
+      "Plan": "VPL-BST-005",
+      "RequirementId": "VPL-BST-005-REQ-002",
+      "CandidateId": "CND-CRY-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "VPL-BST-005-V05",
+      "Plan": "VPL-BST-005",
+      "RequirementId": "VPL-BST-005-REQ-005",
+      "CandidateId": "CND-CRY-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "VPL-BST-005-V06",
+      "Plan": "VPL-BST-005",
+      "RequirementId": "VPL-BST-005-REQ-008",
+      "CandidateId": "CND-CRY-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "VPL-BST-005-V07",
+      "Plan": "VPL-BST-005",
+      "RequirementId": "VPL-BST-005-REQ-003",
+      "CandidateId": "CND-CRY-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "VPL-BST-005-V08",
+      "Plan": "VPL-BST-005",
+      "RequirementId": "VPL-BST-005-REQ-001",
+      "CandidateId": "CND-CRY-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "VPL-BST-005-V09",
+      "Plan": "VPL-BST-005",
+      "RequirementId": "VPL-BST-005-REQ-004",
+      "CandidateId": "CND-SEC-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "VPL-BST-005-V10",
+      "Plan": "VPL-BST-005",
+      "RequirementId": "VPL-BST-005-REQ-005",
+      "CandidateId": "CND-SEC-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "VPL-BST-005-V11",
+      "Plan": "VPL-BST-005",
+      "RequirementId": "VPL-BST-005-REQ-009",
+      "CandidateId": "CND-CRY-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "VPL-BST-005-V12",
+      "Plan": "VPL-BST-005",
+      "RequirementId": "VPL-BST-005-REQ-006",
+      "CandidateId": "CND-CID-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "VPL-BST-005-V13",
+      "Plan": "VPL-BST-005",
+      "RequirementId": "VPL-BST-005-REQ-006",
+      "CandidateId": "CND-CID-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "VPL-BST-005-V14",
+      "Plan": "VPL-BST-005",
+      "RequirementId": "VPL-BST-005-REQ-011",
+      "CandidateId": "CND-CID-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "TRC-001-V01",
+      "Plan": "TRC-001",
+      "RequirementId": "TRACE-COVERAGE",
+      "CandidateId": "CND-TRC-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "VPL-BST-005-V15",
+      "Plan": "VPL-BST-005",
+      "RequirementId": "VPL-BST-005-REQ-009",
+      "CandidateId": "CND-FIX-001",
+      "Passed": true,
+      "Reason": "PASS"
+    },
+    {
+      "VerificationId": "PIPE-001-V01",
+      "Plan": "PIPE-001",
+      "RequirementId": "PIPE-CANDIDATE-ISOLATION",
+      "CandidateId": "CND-PIPE-001",
+      "Passed": true,
+      "Reason": "PASS"
+    }
+  ]
+}

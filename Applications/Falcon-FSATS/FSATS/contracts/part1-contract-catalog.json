@@ -1,0 +1,29 @@
+{
+  "catalogVersion": "1.0.0-part2",
+  "runtimeRoutesActive": false,
+  "invariants": ["DELIVERY!=ACCEPTANCE", "REQUEST!=AUTHORIZATION", "ROUTE_EXISTS!=AUTHORITY", "REPLAY!=OPERATIONAL", "UNKNOWN!=SUCCESS", "STALE!=CURRENT"],
+  "families": [
+    {"id":"P1K-001","name":"FSAPMA Operational Data Delivery","producer":"FSAPMA","consumer":"DECLARED_FSATS_CONSUMER","authorityClass":"OPERATIONAL_DATA_PROJECTION","routeActive":false},
+    {"id":"P1K-002","name":"FSAPMA Data Quality Correction Event","producer":"FSAPMA","consumer":"AFFECTED_DECLARED_CONSUMER","authorityClass":"DATA_QUALITY_EVIDENCE","routeActive":false},
+    {"id":"P1K-003","name":"Trading Decision Intent Evidence Projection","producer":"Trading","consumer":"DECLARED_EVIDENCE_CONSUMER","authorityClass":"EVIDENCE_ONLY","routeActive":false},
+    {"id":"P1K-004","name":"Trading Exposure Order Position Safety Projection","producer":"Trading","consumer":"Guardian","authorityClass":"AUTHORITATIVE_APPLICATION_STATE_PROJECTION","routeActive":false},
+    {"id":"P1K-005","name":"Guardian Protection Restriction Command","producer":"TradingGuardian","consumer":"TARGET_FSATS_APPLICATION","authorityClass":"PROTECTION_COMMAND","routeActive":false},
+    {"id":"P1K-006","name":"Protection Command Outcome","producer":"TARGET_FSATS_APPLICATION","consumer":"TradingGuardian","authorityClass":"COMMAND_OUTCOME","routeActive":false},
+    {"id":"P1K-007","name":"Application Safety Incident Evidence","producer":"ANY_FSATS_APPLICATION","consumer":"TradingGuardian","authorityClass":"INCIDENT_EVIDENCE","routeActive":false},
+    {"id":"P1K-008","name":"Constituent Resource Evidence Submission","producer":"FSATS_CONSTITUENT","consumer":"APP-RSC","authorityClass":"RESOURCE_CLAIM_EVIDENCE","routeActive":false},
+    {"id":"P1K-009","name":"APP-RSC Effective Coordination Outcome","producer":"APP-RSC","consumer":"TARGET_FSATS_CONSTITUENT","authorityClass":"FSATS_RESOURCE_COORDINATION","routeActive":false},
+    {"id":"P1K-010","name":"Resource Coordination Acknowledgement Result","producer":"FSATS_CONSTITUENT","consumer":"APP-RSC","authorityClass":"COORDINATION_OUTCOME","routeActive":false},
+    {"id":"P1K-011","name":"APP-RSC Residual Resource Request","producer":"APP-RSC","consumer":"FOUNDATION_RESOURCE_BOUNDARY","authorityClass":"RESOURCE_REQUEST","routeActive":false},
+    {"id":"P1K-012","name":"Foundation Resource Authority Outcome","producer":"FOUNDATION_RESOURCE_BOUNDARY","consumer":"APP-RSC","authorityClass":"AUTHORITATIVE_FOUNDATION_OUTCOME","routeActive":false},
+    {"id":"P1K-013","name":"APP-RSC Coordination Epoch Fencing Projection","producer":"APP-RSC","consumer":"DECLARED_STATUS_CONSUMER","authorityClass":"COORDINATION_STATE_EVIDENCE","routeActive":false},
+    {"id":"P1K-014","name":"FSTSimA Scenario Simulation Input Request","producer":"AUTHORIZED_FSATS_APPLICATION","consumer":"FSTSimA","authorityClass":"NONLIVE_SIMULATION_REQUEST","routeActive":false},
+    {"id":"P1K-015","name":"FSTSimA Validation Qualification Evidence","producer":"FSTSimA","consumer":"DECLARED_FSATS_OR_OWNER_PROJECTION","authorityClass":"NONLIVE_VALIDATION_EVIDENCE","routeActive":false},
+    {"id":"P1K-016","name":"AI Awareness Integrity Incident Projection","producer":"APPLICATION_AWARENESS","consumer":"APPLICATION_MSA_GUARDIAN_FUTURE_FSA","authorityClass":"INTEGRITY_EVIDENCE","routeActive":false},
+    {"id":"P1K-017","name":"AI Containment Kill State Projection","producer":"AUTHORITATIVE_CONTAINMENT_OWNER","consumer":"AFFECTED_APPLICATION_GUARDIAN_STATUS","authorityClass":"SAFETY_STATE","routeActive":false},
+    {"id":"P1K-018","name":"Controlled Revival Evidence Decision Request","producer":"APPLICATION_RECOVERY_PATH","consumer":"GOVERNED_APPROVAL_AUTHORITY","authorityClass":"RECOVERY_EVIDENCE_OR_REQUEST","routeActive":false},
+    {"id":"P1K-019","name":"Shared Web Informational Query Response","producer":"WEB_OR_FSATS_APPLICATION","consumer":"FSATS_APPLICATION_OR_WEB","authorityClass":"INFORMATIONAL_QUERY_RESPONSE","routeActive":false},
+    {"id":"P1K-020","name":"Shared Web Owner Command Request Application Outcome","producer":"SHARED_WEB_REQUEST_SURFACE","consumer":"AUTHORIZED_FSATS_TARGET","authorityClass":"OWNER_REQUEST_TRANSPORT","routeActive":false},
+    {"id":"P1K-021","name":"FSATS Application Foundation Information Evidence Capability Query","producer":"FSATS_APPLICATION","consumer":"FOUNDATION_GENERIC_BOUNDARY","authorityClass":"FOUNDATION_QUERY_OR_EVIDENCE_SUBMISSION","routeActive":false},
+    {"id":"P1K-022","name":"Foundation FSATS Application Authoritative Event Decision Query","producer":"FOUNDATION_AUTHORITATIVE_BOUNDARY","consumer":"FSATS_APPLICATION","authorityClass":"FOUNDATION_AUTHORITATIVE_EVENT_OR_REQUEST","routeActive":false}
+  ]
+}

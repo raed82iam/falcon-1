@@ -1,0 +1,40 @@
+.skip-link{
+  position:fixed;
+  inset-block-start:8px;
+  inset-inline-start:8px;
+  z-index:10000;
+  padding:10px 14px;
+  border-radius:8px;
+  background:var(--panel2);
+  color:var(--text);
+  border:1px solid var(--line);
+  transform:translateY(-200%);
+  transition:transform .12s ease;
+}
+
+.skip-link:focus-visible{
+  transform:translateY(0);
+}
+
+#main:focus{
+  outline:none;
+}
+
+:where(a,button,input,select,textarea,summary,[tabindex]):focus-visible{
+  outline:3px solid var(--blue);
+  outline-offset:3px;
+}
+
+:where(button,input,select,textarea)[disabled]:focus-visible,
+:where([aria-disabled="true"]):focus-visible{
+  outline-style:dashed;
+}
+
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{
+    scroll-behavior:auto!important;
+    transition-duration:.01ms!important;
+    animation-duration:.01ms!important;
+    animation-iteration-count:1!important;
+  }
+}

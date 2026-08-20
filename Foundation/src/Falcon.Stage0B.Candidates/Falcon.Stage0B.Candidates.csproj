@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Falcon.Stage0B.Candidates</AssemblyName>
+    <RootNamespace>Falcon.Stage0B.Candidates</RootNamespace>
+    <Description>Non-operational enabling-provider candidates authorized by GOV-051.</Description>
+  </PropertyGroup>
+</Project>

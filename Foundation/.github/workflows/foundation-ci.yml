@@ -1,0 +1,154 @@
+name: Falcon Foundation CI
+
+on:
+  push:
+    branches:
+      - foundation-development
+  pull_request:
+    branches:
+      - foundation-development
+
+permissions:
+  contents: read
+
+concurrency:
+  group: foundation-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  boundary:
+    name: Foundation ownership boundary
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Reject Application/reference writes
+        shell: pwsh
+        run: |
+          $base = "${{ github.event.before }}"
+          if ("${{ github.event_name }}" -eq "pull_request") {
+            $base = "${{ github.event.pull_request.base.sha }}"
+          }
+          if ([string]::IsNullOrWhiteSpace($base) -or $base -match '^0+$') {
+            $base = (git rev-parse HEAD^).Trim()
+          }
+
+          $head = "${{ github.sha }}"
+          $changed = @(git diff --name-only $base $head)
+          $forbidden = @($changed | Where-Object {
+            $_ -like 'applications/*' -or
+            $_ -like 'reference/*'
+          })
+
+          Write-Host "Changed paths:"
+          $changed | ForEach-Object { Write-Host " - $_" }
+
+          if ($forbidden.Count -gt 0) {
+            Write-Error "Foundation workstream crossed its ownership boundary. Forbidden paths: $($forbidden -join ', ')"
+            exit 1
+          }
+
+          Write-Host "FOUNDATION BOUNDARY: PASS"
+
+  build-test-verify:
+    name: Build, security and complete governed verifier suite
+    runs-on: windows-latest
+    needs: boundary
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup exact governed .NET SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.302'
+
+      - name: Confirm governed SDK
+        shell: pwsh
+        run: |
+          $actual = (dotnet --version).Trim()
+          Write-Host "dotnet SDK: $actual"
+          if ($actual -ne '10.0.302') {
+            Write-Error "Falcon requires exact SDK 10.0.302 because global.json disables roll-forward."
+            exit 1
+          }
+
+      - name: Restore
+        run: dotnet restore Falcon.Foundation.ControlledProjectFoundation.slnx
+
+      - name: Release build
+        run: dotnet build Falcon.Foundation.ControlledProjectFoundation.slnx -c Release --no-restore
+
+      - name: Architecture tests
+        run: dotnet run --project tests/Falcon.Foundation.Architecture.Tests/Falcon.Foundation.Architecture.Tests.csproj -c Release --no-build
+
+      - name: Baseline security tests
+        run: dotnet run --project tests/Falcon.Foundation.Security.Tests/Falcon.Foundation.Security.Tests.csproj -c Release --no-build
+
+      - name: Repository security surface
+        run: dotnet run --project verification/Falcon.RepositorySecuritySurface.Verifier/Falcon.RepositorySecuritySurface.Verifier.csproj -c Release --no-build
+
+      - name: Execute every governed verifier project
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          if (Test-Path variable:PSNativeCommandUseErrorActionPreference) {
+            $PSNativeCommandUseErrorActionPreference = $false
+          }
+
+          $verifiers = @(
+            Get-ChildItem -Path verification -Filter '*.csproj' -Recurse -File |
+              Where-Object { $_.FullName -notlike '*Falcon.RepositorySecuritySurface.Verifier*' } |
+              Sort-Object FullName
+          )
+
+          if ($verifiers.Count -lt 1) {
+            Write-Error 'No governed verifier projects discovered.'
+            exit 1
+          }
+
+          Write-Host "Governed verifier projects discovered: $($verifiers.Count)"
+          $failed = @()
+          $executed = 0
+
+          foreach ($project in $verifiers) {
+            $relative = [System.IO.Path]::GetRelativePath((Get-Location).Path, $project.FullName)
+            Write-Host ''
+            Write-Host '============================================================'
+            Write-Host "VERIFY: $relative"
+            Write-Host '============================================================'
+
+            $previous = $ErrorActionPreference
+            try {
+              $ErrorActionPreference = 'Continue'
+              & dotnet run --project $project.FullName -c Release --no-build
+              $exitCode = $LASTEXITCODE
+            }
+            finally {
+              $ErrorActionPreference = $previous
+            }
+
+            $executed++
+            if ($exitCode -ne 0) {
+              $failed += "$relative (exit $exitCode)"
+            }
+          }
+
+          Write-Host ''
+          Write-Host "VERIFIERS_EXECUTED = $executed"
+          Write-Host "VERIFIERS_FAILED = $($failed.Count)"
+
+          if ($executed -ne $verifiers.Count) {
+            Write-Error "Verifier execution coverage mismatch: executed=$executed discovered=$($verifiers.Count)"
+            exit 1
+          }
+
+          if ($failed.Count -gt 0) {
+            Write-Error "Governed verifier failures:`n$($failed -join "`n")"
+            exit 1
+          }
+
+          Write-Host 'ALL_GOVERNED_VERIFIERS = PASS'

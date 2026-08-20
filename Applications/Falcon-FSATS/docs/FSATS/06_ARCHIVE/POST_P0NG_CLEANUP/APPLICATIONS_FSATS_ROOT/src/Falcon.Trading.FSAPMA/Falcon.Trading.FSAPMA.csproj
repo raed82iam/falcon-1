@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Falcon.Trading.FSAPMA</AssemblyName>
+    <RootNamespace>Falcon.Trading.FSAPMA</RootNamespace>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Falcon.FSATS.Primitives/Falcon.FSATS.Primitives.csproj" />
+  </ItemGroup>
+</Project>

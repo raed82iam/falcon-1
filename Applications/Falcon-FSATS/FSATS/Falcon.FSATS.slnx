@@ -1,0 +1,42 @@
+<Solution>
+  <Folder Name="/Trading/">
+    <Project Path="src/Trading/Falcon.FSATS.Trading.Contracts/Falcon.FSATS.Trading.Contracts.csproj" />
+    <Project Path="src/Trading/Falcon.FSATS.Trading.Domain/Falcon.FSATS.Trading.Domain.csproj" />
+    <Project Path="src/Trading/Falcon.FSATS.Trading.Application/Falcon.FSATS.Trading.Application.csproj" />
+    <Project Path="src/Trading/Falcon.FSATS.Trading.Infrastructure/Falcon.FSATS.Trading.Infrastructure.csproj" />
+    <Project Path="src/Trading/Falcon.FSATS.Trading.Awareness/Falcon.FSATS.Trading.Awareness.csproj" />
+    <Project Path="src/Trading/Falcon.FSATS.Trading.Host/Falcon.FSATS.Trading.Host.csproj" />
+  </Folder>
+  <Folder Name="/FSAPMA/">
+    <Project Path="src/FSAPMA/Falcon.FSATS.FSAPMA.Contracts/Falcon.FSATS.FSAPMA.Contracts.csproj" />
+    <Project Path="src/FSAPMA/Falcon.FSATS.FSAPMA.Domain/Falcon.FSATS.FSAPMA.Domain.csproj" />
+    <Project Path="src/FSAPMA/Falcon.FSATS.FSAPMA.Application/Falcon.FSATS.FSAPMA.Application.csproj" />
+    <Project Path="src/FSAPMA/Falcon.FSATS.FSAPMA.Infrastructure/Falcon.FSATS.FSAPMA.Infrastructure.csproj" />
+    <Project Path="src/FSAPMA/Falcon.FSATS.FSAPMA.Awareness/Falcon.FSATS.FSAPMA.Awareness.csproj" />
+    <Project Path="src/FSAPMA/Falcon.FSATS.FSAPMA.Host/Falcon.FSATS.FSAPMA.Host.csproj" />
+  </Folder>
+  <Folder Name="/TradingGuardian/">
+    <Project Path="src/TradingGuardian/Falcon.FSATS.TradingGuardian.Contracts/Falcon.FSATS.TradingGuardian.Contracts.csproj" />
+    <Project Path="src/TradingGuardian/Falcon.FSATS.TradingGuardian.Domain/Falcon.FSATS.TradingGuardian.Domain.csproj" />
+    <Project Path="src/TradingGuardian/Falcon.FSATS.TradingGuardian.Application/Falcon.FSATS.TradingGuardian.Application.csproj" />
+    <Project Path="src/TradingGuardian/Falcon.FSATS.TradingGuardian.Infrastructure/Falcon.FSATS.TradingGuardian.Infrastructure.csproj" />
+    <Project Path="src/TradingGuardian/Falcon.FSATS.TradingGuardian.Awareness/Falcon.FSATS.TradingGuardian.Awareness.csproj" />
+    <Project Path="src/TradingGuardian/Falcon.FSATS.TradingGuardian.Host/Falcon.FSATS.TradingGuardian.Host.csproj" />
+  </Folder>
+  <Folder Name="/FSTSimA/">
+    <Project Path="src/FSTSimA/Falcon.FSATS.FSTSimA.Contracts/Falcon.FSATS.FSTSimA.Contracts.csproj" />
+    <Project Path="src/FSTSimA/Falcon.FSATS.FSTSimA.Domain/Falcon.FSATS.FSTSimA.Domain.csproj" />
+    <Project Path="src/FSTSimA/Falcon.FSATS.FSTSimA.Application/Falcon.FSATS.FSTSimA.Application.csproj" />
+    <Project Path="src/FSTSimA/Falcon.FSATS.FSTSimA.Infrastructure/Falcon.FSATS.FSTSimA.Infrastructure.csproj" />
+    <Project Path="src/FSTSimA/Falcon.FSATS.FSTSimA.Awareness/Falcon.FSATS.FSTSimA.Awareness.csproj" />
+    <Project Path="src/FSTSimA/Falcon.FSATS.FSTSimA.Host/Falcon.FSATS.FSTSimA.Host.csproj" />
+  </Folder>
+  <Folder Name="/ResourceManagement/">
+    <Project Path="src/ResourceManagement/Falcon.FSATS.ResourceManagement.Contracts/Falcon.FSATS.ResourceManagement.Contracts.csproj" />
+    <Project Path="src/ResourceManagement/Falcon.FSATS.ResourceManagement.Domain/Falcon.FSATS.ResourceManagement.Domain.csproj" />
+    <Project Path="src/ResourceManagement/Falcon.FSATS.ResourceManagement.Application/Falcon.FSATS.ResourceManagement.Application.csproj" />
+    <Project Path="src/ResourceManagement/Falcon.FSATS.ResourceManagement.Infrastructure/Falcon.FSATS.ResourceManagement.Infrastructure.csproj" />
+    <Project Path="src/ResourceManagement/Falcon.FSATS.ResourceManagement.Awareness/Falcon.FSATS.ResourceManagement.Awareness.csproj" />
+    <Project Path="src/ResourceManagement/Falcon.FSATS.ResourceManagement.Host/Falcon.FSATS.ResourceManagement.Host.csproj" />
+  </Folder>
+</Solution>

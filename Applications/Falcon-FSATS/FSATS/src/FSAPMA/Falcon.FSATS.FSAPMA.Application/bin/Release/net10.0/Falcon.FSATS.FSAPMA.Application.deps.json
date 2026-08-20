@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Falcon.FSATS.FSAPMA.Application/1.0.0": {
+        "dependencies": {
+          "Falcon.FSATS.FSAPMA.Contracts": "1.0.0",
+          "Falcon.FSATS.FSAPMA.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Falcon.FSATS.FSAPMA.Application.dll": {}
+        }
+      },
+      "Falcon.FSATS.FSAPMA.Contracts/1.0.0": {
+        "runtime": {
+          "Falcon.FSATS.FSAPMA.Contracts.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Falcon.FSATS.FSAPMA.Domain/1.0.0": {
+        "runtime": {
+          "Falcon.FSATS.FSAPMA.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Falcon.FSATS.FSAPMA.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Falcon.FSATS.FSAPMA.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Falcon.FSATS.FSAPMA.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
